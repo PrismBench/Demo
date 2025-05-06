@@ -12,7 +12,7 @@ import ShowcasePage from "./pages/Showcase/Showcase";
 function App() {
   return (
     <MantineProvider defaultColorScheme="light" theme={theme}>
-      <BrowserRouter basename="/PrismBenchDemo">
+      <BrowserRouter basename="/Demo">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/leaderboard" element={<LeaderboardPage />} />
