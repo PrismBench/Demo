@@ -1,0 +1,27 @@
+[
+  {
+    "id": "4o",
+    "name": "GPT4o",
+    "description": "OpenAI's GPT-4o model."
+  },
+  {
+    "id": "4o_mini",
+    "name": "GPT4o-Mini",
+    "description": "OpenAI's GPT-4o-Mini model."
+  },
+  {
+    "id": "l405b",
+    "name": "LlaMa3.1 405B",
+    "description": "Meta's LlaMa3.1 405B model."
+  },
+  {
+    "id": "l70b",
+    "name": "LlaMa3.1 70B",
+    "description": "Meta's LlaMa3.1 70B model."
+  },
+  {
+    "id": "l8b",
+    "name": "LlaMa3.1 8B",
+    "description": "Meta's LlaMa3.1 8B model."
+  }
+]

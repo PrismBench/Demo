@@ -1,0 +1,11 @@
+# directories
+node_modules
+__pycache__
+dist
+.cursor
+.vscode
+
+# files
+package-lock.json
+*.pyc
+.DS_Store
