@@ -1,0 +1,16 @@
+.dropdown {
+  backdrop-filter: blur(30px);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+}
+
+.selectAllButton {
+  height: 36px;
+  min-width: 90px;
+  background-color: var(--mantine-color-blue-6);
+  transition: background-color 0.2s ease;
+}
+
+.selectAllButton:hover {
+  background-color: var(--mantine-color-blue-7);
+}

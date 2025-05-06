@@ -1,0 +1,114 @@
+.errorAnalysisContainer {
+  width: 100%;
+}
+
+.filterContainer {
+  margin-bottom: var(--mantine-spacing-md);
+}
+
+.modelsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mantine-spacing-md);
+}
+
+.filterControls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--mantine-spacing-md);
+}
+
+.filterSelect {
+  min-width: 250px;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+  border-radius: var(--mantine-radius-sm);
+}
+
+.tableHeader th {
+  position: sticky;
+  top: 0;
+  background-color: var(--mantine-color-body);
+  z-index: 1;
+  font-weight: 600;
+}
+
+.errorMetricsTable {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.modelCell {
+  font-weight: 500;
+  background-color: var(--mantine-color-gray-0);
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.conceptCell {
+  min-width: 220px;
+}
+
+.conceptChips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.conceptBadge {
+  margin-right: 2px;
+}
+
+.errorPatternCell {
+  min-width: 220px;
+}
+
+.errorDistributionCell {
+  min-width: 180px;
+}
+
+.distributionContainer {
+  width: 100%;
+}
+
+.distributionItem {
+  width: 100%;
+}
+
+/* Styles for collapsible sections */
+.difficultyHeaderRow {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.difficultyHeader {
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.difficultyHeader:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.dataRow {
+  background-color: transparent !important;
+}
+
+.dataRow:hover {
+  background-color: rgba(0, 0, 0, 0.03) !important;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .filterControls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filterSelect {
+    width: 100%;
+  }
+}

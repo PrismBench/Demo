@@ -1,0 +1,100 @@
+.boxContainer {
+  background-color: var(--mantine-color-body);
+  padding: var(--mantine-spacing-md);
+  border-radius: var(--mantine-radius-md);
+  box-shadow: var(--mantine-shadow-sm);
+  width: 100%;
+
+  [data-mantine-color-scheme="dark"] & {
+    border: 1px solid var(--mantine-color-gray-7);
+    box-shadow: 0 0.0625rem 0.1875rem rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05) 0 0.625rem 0.9375rem -0.3125rem,
+      rgba(255, 255, 255, 0.04) 0 0.4375rem 0.4375rem -0.3125rem;
+  }
+}
+
+.tableContainer {
+  overflow-x: auto;
+  max-width: 100%;
+  margin-top: var(--mantine-spacing-md);
+  width: 100%;
+}
+
+.metricsTable {
+  border-collapse: separate; /* Crucial for group borders */
+  border-spacing: 0;
+  /* table-layout: fixed; /* Consider if columns get too wide */
+}
+
+/* Header Styles */
+.tableHeader th {
+  background-color: var(--mantine-color-body);
+  font-weight: bold;
+  text-align: center;
+  border: none !important;
+  position: sticky;
+  top: 0; /* Make headers sticky */
+  z-index: 10;
+}
+
+.categoryGroupHeader {
+  text-align: center !important;
+  font-weight: bold;
+  border-bottom: 1px solid var(--mantine-color-gray-3) !important;
+}
+
+.itemHeader {
+  text-align: center !important;
+  font-weight: 500; /* Less bold than group */
+  white-space: nowrap;
+  padding: var(--mantine-spacing-xs) var(--mantine-spacing-sm); /* Added padding */
+  vertical-align: middle; /* Added for consistency */
+  min-width: 70px;
+}
+
+/* Row/Cell Styles */
+.tableRow:hover {
+  background-color: var(--mantine-color-gray-0);
+}
+
+.depthCell {
+  font-weight: 500;
+  white-space: nowrap;
+  position: sticky;
+  left: 0;
+  background-color: inherit; /* Inherit row hover color */
+  z-index: 1;
+  border: none !important;
+  text-align: center; /* Center depth number */
+  vertical-align: middle;
+}
+
+.dataCell {
+  text-align: center;
+  vertical-align: middle;
+  min-width: 80px; /* Ensure cells don't become too narrow */
+  padding: var(--mantine-spacing-xs);
+  font-size: var(--mantine-font-size-sm);
+}
+
+/* Style for the span inside tooltip for consistent height */
+.tooltipContentSpan {
+  display: inline-block;
+  min-height: 1.2em; /* Ensures cell height even when empty */
+}
+
+/* Add border to separate category groups */
+.lastInCategoryCol {
+  border-right: rem(6px) solid var(--mantine-color-gray-1); /* The visual gap */
+}
+
+/* Ensure sticky Depth cell background matches potential hover */
+.tableRow:hover .depthCell {
+  background-color: var(--mantine-color-gray-0);
+}
+
+/* Adjust sticky header z-index */
+.depthCell.stickyHeaderCol {
+  /* If depth header needs to be sticky too */
+  z-index: 11; /* Above other headers */
+}

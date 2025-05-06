@@ -1,0 +1,8 @@
+/* Attach this to <LogoShell className={styles.logoContainer} /> */
+
+.logoContainer {
+  display: block;
+  width: clamp(300px, 60vw, 700px);
+  height: auto;
+  margin: 0 auto;
+}

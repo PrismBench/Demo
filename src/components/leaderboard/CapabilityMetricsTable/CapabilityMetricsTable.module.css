@@ -1,0 +1,118 @@
+.tableContainer {
+  background-color: var(--mantine-color-body);
+  padding: var(--mantine-spacing-md);
+  border-radius: var(--mantine-radius-md);
+  box-shadow: var(--mantine-shadow-sm);
+
+  [data-mantine-color-scheme="dark"] & {
+    border: 1px solid var(--mantine-color-gray-7);
+    box-shadow: 0 0.0625rem 0.1875rem rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05) 0 0.625rem 0.9375rem -0.3125rem,
+      rgba(255, 255, 255, 0.04) 0 0.4375rem 0.4375rem -0.3125rem;
+  }
+}
+
+.tableOverflowContainer {
+  width: 100%;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.tableHeader th {
+  background-color: var(--mantine-color-body);
+}
+
+.difficultyGroupHeader {
+  text-align: center;
+  font-weight: bold;
+  background-color: var(--mantine-color-body);
+}
+
+.modelHeader {
+  text-align: center;
+  font-size: var(--mantine-font-size-xs);
+  /* border-right: 1px solid var(--mantine-color-gray-3); */ /* Remove model header right border */
+  background-color: var(--mantine-color-body);
+  font-weight: bold;
+}
+
+.lastModelHeaderInGroup {
+  /* border-right: 2px solid var(--mantine-color-gray-5); */ /* Remove group header right border */
+  padding-right: calc(
+    var(--mantine-spacing-xl) * 2
+  ); /* Increased padding for a larger gap */
+}
+
+.conceptCell {
+  font-weight: bold;
+  position: sticky;
+  left: 0;
+  background-color: var(--mantine-color-body);
+  z-index: 1; /* Ensure it stays above data cells */
+  /* border-right: 1px solid var(--mantine-color-gray-3); */ /* Remove concept cell right border */
+}
+
+.dataCell {
+  text-align: center;
+  vertical-align: middle;
+  /* border-right: 1px solid var(--mantine-color-gray-3); */ /* Remove data cell right border */
+  padding: var(--mantine-spacing-xs);
+}
+
+.dataCellText {
+  font-weight: 500;
+}
+
+/* --- Pill Styles --- */
+.pillBase {
+  display: inline-flex; /* Use inline-flex to wrap content */
+  align-items: center;
+  justify-content: center;
+  /* min-width: 40px; */ /* Remove min-width */
+  width: 50px; /* Set fixed width */
+  height: 24px; /* Set fixed height */
+  padding: 2px 8px; /* Vertical and horizontal padding */
+  border-radius: var(--mantine-radius-xl); /* Make it a pill */
+  font-size: var(--mantine-font-size-sm);
+  line-height: 1.2;
+}
+
+.pillNa {
+  background-color: var(--mantine-color-gray-2);
+  color: var(--mantine-color-gray-7);
+}
+
+.pillMastered {
+  /* background-color: var(--mantine-color-green-1); */
+  /* color: var(--mantine-color-green-9); */
+  background-color: var(--mantine-color-green-6);
+  color: white;
+}
+
+.pillFailed {
+  /* background-color: var(--mantine-color-red-1); */
+  /* color: var(--mantine-color-red-9); */
+  background-color: var(--mantine-color-red-7);
+  color: white;
+}
+
+.pillIntermediate {
+  /* Dynamic background set inline */
+  /* You might want to set a default text color here if needed */
+  color: var(--mantine-color-gray-8);
+  font-weight: 500;
+}
+
+/* Override default text color inside the text component for intermediate pills */
+.pillIntermediate span {
+  color: inherit !important;
+}
+
+/* --- Custom Overrides --- */
+
+.lastModelDataInGroup {
+  /* border-right: 2px solid var(--mantine-color-gray-5); */ /* Thicker border for group separation */
+  padding-right: calc(
+    var(--mantine-spacing-xl) * 2
+  ); /* Increased padding for a larger gap */
+}

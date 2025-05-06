@@ -1,0 +1,31 @@
+/* src/components/leaderboard/CapabilityMetricsRadar/CapabilityMetricsRadar.module.css */
+.radarContainer {
+  background-color: var(--mantine-color-body);
+  padding: var(--mantine-spacing-md);
+  border-radius: var(--mantine-radius-md);
+  box-shadow: var(--mantine-shadow-sm);
+
+  [data-mantine-color-scheme="dark"] & {
+    border: 1px solid var(--mantine-color-gray-7);
+    box-shadow: 0 0.0625rem 0.1875rem rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05) 0 0.625rem 0.9375rem -0.3125rem,
+      rgba(255, 255, 255, 0.04) 0 0.4375rem 0.4375rem -0.3125rem;
+  }
+}
+.chartPaper {
+  /* Add some basic padding and ensure background respects theme */
+  background-color: var(--mantine-color-body);
+}
+
+.tooltip {
+  background-color: var(--mantine-color-body);
+  border: 1px solid var(--mantine-color-gray-3); /* Adjust border color based on theme */
+  border-radius: var(--mantine-radius-md);
+  padding: var(--mantine-spacing-xs);
+  box-shadow: var(--mantine-shadow-sm);
+
+  [data-mantine-color-scheme="dark"] & {
+    background-color: var(--mantine-color-dark-6);
+    border-color: var(--mantine-color-dark-4);
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "l8b-tree-1",
+    "name": "Tree 1 (Llama 3.1 8B)",
+    "file": "tree_1.json"
+  },
+  {
+    "id": "l8b-tree-2",
+    "name": "Tree 2 (Llama 3.1 8B)",
+    "file": "tree_2.json"
+  },
+  {
+    "id": "l8b-tree-3",
+    "name": "Tree 3 (Llama 3.1 8B)",
+    "file": "tree_3.json"
+  }
+]

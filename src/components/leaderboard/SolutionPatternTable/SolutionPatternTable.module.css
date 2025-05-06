@@ -1,0 +1,130 @@
+.patternAnalysisContainer {
+  margin-top: 1rem;
+}
+
+.filterContainer {
+  margin-bottom: 1rem;
+}
+
+.filterControls {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.filterSelect {
+  width: 300px;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+}
+
+.patternMetricsTable {
+  width: 100%;
+  min-width: 800px;
+  table-layout: fixed;
+}
+
+.tableHeader th {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.difficultyHeaderRow {
+  background-color: var(--mantine-color-body);
+}
+
+.difficultyHeader {
+  padding: 0.5rem 1rem;
+}
+
+.dataRow {
+  vertical-align: top;
+}
+
+.conceptCell {
+  width: 30%;
+}
+
+.conceptChips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.conceptBadge {
+  margin-bottom: 0.25rem;
+}
+
+.patternCell {
+  width: 50%;
+}
+
+.modelsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Pattern Effectiveness Visualization */
+.patternEffectivenessContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.patternEffectivenessRow {
+  padding: 0.75rem;
+  border-radius: var(--mantine-radius-md);
+  background-color: var(--mantine-color-body);
+  transition: all 0.2s ease;
+  margin-bottom: 0.5rem;
+}
+
+.patternEffectivenessRow:hover {
+  background-color: var(--mantine-color-body);
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.patternName {
+  max-width: 380px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: help;
+}
+
+/* Scrollable container for All Patterns tab */
+.patternScrollArea {
+  margin-right: -0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* Custom Tab styling */
+.patternTabs {
+  margin-bottom: 1.5rem;
+}
+
+.tabActive {
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .patternName {
+    max-width: 200px;
+  }
+
+  .filterControls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filterSelect {
+    width: 100%;
+  }
+}

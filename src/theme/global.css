@@ -1,0 +1,46 @@
+/* For dark mode */
+:root[data-mantine-color-scheme="dark"] body {
+  --mantine-color-body: #070e18;
+  --mantine-color-text: #fafafa;
+
+}
+/* For light mode */
+:root[data-mantine-color-scheme="light"] body {
+  --mantine-color-body: #fafafa;
+  --mantine-color-text: #070e18;
+}
+
+/* Prism Card Inverted Theme */
+.prism-invert-card {
+  background: var(--mantine-color-text);
+  color: var(--mantine-color-body);
+  transition: background 0.2s, color 0.2s;
+}
+
+/* Prism Invert Expand Button */
+.prism-invert-expand-btn {
+  background: var(--mantine-color-body);
+  color: var(--mantine-color-text);
+  border: none;
+  font-weight: 600;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 32px;
+  margin-bottom: 0;
+  display: block;
+  min-width: 220px;
+}
+
+.prism-button {
+  background: var(--mantine-color-body);
+  color: var(--mantine-color-text);
+  border: 2px solid var(--mantine-color-text);
+  font-weight: 600;
+  transition: background 0.2s, color 0.2s;
+  border-radius: 32px;
+}
+
+.prism-button:hover {
+  background: var(--mantine-color-text);
+  color: var(--mantine-color-body);
+  border: 2px solid var(--mantine-color-body);
+}

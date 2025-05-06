@@ -1,0 +1,38 @@
+.header {
+  border-radius: 32px;
+  backdrop-filter: blur(30px);
+  background-color: rgba(255, 255, 255, 0);
+  width: 95vw;
+  margin: 10px auto;
+}
+
+.headerDark {
+  box-shadow: 0 4px 30px rgba(255, 255, 255, 0.2);
+}
+
+.headerLight {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.activeLink {
+  font-weight: bold;
+  color: #228be6;
+}
+
+.colorSchemeToggle {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+.mainContentWrapper {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mainContent {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
