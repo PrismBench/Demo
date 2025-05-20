@@ -1,4 +1,4 @@
-import { TreeNode } from "@/components/graphics/DiagramTree/data/GenericTreeTypes";
+import { TreeNode } from "../../../../graphics/DiagramTree/data/GenericTreeTypes";
 
 export const PHASE1_NODES: TreeNode[] = [
   {

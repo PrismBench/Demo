@@ -1,6 +1,6 @@
-import { TreeNode } from "@/components/graphics/DiagramTree/data/GenericTreeTypes";
+import { TreeNode } from "../../../../graphics/DiagramTree/data/GenericTreeTypes";
 
-export const PHASE1_NODES: TreeNode[] = [
+export const PHASE2_NODES: TreeNode[] = [
   {
     id: "root",
     x: 50,
@@ -75,5 +75,47 @@ export const PHASE1_NODES: TreeNode[] = [
     parentId: "child3",
     type: "leaf",
     label: "Challenge C2 (Combination of C1 and C2)",
+  },
+
+  // Third level - grandchildren
+  {
+    id: "phase2_child1",
+    x: 450,
+    y: 100,
+    parentId: "grandchild1",
+    type: "highlight",
+    label: "Challenge A1-1 (Harder and more specific)",
+  },
+  {
+    id: "phase2_child2",
+    x: 450,
+    y: 130,
+    parentId: "grandchild1",
+    type: "highlight",
+    label: "Challenge A1-2 (Combination of A1 and A2 and harder)",
+  },
+  {
+    id: "phase2_child3",
+    x: 450,
+    y: 180,
+    parentId: "grandchild1",
+    type: "highlight",
+    label: "Challenge A1-3 (Harder and more specific)",
+  },
+  {
+    id: "phase2_child4",
+    x: 450,
+    y: 210,
+    parentId: "grandchild5",
+    type: "highlight",
+    label: "Challenge C2-1 (Harder and more specific)",
+  },
+  {
+    id: "phase2_child5",
+    x: 450,
+    y: 240,
+    parentId: "grandchild5",
+    type: "highlight",
+    label: "Challenge C2-2 (Harder and more specific)",
   },
 ];

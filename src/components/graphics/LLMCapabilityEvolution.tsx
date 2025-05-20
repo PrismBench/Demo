@@ -82,7 +82,7 @@ const LLMCapabilityEvolution: React.FC = () => {
           margin={{ top: 20, right: 30, left: 20, bottom: 20 }}
           style={{ backgroundColor: "var(--mantine-color-text)" }}
         >
-          <CartesianGrid strokeDasharray="3 3" stroke="#eee" />
+          <CartesianGrid strokeDasharray="3 3" stroke="rgba(134, 134, 134, 0.29)" />
           <XAxis
             dataKey="version"
             label={{
@@ -105,9 +105,9 @@ const LLMCapabilityEvolution: React.FC = () => {
           <Line
             type="monotone"
             dataKey="capability"
-            stroke="#1A237E"
+            stroke="#A571E9"
             strokeWidth={3}
-            dot={{ fill: "#1A237E", r: 6 }}
+            dot={{ fill: "#A571E9", r: 6 }}
             activeDot={{ r: 8 }}
             name="LLM Capability"
             label={<CustomizedLabel />}
@@ -117,10 +117,10 @@ const LLMCapabilityEvolution: React.FC = () => {
           <Line
             type="monotone"
             dataKey="benchmark"
-            stroke="#757575"
+            stroke="#B35025"
             strokeWidth={2}
             strokeDasharray="5 5"
-            dot={{ fill: "#757575", r: 4 }}
+            dot={{ fill: "#B35025", r: 4 }}
             name="Benchmark Difficulty"
           />
 

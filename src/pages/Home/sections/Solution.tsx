@@ -55,7 +55,7 @@ export function SolutionSection() {
       <Container size="xl">
         <SectionTitle
           title="How It Works"
-          subtitle="Prism's powerful analysis framework in four key areas:"
+          subtitle="PrismBench operates in 3 phases and uses a multi-agent sandbox to evaluate the model's capabilities"
         />
 
         <div

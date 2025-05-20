@@ -1,17 +1,49 @@
-import { AnimationStep } from "@/components/graphics/DiagramTree/data/GenericTreeTypes";
+import { AnimationStep } from "../../../../graphics/DiagramTree/data/GenericTreeTypes";
 
-export const PHASE1_STEPS: AnimationStep[] = [
+export const PHASE2_STEPS: AnimationStep[] = [
   {
     type: "showNode",
-    nodeIds: ["root"],
+    nodeIds: [
+      "root",
+      "child1",
+      "child2",
+      "child3",
+      "grandchild1",
+      "grandchild2",
+      "grandchild3",
+      "grandchild4",
+      "grandchild5",
+    ],
     step: 1,
   },
-
+  {
+    type: "showEdge",
+    sourceNodeId: "root",
+    targetNodeId: "child1",
+    step: 1,
+  },
+  {
+    type: "showEdge",
+    sourceNodeId: "root",
+    targetNodeId: "child2",
+    step: 1,
+  },
+  {
+    type: "showEdge",
+    sourceNodeId: "root",
+    targetNodeId: "child3",
+    step: 1,
+  },
+  {
+    type: "showAllEdges",
+    nodeTypes: ["leaf"],
+    step: 1,
+  },
   {
     type: "showTextBox",
     id: "description1",
-    text: "We start with a root concept.\nFrom this concept, we generate\n a list of challenges.",
-    position: { x: 120, y: 80 },
+    text: "We begin this phase with the\ntree generated in the previous\nphase.",
+    position: { x: 0, y: 40 },
     width: 140,
     height: 60,
     step: 1,
@@ -24,44 +56,58 @@ export const PHASE1_STEPS: AnimationStep[] = [
   },
 
   {
-    type: "showNode",
-    nodeIds: ["child1", "child2", "child3"],
-    step: 2,
-  },
-  {
-    type: "showEdge",
-    sourceNodeId: "root",
-    targetNodeId: "child1",
-    step: 2,
-  },
-  {
-    type: "showEdge",
-    sourceNodeId: "root",
-    targetNodeId: "child2",
-    step: 2,
-  },
-  {
-    type: "showEdge",
-    sourceNodeId: "root",
-    targetNodeId: "child3",
+    type: "zoom",
+    viewBox: { x: 300, y: 240, width: 300, height: 240 },
     step: 2,
   },
   {
     type: "showTextBox",
     id: "description2",
-    text: "Each challenge is then executed in a sandbox.\nThe results are then used to generate a\n list of sub-challenges.",
-    position: { x: 150, y: 200 },
-    width: 180,
-    height: 50,
+    text: "We then select the nodes with\n low scores from the previous phase",
+    position: { x: 400, y: 40 },
+    width: 140,
+    height: 60,
     step: 2,
   },
-
+  {
+    type: "showNode",
+    nodeIds: [
+      "root",
+      "child1",
+      "child2",
+      "child3",
+      "grandchild1",
+      "grandchild2",
+      "grandchild3",
+      "grandchild4",
+      "grandchild5",
+      "phase2_child1",
+      "phase2_child2",
+      "phase2_child3",
+      "phase2_child4",
+      "phase2_child5",
+    ],
+    step: 2,
+  },
+  {
+    type: "showAllEdges",
+    nodeTypes: ["highlight"],
+    step: 2,
+  },
   {
     type: "hideTextBox",
     id: "description2",
     step: 3,
   },
-
+  {
+    type: "showTextBox",
+    id: "description3",
+    text: "Similar to Phase 1, we can recursively generate\n a list of sub-challenges until we determine the cases\nwhere model fails consistently.",
+    position: { x: 550, y: 50 },
+    width: 260,
+    height: 70,
+    step: 3,
+  },
   {
     type: "showNode",
     nodeIds: [
@@ -71,20 +117,11 @@ export const PHASE1_STEPS: AnimationStep[] = [
       "grandchild4",
       "grandchild5",
     ],
-    step: 4,
+    step: 3,
   },
   {
     type: "showAllEdges",
     nodeTypes: ["leaf"],
-    step: 4,
-  },
-  {
-    type: "showTextBox",
-    id: "description3",
-    text: "Based on the results, we can recursively generate\n a list of sub-challenges until we determine model's capability.",
-    position: { x: 150, y: 30 },
-    width: 260,
-    height: 70,
-    step: 4,
+    step: 3,
   },
 ];

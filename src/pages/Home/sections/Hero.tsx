@@ -29,7 +29,13 @@ export function HeroSection() {
     >
       <Center style={{ height: "100%" }}>
         <Stack align="center" gap="lg">
-          <LogoShell text="PRISM" revealChars="SM" Graphic={Rainbow} />
+          <LogoShell
+            text="PrismBench"
+            revealChars="Prism"
+            Graphic={Rainbow}
+            width={750}
+            height={150}
+          />
           <Text size="xl" ta="center" style={{ maxWidth: "400px" }}>
             {LandingHeroContent.description}
           </Text>

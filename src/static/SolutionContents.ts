@@ -3,6 +3,11 @@ import {
   PHASE1_STEPS,
   PHASE1_CONFIG,
 } from "./solution/phases/phase1";
+import {
+  PHASE2_NODES,
+  PHASE2_STEPS,
+  PHASE2_CONFIG,
+} from "./solution/phases/phase2";
 
 export const phaseCards = [
   {
@@ -40,15 +45,13 @@ export const phaseCards = [
         title: "Phase 2: Vulnerability Probing",
         description:
           "In this phase, we are interested in mapping the edge of the model's capabilities. For each successful task, we create a new task from it either with new concepts or higher difficulty. This is done until the model's performance stops improving.",
-        treeNodes: PHASE1_NODES,
-        animationSteps: PHASE1_STEPS,
-        config: PHASE1_CONFIG,
+        treeNodes: PHASE2_NODES,
+        animationSteps: PHASE2_STEPS,
+        config: PHASE2_CONFIG,
         stepDescriptions: [
-          "We start with a root concept.",
-          "From this concept, we generate a list of challenges.",
-          "Each challenge is then executed in a sandbox.",
-          "The results are then used to generate a list of sub-challenges.",
-          "This is done until the model's performance stops improving.",
+          "We start from the tree from Phase 1. Here, we select the nodes where the model recieved low rewards as the starting point.",
+          "From these nodes, we generate a list of sub-challenges where each sub-challenge is a meant to pinpoint the exact scenarios where the model fails consistently.",
+          "Each sub-challenge is then executed in a sandbox. We then use the collected performance signals to determine which areas the model is weak in and recursively generate more sub-challenges until we determine the exact areas where the model performs poorly.",
         ],
       },
     ],

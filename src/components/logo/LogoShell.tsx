@@ -41,10 +41,10 @@ interface LogoShellProps {
  * @returns {React.ReactElement} The rendered SVG logo element.
  */
 const LogoShell: React.FC<LogoShellProps> = ({
-  text = "PRISM",
-  revealChars = "SM",
+  text = "PrismBench",
+  revealChars = "Bench",
   Graphic,
-  width = 400,
+  width = 600,
   height = 150,
   fontSize = 120,
   fontFamily = "Montserrat, sans-serif",
@@ -78,7 +78,7 @@ const LogoShell: React.FC<LogoShellProps> = ({
 
       {/* solid overlay text (only non‑revealed letters) */}
       <text
-        x={0}
+        x={360}
         y={baseline}
         fontSize={fontSize}
         fontFamily={fontFamily}

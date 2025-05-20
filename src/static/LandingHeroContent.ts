@@ -1,14 +1,10 @@
 const LandingHeroContent = {
   description:
-    "A dynamic framework for evaluating LLMs through multi-agent exploration and Monte Carlo tree search",
+    "A dynamic benchmarking framework for LLMs using Monte Carlo tree search and multi-agent coordination",
   buttons: [
     {
       text: "View on GitHub",
-      link: "",
-    },
-    {
-      text: "Read our preprint",
-      link: "",
+      link: "https://github.com/PrismBench/PrismBench",
     },
   ],
 };

@@ -1,4 +1,4 @@
-import { AnimationStep } from "@/components/graphics/DiagramTree/data/GenericTreeTypes.ts";
+import { AnimationStep } from "@components/graphics/DiagramTree/data/GenericTreeTypes";
 
 export const PHASE1_STEPS: AnimationStep[] = [
   {

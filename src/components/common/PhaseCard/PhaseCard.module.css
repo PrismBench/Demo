@@ -14,7 +14,9 @@
   width: 95%;
   max-width: 1200px;
 }
-
+.card.expanded:hover {
+  transform: none;
+}
 .container {
   width: 100%;
 }
