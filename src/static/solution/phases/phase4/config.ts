@@ -1,4 +1,4 @@
-import { createDefaultTreeConfig } from "../../../../graphics/DiagramTree/data/GenericTreeTypes";
+import { createDefaultTreeConfig } from "../../../../components/graphics/DiagramTree/data/GenericTreeTypes";
 
 export const PHASE1_CONFIG = {
   ...createDefaultTreeConfig(),

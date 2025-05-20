@@ -1,4 +1,4 @@
-import { AnimationStep } from "../../../../graphics/DiagramTree/data/GenericTreeTypes";
+import { AnimationStep } from "../../../../components/graphics/DiagramTree/data/GenericTreeTypes";
 
 export const PHASE2_STEPS: AnimationStep[] = [
   {
@@ -57,7 +57,7 @@ export const PHASE2_STEPS: AnimationStep[] = [
 
   {
     type: "zoom",
-    viewBox: { x: 300, y: 240, width: 300, height: 240 },
+    viewBox: "300 240 300 240",
     step: 2,
   },
   {
