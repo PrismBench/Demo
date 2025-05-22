@@ -1,6 +1,6 @@
 import { createDefaultTreeConfig } from "../../../../components/graphics/DiagramTree/data/GenericTreeTypes";
 
-export const PHASE1_CONFIG = {
+export const PHASE3_CONFIG = {
   ...createDefaultTreeConfig(),
   nodeSize: {
     default: 8,

@@ -1,3 +1,3 @@
-export { PHASE1_NODES } from "./treeNodes";
-export { PHASE1_STEPS } from "./animationSteps";
-export { PHASE1_CONFIG } from "./config";
+export { PHASE3_NODES } from "./treeNodes";
+export { PHASE3_STEPS } from "./animationSteps";
+export { PHASE3_CONFIG } from "./config";

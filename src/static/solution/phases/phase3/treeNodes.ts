@@ -1,6 +1,6 @@
 import { TreeNode } from "../../../../components/graphics/DiagramTree/data/GenericTreeTypes";
 
-export const PHASE1_NODES: TreeNode[] = [
+export const PHASE3_NODES: TreeNode[] = [
   {
     id: "root",
     x: 50,
@@ -75,5 +75,130 @@ export const PHASE1_NODES: TreeNode[] = [
     parentId: "child3",
     type: "leaf",
     label: "Challenge C2 (Combination of C1 and C2)",
+  },
+
+  // Third level - grandchildren
+  {
+    id: "phase2_child1",
+    x: 450,
+    y: 100,
+    parentId: "grandchild1",
+    type: "highlight",
+    label: "Challenge A1-1 (Harder and more specific)",
+  },
+  {
+    id: "phase2_child2",
+    x: 450,
+    y: 130,
+    parentId: "grandchild1",
+    type: "highlight",
+    label: "Challenge A1-2 (Combination of A1 and A2 and harder)",
+  },
+  {
+    id: "phase2_child3",
+    x: 450,
+    y: 180,
+    parentId: "grandchild1",
+    type: "highlight",
+    label: "Challenge A1-3 (Harder and more specific)",
+  },
+  {
+    id: "phase2_child4",
+    x: 450,
+    y: 210,
+    parentId: "grandchild5",
+    type: "highlight",
+    label: "Challenge C2-1 (Harder and more specific)",
+  },
+  {
+    id: "phase2_child5",
+    x: 450,
+    y: 240,
+    parentId: "grandchild5",
+    type: "highlight",
+    label: "Challenge C2-2 (Harder and more specific)",
+  },
+
+  // Fourth level - grandchildren
+  {
+    id: "phase3_child1",
+    x: 650,
+    y: 70,
+    type: "root",
+    parentId: "phase2_child1",
+    label: "Challenge A1-1-1 (Same challenge,\ndifferent description)",
+  },
+  {
+    id: "phase3_child2",
+    x: 650,
+    y: 110,
+    type: "root",
+    parentId: "phase2_child1",
+    label: "Challenge A1-1-2 (Same challenge, different description",
+  },
+  {
+    id: "phase3_child3",
+    x: 650,
+    y: 150,
+    type: "root",
+    parentId: "phase2_child1",
+    label: "Challenge A1-1-3 (Same challenge, different description",
+  },
+  {
+    id: "phase3_child4",
+    x: 650,
+    y: 190,
+    type: "root",
+    parentId: "phase2_child1",
+    label: "Challenge A1-1-4 (Same challenge, different description",
+  },
+  {
+    id: "phase3_child5",
+    x: 650,
+    y: 230,
+    type: "root",
+    parentId: "phase2_child1",
+    label: "Challenge A1-1-5 (Same challenge, different description",
+  },
+
+  {
+    id: "phase3_child6",
+    x: 650,
+    y: 300,
+    type: "root",
+    parentId: "phase2_child3",
+    label: "Challenge A1-3-1 (Same challenge, different description",
+  },
+  {
+    id: "phase3_child7",
+    x: 650,
+    y: 340,
+    type: "root",
+    parentId: "phase2_child3",
+    label: "Challenge A1-3-2 (Same challenge, different description",
+  },
+  {
+    id: "phase3_child8",
+    x: 650,
+    y: 380,
+    type: "root",
+    parentId: "phase2_child3",
+    label: "Challenge A1-3-3 (Same challenge, different description",
+  },
+  {
+    id: "phase3_child9",
+    x: 650,
+    y: 420,
+    type: "root",
+    parentId: "phase2_child3",
+    label: "Challenge A1-3-4 (Same challenge, different description",
+  },
+  {
+    id: "phase3_child10",
+    x: 650,
+    y: 460,
+    type: "root",
+    parentId: "phase2_child3",
+    label: "Challenge A1-3-5 (Same challenge, different description",
   },
 ];

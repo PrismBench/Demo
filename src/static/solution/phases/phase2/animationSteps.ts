@@ -57,7 +57,7 @@ export const PHASE2_STEPS: AnimationStep[] = [
 
   {
     type: "zoom",
-    viewBox: "300 240 300 240",
+    viewBox: "250 0 300 240",
     step: 2,
   },
   {

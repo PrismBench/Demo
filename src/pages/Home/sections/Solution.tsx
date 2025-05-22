@@ -8,6 +8,7 @@ import {
 } from "../../../components/common/PhaseCard/PhaseCard";
 import { phaseCards } from "../../../static/SolutionContents";
 import TreeContent from "../../../components/common/PhaseCard/TreeContent";
+import InteractionSandboxDiagram from "../../../components/graphics/InteractionSandboxDiagram";
 
 export function SolutionSection() {
   // Create state for each card's active phase
@@ -24,6 +25,12 @@ export function SolutionSection() {
   const renderPhaseContent =
     (cardIndex: number) =>
     (phase: Phase, index: number, currentAnimationStep?: number) => {
+      // Check if this phase has the SVG flag
+      if (phase.hasSvg) {
+        return <InteractionSandboxDiagram />;
+      }
+
+      // Otherwise, render the tree animation
       const { treeNodes, animationSteps, config } =
         phaseCards[cardIndex].phases[index];
       return (

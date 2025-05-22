@@ -61,30 +61,4 @@ export const PHASE1_STEPS: AnimationStep[] = [
     id: "description2",
     step: 3,
   },
-
-  {
-    type: "showNode",
-    nodeIds: [
-      "grandchild1",
-      "grandchild2",
-      "grandchild3",
-      "grandchild4",
-      "grandchild5",
-    ],
-    step: 4,
-  },
-  {
-    type: "showAllEdges",
-    nodeTypes: ["leaf"],
-    step: 4,
-  },
-  {
-    type: "showTextBox",
-    id: "description3",
-    text: "Based on the results, we can recursively generate\n a list of sub-challenges until we determine model's capability.",
-    position: { x: 150, y: 30 },
-    width: 260,
-    height: 70,
-    step: 4,
-  },
 ];
