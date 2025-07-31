@@ -1,0 +1,17 @@
+[
+  {
+    "id": "L4S-tree-1",
+    "name": "Tree 1 (L4S)",
+    "file": "tree_1.json"
+  },
+  {
+    "id": "L4S-tree-2",
+    "name": "Tree 2 (L4S)",
+    "file": "tree_2.json"
+  },
+  {
+    "id": "L4S-tree-3",
+    "name": "Tree 3 (L4S)",
+    "file": "tree_3.json"
+  }
+]
