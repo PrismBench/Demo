@@ -23,5 +23,15 @@
     "id": "l8b",
     "name": "LlaMa3.1 8B",
     "description": "Meta's LlaMa3.1 8B model."
+  },
+  {
+    "id": "l4s",
+    "name": "Llama4 Scout",
+    "description": "Meta's Llama4 Scout model."
+  },
+  {
+    "id": "dsv3",
+    "name": "DeepSeek V3",
+    "description": "DeepSeek's DeepSeek V3 model."
   }
 ]

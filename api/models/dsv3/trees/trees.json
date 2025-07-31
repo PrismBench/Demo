@@ -1,0 +1,17 @@
+[
+  {
+    "id": "DSV3-tree-1",
+    "name": "Tree 1 (DSV3)",
+    "file": "tree_1.json"
+  },
+  {
+    "id": "DSV3-tree-2",
+    "name": "Tree 2 (DSV3)",
+    "file": "tree_2.json"
+  },
+  {
+    "id": "DSV3-tree-3",
+    "name": "Tree 3 (DSV3)",
+    "file": "tree_3.json"
+  }
+]
