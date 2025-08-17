@@ -1,0 +1,4332 @@
+{
+  "patterns_by_concept_group": {
+    "data_structures-functions-recursion-sorting": {
+      "list": 4.0,
+      "divide and conquer (merge sort)": 2.0,
+      "in-place merging": 1.0,
+      "in-place sorting": 1.0,
+      "generator for flattening": 1.0,
+      "merge sort": 1.0,
+      "list of tuples": 1.0,
+      "custom key function for sorting": 1.0,
+      "stability in merges": 1.0,
+      "counting inversions during merge": 1.0,
+      "divide and conquer": 1.0,
+      "temporary array": 1.0,
+      "custom sorting with recursion through stable sorting": 1.0,
+      "recursion": 1.0,
+      "bottom-up approach": 1.0
+    },
+    "conditionals-loops": {
+      "modulus checks combined into one for FizzBuzz": 1.0,
+      "list": 1.0,
+      "iterative with conditionals": 1.0
+    },
+    "algorithms-dynamic_programming-loops": {
+      "dynamic programming": 1.0,
+      "coordinate compression": 1.0,
+      "array": 1.0,
+      "dynamic programming with Fenwick tree (Binary Indexed Tree)": 1.0,
+      "range maximum query": 1.0,
+      "2D list": 1.0,
+      "Fenwick tree": 1.0
+    },
+    "algorithms-data_structures": {
+      "binary tree": 1.0,
+      "early termination on imbalance detection": 1.0,
+      "depth-first search (DFS)": 1.0
+    },
+    "conditionals-data_structures": {
+      "list": 1.3333333333333333,
+      "set operations": 0.3333333333333333,
+      "conditional checks": 0.3333333333333333,
+      "breadth-first search (BFS)": 0.3333333333333333,
+      "dict": 0.3333333333333333,
+      "use of set for average O(1) operations": 0.3333333333333333,
+      "early exit on failure": 0.3333333333333333,
+      "2D list for visited tracking": 0.3333333333333333,
+      "early exits": 0.3333333333333333,
+      "lazy propagation could be added for optimization": 0.3333333333333333,
+      "coordinate compression": 0.3333333333333333,
+      "deque": 0.3333333333333333,
+      "dictionary": 0.3333333333333333,
+      "set": 0.6666666666666666,
+      "recursive depth-first validation": 0.3333333333333333,
+      "segment tree with coordinate compression": 0.3333333333333333,
+      "segment tree": 0.3333333333333333,
+      "iterative filtering": 0.6666666666666666
+    },
+    "algorithms-dynamic_programming-error_handling-searching": {
+      "dynamic programming": 1.0,
+      "list": 1.0,
+      "patience sorting": 1.0,
+      "array": 1.0,
+      "integer variables": 1.0,
+      "dynamic programming with binary search": 1.0,
+      "binary search for insertion": 1.0,
+      "use of variables to track sums without additional data structures": 1.0
+    },
+    "dynamic_programming-error_handling": {
+      "dynamic programming": 4.0,
+      "greedy selection": 1.0,
+      "list": 3.0,
+      "integer variables for max/min/global product": 1.0,
+      "Kadane's algorithm": 1.0,
+      "bisect": 1.0,
+      "integer": 1.0,
+      "dynamic programming with binary search": 1.0,
+      "patience sorting": 1.0,
+      "integers": 1.0,
+      "2D array for DP table": 1.0,
+      "maintaining both maximum and minimum products": 1.0,
+      "greedy counting": 1.0,
+      "space optimization could be applied since only the current and previous rows are needed": 1.0,
+      "set": 1.0,
+      "use of two variables instead of an array": 1.0
+    },
+    "algorithms-conditionals-data_structures-dynamic_programming": {
+      "dynamic programming": 1.0,
+      "array": 1.0,
+      "bottom-up approach": 1.0
+    },
+    "algorithms-conditionals-dynamic_programming-loops": {
+      "dynamic programming": 1.0,
+      "special case handling": 1.0,
+      "binary search (bisect)": 1.0,
+      "set": 1.0,
+      "list (array)": 1.0
+    },
+    "algorithms-dynamic_programming-error_handling-recursion": {
+      "1D array": 1.0,
+      "palindrome precomputation": 1.0,
+      "2D list (matrix)": 1.0,
+      "memoization": 1.0,
+      "dynamic programming with recursion": 1.0
+    },
+    "error_handling-loops": {
+      "list": 2.0,
+      "iterative processing with validation": 1.0,
+      "iterative processing with error handling": 1.0
+    },
+    "dynamic_programming-error_handling-recursion-sorting": {
+      "dynamic programming": 1.0,
+      "list": 2.0,
+      "divide-and-conquer": 1.0,
+      "sorting by end time": 1.0,
+      "using a recursive approach to split and merge": 1.0,
+      "linked list": 1.0,
+      "duplicate avoidance": 1.0,
+      "iterative approach": 1.0,
+      "backtracking with recursion": 1.0,
+      "greedy algorithm": 1.0,
+      "scanning for non-overlapping tasks": 1.0,
+      "integer variables": 1.0,
+      "constant space usage": 1.0,
+      "early stopping": 1.0,
+      "set": 2.0
+    },
+    "algorithms-recursion": {
+      "integer": 1.0,
+      "loop": 1.0,
+      "iterative implementation (not recursive as described in the problem)": 1.0
+    },
+    "algorithms-error_handling-searching-sorting": {
+      "list": 5.0,
+      "binary search using bisect module": 1.0,
+      "sorting": 1.0,
+      "divide and conquer (binary search)": 1.0,
+      "binary search using bisect": 1.0,
+      "sorting followed by binary search": 1.0,
+      "sorting and searching": 2.0,
+      "Timsort for sorting": 1.0
+    },
+    "algorithms-data_structures-functions-sorting": {
+      "list": 4.0,
+      "partitioning the array into evens and odds": 1.0,
+      "tuple-based keys for sorting": 1.0,
+      "iterative merge process": 1.0,
+      "merge sort": 1.0,
+      "merging with custom comparator": 1.0,
+      "heap-based merging": 1.0,
+      "priority queue for efficient merging": 1.0,
+      "validation before sorting": 1.0,
+      "counting inversions during merge": 1.0,
+      "array": 1.0,
+      "independent sorting of partitions": 1.0,
+      "custom sorting algorithm": 1.0,
+      "heap (priority queue)": 1.0,
+      "tuple": 2.0,
+      "divide and conquer (modified merge sort)": 1.0,
+      "two-pass sorting": 1.0
+    },
+    "conditionals-loops-searching": {
+      "list": 2.0,
+      "depth-first search with memoization": 1.0,
+      "binary search": 1.0,
+      "memoization": 1.0,
+      "early stopping": 1.0,
+      "flattening the matrix conceptually": 1.0,
+      "set": 1.0
+    },
+    "conditionals-data_structures-searching-sorting": {
+      "list": 4.0,
+      "quicksort (not explicitly implemented, uses built-in sort)": 1.0,
+      "in-place sorting": 1.0,
+      "using built-in sorted function": 1.0,
+      "sorting followed by binary search": 2.0,
+      "combined sorting and searching": 1.0,
+      "built-in sorting optimization": 1.0,
+      "utilizing Python's built-in sorted function": 1.0,
+      "binary search with bisect module": 1.0
+    },
+    "conditionals-recursion": {
+      "loop": 0.3333333333333333,
+      "arithmetic series formula": 0.3333333333333333,
+      "tail recursion": 0.3333333333333333,
+      "integer": 0.3333333333333333,
+      "integers": 0.3333333333333333,
+      "direct formula calculation": 0.3333333333333333,
+      "iterative approach (not recursive)": 0.3333333333333333,
+      "constant space usage": 0.3333333333333333,
+      "recursion": 0.3333333333333333
+    },
+    "dynamic_programming-sorting": {
+      "greedy": 1.0,
+      "using a priority queue for efficient merging": 1.0,
+      "min-heap": 1.0
+    },
+    "data_structures-searching": {
+      "array": 1.0,
+      "narrowing search space": 1.0,
+      "binary search": 1.0,
+      "divide and conquer": 1.0
+    },
+    "conditionals-sorting": {
+      "list": 1.0,
+      "sorting followed by filtering": 0.5,
+      "built-in sorting": 0.5,
+      "separation of concerns": 0.5,
+      "list comprehension for filtering": 0.5,
+      "sorting with conditions": 0.5
+    },
+    "loops-recursion-searching-sorting": {
+      "list": 3.0,
+      "in-place merging could be considered for space optimization": 1.0,
+      "divide and conquer": 2.0,
+      "binary search for efficient element lookup": 1.0,
+      "built-in sorting with binary search": 1.0,
+      "merging sorted arrays": 1.0,
+      "early return for empty input": 1.0,
+      "recursive splitting": 1.0
+    },
+    "algorithms-loops-recursion-sorting": {
+      "list": 7.0,
+      "divide and conquer (merge sort)": 4.0,
+      "iterative quick sort with median-of-three pivot selection": 1.0,
+      "iterative implementation": 1.0,
+      "stack": 1.0,
+      "merge sort": 1.0,
+      "merge sort (iterative)": 1.0,
+      "divide and conquer": 2.0,
+      "counting inversions during merge": 4.0,
+      "modified merge sort": 1.0,
+      "median-of-three pivot selection": 1.0,
+      "array": 4.0,
+      "use of auxiliary buffer for merging": 1.0,
+      "iterative approach to manage recursion depth": 1.0,
+      "in-place merging with temporary array": 1.0,
+      "preserving order of equal elements": 1.0,
+      "bottom-up approach": 1.0
+    },
+    "algorithms-dynamic_programming-loops-recursion": {
+      "dynamic programming": 1.0,
+      "list": 1.0,
+      "bottom-up approach": 1.0
+    },
+    "conditionals-error_handling-loops-sorting": {
+      "list": 1.0,
+      "recursive sorting": 1.0,
+      "divide and conquer": 1.0,
+      "merge sort": 1.0
+    },
+    "recursion-sorting": {
+      "list": 1.0,
+      "recursive approach": 0.5,
+      "divide and conquer (merge sort)": 0.5,
+      "merging step": 0.5,
+      "merge sort": 0.5,
+      "divide and conquer": 1.0,
+      "tail call optimization consideration": 0.5,
+      "array": 0.5,
+      "randomized pivot selection": 0.5
+    },
+    "functions-loops": {
+      "backtracking": 1.0,
+      "arithmetic calculation": 1.0,
+      "integer": 1.0,
+      "Horner's method": 1.0,
+      "memoization": 1.0,
+      "list": 6.0,
+      "tokenization": 1.0,
+      "dictionary": 1.0,
+      "reversal of coefficients": 1.0,
+      "shunting-yard algorithm with evaluation": 1.0,
+      "stack": 1.0,
+      "recursive descent parsing": 1.0,
+      "integers": 1.0,
+      "iterative accumulation": 1.0,
+      "iterative computation": 1.0,
+      "constant space usage": 1.0,
+      "utilizing Python's built-in factorial method": 1.0,
+      "direct evaluation of expressions": 1.0,
+      "early exit for non-negative input": 1.0,
+      "iterative calculation": 1.0,
+      "variables (a, b)": 1.0,
+      "efficient tokenization": 1.0,
+      "single loop for evaluation": 1.0,
+      "iterative with built-in function": 1.0,
+      "iterative construction": 1.0,
+      "pruning": 1.0,
+      "string": 1.0,
+      "using stacks for evaluation": 1.0
+    },
+    "conditionals-searching": {
+      "list": 1.0,
+      "using bisect for efficient search": 1.0,
+      "binary search": 1.0
+    },
+    "algorithms-dynamic_programming-functions": {
+      "dynamic programming": 3.0,
+      "list": 1.0,
+      "array": 2.0,
+      "bottom-up approach": 2.0,
+      "storing lengths and sums in separate arrays": 1.0
+    },
+    "dynamic_programming-searching": {
+      "dynamic programming": 1.0,
+      "list": 2.0,
+      "patience sorting": 1.0,
+      "using a tails array to track subsequences": 0.5,
+      "integer variables": 0.5,
+      "dynamic programming with binary search": 1.5,
+      "bottom-up approach": 0.5,
+      "binary search for insertion": 1.0,
+      "binary search with bisect module": 0.5,
+      "early termination based on array properties": 0.5
+    },
+    "algorithms-error_handling-functions-searching": {
+      "linear search": 1.0,
+      "list": 1.0
+    },
+    "algorithms-conditionals-data_structures-loops": {
+      "dynamic programming": 2.0,
+      "list": 2.0,
+      "backtracking with memoization": 1.0,
+      "Kadane's algorithm for maximum subarray sum": 1.0,
+      "integer": 1.0,
+      "single-row DP optimization": 1.0,
+      "bitmasking": 1.0,
+      "memoization": 1.0,
+      "skipping odd numbers to reduce unnecessary calculations": 1.0,
+      "tabulation": 1.0,
+      "2D list (array)": 1.0,
+      "dictionary": 1.0,
+      "set": 1.0
+    },
+    "error_handling-searching": {
+      "list": 1.0,
+      "binary search": 1.0
+    },
+    "algorithms-error_handling": {
+      "integer": 1.0,
+      "iterative traversal": 1.0
+    },
+    "algorithms-conditionals": {
+      "dynamic programming": 1.0,
+      "list": 0.5,
+      "conditional evaluations": 0.5,
+      "conditional sorting": 0.5,
+      "short-circuit evaluation": 0.5,
+      "1D list (dp)": 0.5,
+      "integer": 0.5,
+      "separate collections for evens and odds": 0.5,
+      "state tracking": 0.5,
+      "in-place array usage": 0.5,
+      "iterative approach": 0.5,
+      "conditional classification": 0.5,
+      "early returns": 0.5,
+      "variables for state tracking": 0.5
+    },
+    "algorithms-searching": {
+      "list": 1.0,
+      "directly checking sorted halves": 1.0,
+      "binary search": 1.0
+    },
+    "data_structures-error_handling": {
+      "list (acting as stack)": 0.5,
+      "list": 0.5,
+      "command processing": 0.5,
+      "class-based implementation": 0.5
+    },
+    "algorithms-error_handling-recursion-searching": {
+      "list": 7.0,
+      "binary search": 1.0,
+      "early return on finding target": 1.0,
+      "recursive binary search": 3.0,
+      "nonlocal variable to store path": 1.0,
+      "early exits on invalid input": 1.0,
+      "early exit on found target": 1.0,
+      "validation of sorted order before searching": 1.0,
+      "recursion": 2.0,
+      "path tracking": 1.0,
+      "recursion with binary search": 1.0,
+      "tuple": 1.0
+    },
+    "data_structures-error_handling-functions-sorting": {
+      "efficient error handling": 0.5,
+      "list": 3.5,
+      "binary insertion using bisect module": 0.5,
+      "built-in sorting (Timsort)": 0.5,
+      "in-place sorting": 1.0,
+      "dict": 0.5,
+      "iterative merging and sorting": 0.5,
+      "custom sorting with validation": 1.0,
+      "use of built-in sorted function": 0.5,
+      "dictionary": 1.0,
+      "binary search for insertion": 0.5,
+      "set": 0.5,
+      "comparison-based sorting": 0.5
+    },
+    "error_handling-recursion": {
+      "list": 2.3333333333333335,
+      "none": 0.3333333333333333,
+      "recursive divide-and-conquer": 0.3333333333333333,
+      "increased recursion limit": 0.3333333333333333,
+      "base case handling": 0.3333333333333333,
+      "splitting the list": 0.3333333333333333,
+      "iterative approach": 0.3333333333333333,
+      "recursion": 1.6666666666666667
+    },
+    "dynamic_programming-loops": {
+      "dynamic programming": 0.5,
+      "list": 1.5,
+      "1D DP array": 0.5,
+      "binary search": 0.5,
+      "patience sorting": 0.5,
+      "dynamic programming with patience sorting": 0.5,
+      "maintaining minimal tails": 0.5,
+      "dynamic programming with binary search": 0.5,
+      "binary search for insertion point": 0.5
+    },
+    "loops-recursion": {
+      "iterative with a recursive helper": 0.5,
+      "list": 0.5,
+      "integer": 1.0,
+      "integers": 0.5,
+      "iterative approach for efficiency": 0.5,
+      "iterative approach": 1.0,
+      "recursion and iteration": 0.5,
+      "function": 0.5,
+      "iteration for final sum validation": 0.5,
+      "in-place digit extraction": 0.5,
+      "looping until n becomes 0": 0.5
+    },
+    "conditionals-functions-loops-recursion": {
+      "list": 2.0,
+      "recursion with divide and conquer": 1.0,
+      "operator precedence handling": 1.0,
+      "stack": 1.0,
+      "iterative with conditional formatting": 1.0,
+      "divide and conquer": 1.0,
+      "integers": 1.0,
+      "shunting-yard algorithm for expression evaluation": 1.0,
+      "tokenization": 1.0
+    },
+    "data_structures-dynamic_programming-recursion-sorting": {
+      "tie-breaking for earliest start": 1.0,
+      "list": 1.0,
+      "Kadane's algorithm": 1.0,
+      "early exit for negative subarrays": 1.0
+    },
+    "algorithms-data_structures-error_handling-functions": {
+      "list": 1.0,
+      "exception handling": 1.0,
+      "function mapping": 1.0,
+      "error handling with functional programming": 1.0,
+      "dictionary": 1.0
+    },
+    "conditionals-dynamic_programming": {
+      "dynamic programming": 2.0,
+      "space optimization by using 1D array": 1.0,
+      "array": 1.0,
+      "iterative approach": 1.0,
+      "integer variables": 1.0,
+      "deduplication of coins": 1.0
+    },
+    "dynamic_programming-error_handling-searching-sorting": {
+      "using heapq to find n largest elements efficiently": 1.0,
+      "list": 4.0,
+      "using bisect for efficient searching": 1.0,
+      "binary search": 1.0,
+      "in-place sorting": 1.0,
+      "uses built-in sorted function for optimization": 1.0,
+      "sorting followed by binary search": 1.0,
+      "sorting and binary search": 1.0,
+      "sorting and searching": 1.0,
+      "heap-based selection": 1.0,
+      "heap": 1.0
+    },
+    "data_structures-sorting": {
+      "list": 1.5,
+      "in-place merging": 0.5,
+      "fast-slow pointer for splitting": 0.5,
+      "singly linked list": 0.5,
+      "merge sort": 0.5,
+      "combination of set for uniqueness and sorting": 0.5,
+      "built-in sorting": 0.5,
+      "tracking last added element to avoid duplicates": 0.5,
+      "two-pointer technique": 0.5,
+      "set": 0.5,
+      "utilizing Python's built-in sorting function": 0.5
+    },
+    "functions-loops-recursion": {
+      "recursion": 1.0,
+      "integer": 1.0,
+      "tuple": 1.0
+    },
+    "data_structures-dynamic_programming": {
+      "dynamic programming": 1.0,
+      "list": 1.0,
+      "patience sorting": 1.0,
+      "array": 2.0,
+      "dynamic programming with binary search": 1.0,
+      "binary search for insertion": 1.0,
+      "iterative DP update": 1.0
+    },
+    "functions-recursion": {
+      "integer variables": 1.0,
+      "iterative approach (instead of pure recursion)": 1.0,
+      "iterative calculation to avoid recursion overhead": 1.0
+    },
+    "conditionals-functions-recursion-sorting": {
+      "list": 1.0,
+      "quicksort": 1.0,
+      "using the last element as pivot": 1.0
+    },
+    "conditionals-error_handling-recursion-searching": {
+      "list": 1.0,
+      "recursive binary search": 1.0
+    },
+    "conditionals-error_handling-loops-searching": {
+      "linear search": 1.0,
+      "list": 2.0,
+      "recursive search": 1.0
+    },
+    "data_structures-error_handling-searching-sorting": {
+      "in-order traversal for sorted results": 1.0,
+      "treap": 1.0,
+      "randomized treap for O(log n) operations": 1.0,
+      "randomized priority for balancing": 1.0
+    },
+    "data_structures-recursion-sorting": {
+      "using Python's built-in stable sort": 1.0,
+      "list": 1.0,
+      "tuple": 1.0,
+      "merge sort": 1.0
+    },
+    "algorithms-functions": {
+      "list": 2.0,
+      "sorting based on computed costs": 0.5,
+      "sorting by end time": 0.5,
+      "iterative composition": 0.5,
+      "greedy": 0.5,
+      "sequential application of functions": 0.5,
+      "greedy selection of tasks": 0.5,
+      "tuple": 0.5,
+      "set": 0.5,
+      "stable sort": 0.5
+    },
+    "data_structures-dynamic_programming-functions-sorting": {
+      "dynamic programming": 2.0,
+      "list": 6.0,
+      "prefix frequency counting": 1.0,
+      "two-pass approach": 1.0,
+      "Shortest Processing Time (SPT) rule": 1.0,
+      "sorting": 1.0,
+      "sorting by end time": 1.0,
+      "dynamic programming with binary search": 1.0,
+      "binary search for non-overlapping jobs": 1.0,
+      "use of an internal sorted copy": 1.0,
+      "dynamic partitioning of the array": 1.0,
+      "sorting based on duration": 1.0,
+      "greedy partitioning": 1.0,
+      "index-based tie-breaking": 1.0,
+      "tuple": 2.0,
+      "dictionary": 1.0
+    },
+    "dynamic_programming-functions": {
+      "dynamic programming": 1.5,
+      "list": 1.0,
+      "1-D table usage": 0.5,
+      "patience sorting": 0.5,
+      "array": 0.5,
+      "iterative approach": 0.5,
+      "in-place updates could be used instead of a separate DP table": 0.5,
+      "2D list (DP table)": 0.5,
+      "dynamic programming with binary search": 0.5,
+      "binary search for insertion point": 0.5
+    },
+    "error_handling-sorting": {
+      "sorting with validation": 1.0,
+      "list": 2.0,
+      "iterative filtering and sorting": 1.0
+    },
+    "conditionals-data_structures-recursion": {
+      "list": 1.0,
+      "integer": 1.0,
+      "integer for balance": 1.0,
+      "iterative balance checking": 1.0,
+      "recursion": 1.0
+    },
+    "data_structures-error_handling-loops-recursion": {
+      "recursion": 1.0,
+      "list": 1.0
+    },
+    "algorithms-conditionals-data_structures": {
+      "queue": 1.0,
+      "Depth-First Search (DFS)": 1.0,
+      "binary tree": 1.0,
+      "nonlocal variable for max_sum": 1.0,
+      "early return for null nodes": 1.0
+    },
+    "loops-searching-sorting": {
+      "modified binary search for first occurrence": 1.0,
+      "list": 6.0,
+      "in-place sorting": 2.0,
+      "stability in sorting": 1.0,
+      "iterative approach to merge sort": 1.0,
+      "list comprehensions": 1.0,
+      "bottom-up approach in merge sort": 1.0,
+      "sorting followed by binary search": 2.0,
+      "merge sort for sorting, binary search for counting occurrences": 1.0,
+      "Timsort (Python's built-in sort)": 1.0,
+      "adaptive sorting": 1.0,
+      "iterative merge sort for sorting, binary search for searching": 1.0,
+      "stable sort": 1.0
+    },
+    "loops-sorting": {
+      "list": 1.5,
+      "integer counters": 0.5,
+      "combinatorial counting": 0.5,
+      "Counter": 0.5,
+      "using Counter for frequency counting": 0.5,
+      "not applicable (built-in sorting used)": 0.5,
+      "counting evens and odds instead of checking pairs": 0.5,
+      "custom sorting using frequency count": 0.5,
+      "not applicable (built-in function used)": 0.5
+    },
+    "error_handling-loops-recursion-sorting": {
+      "list": 1.0,
+      "recursive approach": 1.0,
+      "divide and conquer": 1.0,
+      "merging sorted halves": 1.0
+    },
+    "conditionals-data_structures-error_handling-functions": {
+      "list": 1.0,
+      "dictionary": 1.0,
+      "iteration and conditional classification": 1.0
+    },
+    "conditionals-functions": {
+      "regex matching for parsing": 0.5,
+      "list": 0.5,
+      "iterative with conditionals": 0.5,
+      "early exit on empty condition": 0.5,
+      "regex for structured input validation": 0.5,
+      "string": 0.5
+    },
+    "algorithms-functions-loops-recursion": {
+      "divide-and-conquer recursion": 1.0,
+      "backtracking": 1.0,
+      "list": 3.0,
+      "reducing recursion depth with divide-and-conquer": 1.0,
+      "iterative sequence generation to avoid recursion depth issues": 1.0,
+      "even number skipping": 1.0,
+      "iterative approach with a loop": 1.0,
+      "early exit on invalid conditions": 1.0,
+      "integers": 1.0,
+      "iterative approach": 1.0,
+      "memoization": 1.0,
+      "recursion with a loop for counting": 1.0,
+      "dictionary (hashmap)": 1.0,
+      "list for counter": 1.0,
+      "recursion with memoization": 1.0,
+      "base case for stopping recursion": 1.0
+    },
+    "searching-sorting": {
+      "list": 1.0,
+      "modified binary search": 1.0,
+      "handling duplicates by shrinking search range": 1.0
+    },
+    "algorithms-loops": {
+      "dynamic programming": 0.3333333333333333,
+      "bytearray": 0.3333333333333333,
+      "list": 0.6666666666666666,
+      "Sieve of Eratosthenes": 0.3333333333333333,
+      "arithmetic progression": 0.3333333333333333,
+      "iterative traversal": 0.3333333333333333,
+      "starting at the square of the prime": 0.3333333333333333,
+      "iterative approach": 0.6666666666666666,
+      "direct calculation of sum": 0.3333333333333333,
+      "integer variables": 0.3333333333333333,
+      "using a boolean array": 0.3333333333333333,
+      "two-variable storage": 0.3333333333333333,
+      "early exit could be considered if all zeros detected": 0.3333333333333333
+    },
+    "dynamic_programming-recursion": {
+      "dynamic programming": 1.5,
+      "1D list": 0.5,
+      "using base cases": 0.5,
+      "integers": 0.5,
+      "iterative approach": 0.5,
+      "bottom-up dynamic programming": 0.5,
+      "2D list (DP table)": 0.5,
+      "building a DP table": 0.5,
+      "space optimization": 0.5,
+      "precomputation of palindromes": 0.5,
+      "2D list": 0.5
+    },
+    "algorithms-sorting": {
+      "in-place sorting": 0.3333333333333333,
+      "divide and conquer": 0.6666666666666666,
+      "Dutch National Flag algorithm": 0.3333333333333333,
+      "list": 2.6666666666666665,
+      "built-in sorting algorithm (Timsort)": 0.3333333333333333,
+      "merge sort with inversion counting": 0.3333333333333333,
+      "in-place swaps": 0.3333333333333333,
+      "inversion counting during the merge step": 0.3333333333333333,
+      "built-in sorting function": 0.3333333333333333,
+      "runs merging": 0.3333333333333333,
+      "max-heap construction": 0.3333333333333333,
+      "custom sorting": 0.3333333333333333,
+      "three-pointer technique": 0.3333333333333333,
+      "stability": 0.3333333333333333,
+      "built-in sorting": 0.3333333333333333,
+      "Timsort (a hybrid sorting algorithm)": 0.3333333333333333,
+      "adaptive to existing order": 0.3333333333333333,
+      "heap sort": 0.3333333333333333,
+      "sorting with key function": 0.3333333333333333,
+      "minrun optimization": 0.3333333333333333,
+      "counting inversions during merge": 0.3333333333333333,
+      "array": 0.6666666666666666,
+      "adaptive sorting": 0.6666666666666666,
+      "Timsort (hybrid sorting algorithm)": 0.3333333333333333
+    },
+    "algorithms-dynamic_programming": {
+      "dynamic programming": 1.0,
+      "list": 1.0,
+      "using previous row values": 0.5,
+      "tracking best lengths and sums": 0.5,
+      "one-dimensional DP array": 0.5,
+      "array": 0.5
+    },
+    "dynamic_programming-recursion-sorting": {
+      "list": 4.0,
+      "sorting to establish order": 1.0,
+      "pair swapping to create wave pattern": 1.0,
+      "sorting by end time": 1.0,
+      "sorting by finish time": 1.0,
+      "iterative selection": 1.0,
+      "binary search for previous jobs": 1.0,
+      "array": 1.0,
+      "binary search to find last non-overlapping job": 1.0,
+      "greedy algorithm": 1.0,
+      "memoization": 1.0,
+      "sorting followed by swapping": 1.0,
+      "dynamic programming with binary search": 2.0,
+      "tuple": 2.0,
+      "dynamic programming to store optimal solutions": 1.0
+    },
+    "conditionals-error_handling-searching": {
+      "linear search": 4.0,
+      "list": 5.0,
+      "binary search": 1.0
+    }
+  },
+  "patterns_by_difficulty": {
+    "medium": {
+      "regex matching for parsing": 0.3333333333333333,
+      "patience sorting": 1.0,
+      "combinatorial counting": 0.3333333333333333,
+      "using a priority queue for efficient merging": 0.3333333333333333,
+      "direct formula calculation": 0.3333333333333333,
+      "command processing": 0.3333333333333333,
+      "greedy": 0.3333333333333333,
+      "2D array for DP table": 0.3333333333333333,
+      "tuple": 0.3333333333333333,
+      "iterative approach (instead of pure recursion)": 0.3333333333333333,
+      "fast-slow pointer for splitting": 0.3333333333333333,
+      "singly linked list": 0.3333333333333333,
+      "none": 0.3333333333333333,
+      "integers": 1.0,
+      "built-in sorting": 0.3333333333333333,
+      "iterative approach": 2.0,
+      "recursion and iteration": 0.3333333333333333,
+      "sorting with key function": 0.3333333333333333,
+      "set": 0.3333333333333333,
+      "iterative calculation": 0.3333333333333333,
+      "using previous row values": 0.3333333333333333,
+      "iterative approach for efficiency": 0.3333333333333333,
+      "integer variables": 0.3333333333333333,
+      "regex for structured input validation": 0.3333333333333333,
+      "binary search for insertion": 0.3333333333333333,
+      "binary search for insertion point": 0.6666666666666666,
+      "dynamic programming": 2.6666666666666665,
+      "binary search": 1.0,
+      "integer": 1.6666666666666667,
+      "divide and conquer": 0.3333333333333333,
+      "Dutch National Flag algorithm": 0.3333333333333333,
+      "maintaining minimal tails": 0.3333333333333333,
+      "early exit on empty condition": 0.3333333333333333,
+      "class-based implementation": 0.3333333333333333,
+      "sequential application of functions": 0.3333333333333333,
+      "three-pointer technique": 0.3333333333333333,
+      "utilizing Python's built-in sorting function": 0.3333333333333333,
+      "iterative processing with validation": 0.3333333333333333,
+      "handling duplicates by shrinking search range": 0.3333333333333333,
+      "one-dimensional DP array": 0.3333333333333333,
+      "dynamic programming with binary search": 1.0,
+      "bottom-up approach": 0.3333333333333333,
+      "merge sort": 0.3333333333333333,
+      "function": 0.3333333333333333,
+      "modulus checks combined into one for FizzBuzz": 0.3333333333333333,
+      "arithmetic series formula": 0.3333333333333333,
+      "directly checking sorted halves": 0.3333333333333333,
+      "in-place digit extraction": 0.3333333333333333,
+      "iterative with a recursive helper": 0.3333333333333333,
+      "iterative calculation to avoid recursion overhead": 0.3333333333333333,
+      "early termination on imbalance detection": 0.3333333333333333,
+      "custom sorting": 0.3333333333333333,
+      "recursion": 1.0,
+      "counting evens and odds instead of checking pairs": 0.3333333333333333,
+      "constant space usage": 0.3333333333333333,
+      "list (acting as stack)": 0.3333333333333333,
+      "looping until n becomes 0": 0.3333333333333333,
+      "early exit for non-negative input": 0.3333333333333333,
+      "narrowing search space": 0.3333333333333333,
+      "array": 2.0,
+      "list comprehension for filtering": 0.3333333333333333,
+      "depth-first search (DFS)": 0.3333333333333333,
+      "modified binary search": 0.3333333333333333,
+      "in-place merging": 0.3333333333333333,
+      "iterative implementation (not recursive as described in the problem)": 0.3333333333333333,
+      "linear search": 0.3333333333333333,
+      "iterative approach (not recursive)": 0.3333333333333333,
+      "use of two variables instead of an array": 0.3333333333333333,
+      "list": 8.333333333333334,
+      "integer counters": 0.3333333333333333,
+      "in-place swaps": 0.3333333333333333,
+      "direct calculation of sum": 0.3333333333333333,
+      "iterative DP update": 0.3333333333333333,
+      "loop": 0.6666666666666666,
+      "1D DP array": 0.3333333333333333,
+      "min-heap": 0.3333333333333333,
+      "arithmetic progression": 0.3333333333333333,
+      "iterative with conditionals": 0.6666666666666666,
+      "sorting followed by filtering": 0.3333333333333333,
+      "1-D table usage": 0.3333333333333333,
+      "binary tree": 0.3333333333333333,
+      "dynamic programming with patience sorting": 0.3333333333333333,
+      "combination of set for uniqueness and sorting": 0.3333333333333333,
+      "space optimization could be applied since only the current and previous rows are needed": 0.3333333333333333,
+      "iteration for final sum validation": 0.3333333333333333,
+      "string": 0.3333333333333333
+    },
+    "very hard": {
+      "quicksort (not explicitly implemented, uses built-in sort)": 0.3333333333333333,
+      "binary search using bisect": 0.3333333333333333,
+      "patience sorting": 0.6666666666666666,
+      "palindrome precomputation": 0.3333333333333333,
+      "nonlocal variable to store path": 0.3333333333333333,
+      "binary search for efficient element lookup": 0.3333333333333333,
+      "sorting and binary search": 0.3333333333333333,
+      "sorting based on duration": 0.3333333333333333,
+      "comparison-based sorting": 0.3333333333333333,
+      "treap": 0.3333333333333333,
+      "tuple-based keys for sorting": 0.3333333333333333,
+      "Shortest Processing Time (SPT) rule": 0.3333333333333333,
+      "early return on finding target": 0.3333333333333333,
+      "merging step": 0.3333333333333333,
+      "built-in sorting algorithm (Timsort)": 0.3333333333333333,
+      "using base cases": 0.3333333333333333,
+      "Depth-First Search (DFS)": 0.3333333333333333,
+      "iterative merging and sorting": 0.3333333333333333,
+      "validation before sorting": 0.3333333333333333,
+      "binary search for previous jobs": 0.3333333333333333,
+      "use of auxiliary buffer for merging": 0.3333333333333333,
+      "recursive search": 0.3333333333333333,
+      "built-in sorting function": 0.3333333333333333,
+      "2D list (DP table)": 0.3333333333333333,
+      "skipping odd numbers to reduce unnecessary calculations": 0.3333333333333333,
+      "2D list (matrix)": 0.3333333333333333,
+      "tuple": 2.6666666666666665,
+      "dictionary": 2.6666666666666665,
+      "iterative filtering": 0.6666666666666666,
+      "Kadane's algorithm": 0.3333333333333333,
+      "two-pass approach": 0.3333333333333333,
+      "iterative implementation": 0.3333333333333333,
+      "list of tuples": 0.3333333333333333,
+      "recursive descent parsing": 0.3333333333333333,
+      "integers": 1.0,
+      "bitmasking": 0.3333333333333333,
+      "backtracking with recursion": 0.3333333333333333,
+      "iterative approach": 0.6666666666666666,
+      "Timsort (a hybrid sorting algorithm)": 0.3333333333333333,
+      "built-in sorting with binary search": 0.3333333333333333,
+      "heap (priority queue)": 0.3333333333333333,
+      "greedy partitioning": 0.3333333333333333,
+      "index-based tie-breaking": 0.3333333333333333,
+      "early exit on found target": 0.3333333333333333,
+      "set": 2.6666666666666665,
+      "lazy propagation could be added for optimization": 0.3333333333333333,
+      "sorting followed by swapping": 0.3333333333333333,
+      "dynamic programming with Fenwick tree (Binary Indexed Tree)": 0.3333333333333333,
+      "built-in sorting (Timsort)": 0.3333333333333333,
+      "pair swapping to create wave pattern": 0.3333333333333333,
+      "splitting the list": 0.3333333333333333,
+      "single loop for evaluation": 0.3333333333333333,
+      "efficient tokenization": 0.3333333333333333,
+      "iterative with conditional formatting": 0.3333333333333333,
+      "iterative filtering and sorting": 0.3333333333333333,
+      "iterative selection": 0.3333333333333333,
+      "bottom-up dynamic programming": 0.3333333333333333,
+      "scanning for non-overlapping tasks": 0.3333333333333333,
+      "pruning": 0.3333333333333333,
+      "recursion with a loop for counting": 0.3333333333333333,
+      "utilizing Python's built-in sorted function": 0.3333333333333333,
+      "integer variables": 0.6666666666666666,
+      "adaptive sorting": 1.0,
+      "binary search for insertion": 1.0,
+      "space optimization": 0.3333333333333333,
+      "function mapping": 0.3333333333333333,
+      "recursion with binary search": 0.3333333333333333,
+      "dynamic programming": 6.333333333333333,
+      "binary search": 1.3333333333333333,
+      "sorting to establish order": 0.3333333333333333,
+      "iteration and conditional classification": 0.3333333333333333,
+      "integer": 1.3333333333333333,
+      "divide and conquer": 4.0,
+      "sorting followed by binary search": 2.0,
+      "greedy algorithm": 0.6666666666666666,
+      "maintaining both maximum and minimum products": 0.3333333333333333,
+      "memoization": 2.0,
+      "special case handling": 0.3333333333333333,
+      "operator precedence handling": 0.3333333333333333,
+      "sorting by end time": 1.0,
+      "base case handling": 0.3333333333333333,
+      "merging sorted halves": 0.3333333333333333,
+      "merge sort with inversion counting": 0.3333333333333333,
+      "binary search for non-overlapping jobs": 0.3333333333333333,
+      "custom key function for sorting": 0.3333333333333333,
+      "using Python's built-in stable sort": 0.3333333333333333,
+      "inversion counting during the merge step": 0.3333333333333333,
+      "validation of sorted order before searching": 0.3333333333333333,
+      "divide and conquer (modified merge sort)": 0.3333333333333333,
+      "string": 0.3333333333333333,
+      "storing lengths and sums in separate arrays": 0.3333333333333333,
+      "not applicable (built-in function used)": 0.3333333333333333,
+      "stack": 1.0,
+      "conditional checks": 0.3333333333333333,
+      "randomized priority for balancing": 0.3333333333333333,
+      "dict": 0.3333333333333333,
+      "recursive sorting": 0.3333333333333333,
+      "iterative accumulation": 0.3333333333333333,
+      "in-order traversal for sorted results": 0.3333333333333333,
+      "adaptive to existing order": 0.3333333333333333,
+      "dynamic programming with binary search": 1.6666666666666667,
+      "early return for empty input": 0.3333333333333333,
+      "2D list (array)": 0.3333333333333333,
+      "iterative merge sort for sorting, binary search for searching": 0.3333333333333333,
+      "flattening the matrix conceptually": 0.3333333333333333,
+      "sorting and searching": 1.0,
+      "bottom-up approach": 2.0,
+      "use of variables to track sums without additional data structures": 0.3333333333333333,
+      "two-pass sorting": 0.3333333333333333,
+      "early return for null nodes": 0.3333333333333333,
+      "using bisect for efficient searching": 0.3333333333333333,
+      "merge sort": 1.6666666666666667,
+      "iterative approach to merge sort": 0.3333333333333333,
+      "stability in sorting": 0.3333333333333333,
+      "iterative with built-in function": 0.3333333333333333,
+      "coordinate compression": 0.6666666666666666,
+      "error handling with functional programming": 0.3333333333333333,
+      "preserving order of equal elements": 0.3333333333333333,
+      "dynamic programming with recursion": 0.3333333333333333,
+      "base case for stopping recursion": 0.3333333333333333,
+      "Kadane's algorithm for maximum subarray sum": 0.3333333333333333,
+      "merge sort (iterative)": 0.3333333333333333,
+      "in-place merging could be considered for space optimization": 0.3333333333333333,
+      "Horner's method": 0.3333333333333333,
+      "single-row DP optimization": 0.3333333333333333,
+      "combined sorting and searching": 0.3333333333333333,
+      "early exits on invalid input": 0.3333333333333333,
+      "early stopping": 0.6666666666666666,
+      "recursive approach": 0.6666666666666666,
+      "partitioning the array into evens and odds": 0.3333333333333333,
+      "sorting": 0.6666666666666666,
+      "nonlocal variable for max_sum": 0.3333333333333333,
+      "quicksort": 0.3333333333333333,
+      "independent sorting of partitions": 0.3333333333333333,
+      "randomized treap for O(log n) operations": 0.3333333333333333,
+      "runs merging": 0.3333333333333333,
+      "temporary array": 0.3333333333333333,
+      "recursion": 2.0,
+      "randomized pivot selection": 0.3333333333333333,
+      "reversal of coefficients": 0.3333333333333333,
+      "heap": 0.3333333333333333,
+      "using heapq to find n largest elements efficiently": 0.3333333333333333,
+      "modified binary search for first occurrence": 0.3333333333333333,
+      "shunting-yard algorithm with evaluation": 0.3333333333333333,
+      "queue": 0.3333333333333333,
+      "using built-in sorted function": 0.3333333333333333,
+      "stability": 0.3333333333333333,
+      "tracking best lengths and sums": 0.3333333333333333,
+      "list comprehensions": 0.3333333333333333,
+      "bottom-up approach in merge sort": 0.3333333333333333,
+      "tail call optimization consideration": 0.3333333333333333,
+      "custom sorting algorithm": 0.3333333333333333,
+      "in-place merging with temporary array": 0.3333333333333333,
+      "merging sorted arrays": 0.3333333333333333,
+      "constant space usage": 0.3333333333333333,
+      "Timsort for sorting": 0.3333333333333333,
+      "dynamic programming to store optimal solutions": 0.3333333333333333,
+      "precomputation of palindromes": 0.3333333333333333,
+      "minrun optimization": 0.3333333333333333,
+      "recursive splitting": 0.3333333333333333,
+      "greedy selection": 0.3333333333333333,
+      "efficient error handling": 0.3333333333333333,
+      "backtracking with memoization": 0.3333333333333333,
+      "depth-first search with memoization": 0.3333333333333333,
+      "even number skipping": 0.3333333333333333,
+      "divide and conquer (binary search)": 0.3333333333333333,
+      "sorting by finish time": 0.3333333333333333,
+      "priority queue for efficient merging": 0.3333333333333333,
+      "1D array": 0.3333333333333333,
+      "counting inversions during merge": 2.3333333333333335,
+      "array": 4.0,
+      "iterative construction": 0.3333333333333333,
+      "tabulation": 0.3333333333333333,
+      "dictionary (hashmap)": 0.3333333333333333,
+      "segment tree with coordinate compression": 0.3333333333333333,
+      "binary search with bisect module": 0.3333333333333333,
+      "2D list": 0.6666666666666666,
+      "using stacks for evaluation": 0.3333333333333333,
+      "range maximum query": 0.3333333333333333,
+      "1D list": 0.3333333333333333,
+      "iterative quick sort with median-of-three pivot selection": 0.3333333333333333,
+      "in-place merging": 0.3333333333333333,
+      "recursion with divide and conquer": 0.3333333333333333,
+      "backtracking": 0.3333333333333333,
+      "in-place sorting": 2.3333333333333335,
+      "generator for flattening": 0.3333333333333333,
+      "reducing recursion depth with divide-and-conquer": 0.3333333333333333,
+      "iterative approach with a loop": 0.3333333333333333,
+      "stability in merges": 0.3333333333333333,
+      "use of an internal sorted copy": 0.3333333333333333,
+      "median-of-three pivot selection": 0.3333333333333333,
+      "merge sort for sorting, binary search for counting occurrences": 0.3333333333333333,
+      "building a DP table": 0.3333333333333333,
+      "stable sort": 0.3333333333333333,
+      "list": 38.0,
+      "divide and conquer (merge sort)": 2.3333333333333335,
+      "custom sorting with validation": 0.6666666666666666,
+      "recursive binary search": 1.3333333333333333,
+      "using the last element as pivot": 0.3333333333333333,
+      "tokenization": 0.6666666666666666,
+      "use of built-in sorted function": 0.3333333333333333,
+      "built-in sorting optimization": 0.3333333333333333,
+      "dynamic partitioning of the array": 0.3333333333333333,
+      "custom sorting with recursion through stable sorting": 0.3333333333333333,
+      "sorting with validation": 0.3333333333333333,
+      "Fenwick tree": 0.3333333333333333,
+      "binary insertion using bisect module": 0.3333333333333333,
+      "prefix frequency counting": 0.3333333333333333,
+      "recursive divide-and-conquer": 0.3333333333333333,
+      "iterative sequence generation to avoid recursion depth issues": 0.3333333333333333,
+      "uses built-in sorted function for optimization": 0.3333333333333333,
+      "binary search to find last non-overlapping job": 0.3333333333333333,
+      "early exits": 0.3333333333333333,
+      "greedy counting": 0.3333333333333333,
+      "iterative computation": 0.3333333333333333,
+      "path tracking": 0.3333333333333333,
+      "segment tree": 0.3333333333333333,
+      "heap-based selection": 0.3333333333333333,
+      "direct evaluation of expressions": 0.3333333333333333,
+      "divide-and-conquer recursion": 0.3333333333333333,
+      "utilizing Python's built-in factorial method": 0.3333333333333333,
+      "integer variables for max/min/global product": 0.3333333333333333,
+      "variables (a, b)": 0.3333333333333333,
+      "binary search using bisect module": 0.3333333333333333,
+      "binary search (bisect)": 0.3333333333333333,
+      "exception handling": 0.3333333333333333,
+      "heap-based merging": 0.3333333333333333,
+      "binary tree": 0.3333333333333333,
+      "duplicate avoidance": 0.3333333333333333,
+      "modified merge sort": 0.3333333333333333,
+      "shunting-yard algorithm for expression evaluation": 0.3333333333333333,
+      "iterative approach to manage recursion depth": 0.3333333333333333,
+      "Timsort (Python's built-in sort)": 0.3333333333333333,
+      "linear search": 1.3333333333333333,
+      "list for counter": 0.3333333333333333,
+      "Timsort (hybrid sorting algorithm)": 0.3333333333333333,
+      "recursion with memoization": 0.3333333333333333,
+      "list (array)": 0.3333333333333333
+    },
+    "hard": {
+      "arithmetic calculation": 0.3333333333333333,
+      "patience sorting": 0.6666666666666666,
+      "early exit on failure": 0.3333333333333333,
+      "conditional evaluations": 0.3333333333333333,
+      "conditional sorting": 0.3333333333333333,
+      "bisect": 0.3333333333333333,
+      "greedy": 0.3333333333333333,
+      "Counter": 0.3333333333333333,
+      "tie-breaking for earliest start": 0.3333333333333333,
+      "2D list (DP table)": 0.3333333333333333,
+      "max-heap construction": 0.3333333333333333,
+      "tuple": 0.3333333333333333,
+      "Kadane's algorithm": 0.3333333333333333,
+      "early exit for negative subarrays": 0.3333333333333333,
+      "2D list for visited tracking": 0.3333333333333333,
+      "integers": 0.3333333333333333,
+      "built-in sorting": 0.6666666666666666,
+      "iterative approach": 1.0,
+      "heap sort": 0.3333333333333333,
+      "recursive depth-first validation": 0.3333333333333333,
+      "set": 0.6666666666666666,
+      "merging with custom comparator": 0.3333333333333333,
+      "early returns": 0.3333333333333333,
+      "integer variables": 1.0,
+      "not applicable (built-in sorting used)": 0.3333333333333333,
+      "binary search for insertion": 0.3333333333333333,
+      "dynamic programming": 2.3333333333333335,
+      "binary search": 0.6666666666666666,
+      "short-circuit evaluation": 0.3333333333333333,
+      "integer": 0.6666666666666666,
+      "space optimization by using 1D array": 0.3333333333333333,
+      "state tracking": 0.3333333333333333,
+      "separation of concerns": 0.3333333333333333,
+      "divide-and-conquer": 0.3333333333333333,
+      "sorting by end time": 0.3333333333333333,
+      "tail recursion": 0.3333333333333333,
+      "bytearray": 0.3333333333333333,
+      "dict": 0.3333333333333333,
+      "starting at the square of the prime": 0.3333333333333333,
+      "using bisect for efficient search": 0.3333333333333333,
+      "greedy selection of tasks": 0.3333333333333333,
+      "dynamic programming with binary search": 1.0,
+      "increased recursion limit": 0.3333333333333333,
+      "merge sort": 0.3333333333333333,
+      "1D list (dp)": 0.3333333333333333,
+      "two-pointer technique": 0.3333333333333333,
+      "set operations": 0.3333333333333333,
+      "sorting based on computed costs": 0.3333333333333333,
+      "iterative composition": 0.3333333333333333,
+      "separate collections for evens and odds": 0.3333333333333333,
+      "early exit on invalid conditions": 0.3333333333333333,
+      "deduplication of coins": 0.3333333333333333,
+      "iterative merge process": 0.3333333333333333,
+      "use of set for average O(1) operations": 0.3333333333333333,
+      "iterative processing with error handling": 0.3333333333333333,
+      "two-variable storage": 0.3333333333333333,
+      "recursion": 1.0,
+      "using a recursive approach to split and merge": 0.3333333333333333,
+      "Sieve of Eratosthenes": 0.3333333333333333,
+      "linked list": 0.3333333333333333,
+      "tracking last added element to avoid duplicates": 0.3333333333333333,
+      "constant space usage": 0.3333333333333333,
+      "custom sorting using frequency count": 0.3333333333333333,
+      "breadth-first search (BFS)": 0.3333333333333333,
+      "array": 0.6666666666666666,
+      "binary search with bisect module": 0.3333333333333333,
+      "backtracking": 0.3333333333333333,
+      "in-place sorting": 0.3333333333333333,
+      "using Counter for frequency counting": 0.3333333333333333,
+      "deque": 0.3333333333333333,
+      "using a tails array to track subsequences": 0.3333333333333333,
+      "stable sort": 0.3333333333333333,
+      "list": 7.666666666666667,
+      "iterative traversal": 0.6666666666666666,
+      "integer for balance": 0.3333333333333333,
+      "using a boolean array": 0.3333333333333333,
+      "iterative balance checking": 0.3333333333333333,
+      "sorting with conditions": 0.3333333333333333,
+      "early exit could be considered if all zeros detected": 0.3333333333333333,
+      "in-place updates could be used instead of a separate DP table": 0.3333333333333333,
+      "conditional classification": 0.3333333333333333,
+      "early termination based on array properties": 0.3333333333333333,
+      "in-place array usage": 0.3333333333333333,
+      "linear search": 0.3333333333333333,
+      "variables for state tracking": 0.3333333333333333
+    }
+  },
+  "total_patterns": {
+    "quicksort (not explicitly implemented, uses built-in sort)": 0.3333333333333333,
+    "arithmetic calculation": 0.3333333333333333,
+    "patience sorting": 2.3333333333333335,
+    "nonlocal variable to store path": 0.3333333333333333,
+    "comparison-based sorting": 0.3333333333333333,
+    "tuple-based keys for sorting": 0.3333333333333333,
+    "command processing": 0.3333333333333333,
+    "conditional evaluations": 0.3333333333333333,
+    "merging step": 0.3333333333333333,
+    "tie-breaking for earliest start": 0.3333333333333333,
+    "2D list (DP table)": 0.6666666666666666,
+    "skipping odd numbers to reduce unnecessary calculations": 0.3333333333333333,
+    "tuple": 3.3333333333333335,
+    "iterative approach (instead of pure recursion)": 0.3333333333333333,
+    "two-pass approach": 0.3333333333333333,
+    "early exit for negative subarrays": 0.3333333333333333,
+    "iterative approach": 3.6666666666666665,
+    "built-in sorting with binary search": 0.3333333333333333,
+    "recursive depth-first validation": 0.3333333333333333,
+    "lazy propagation could be added for optimization": 0.3333333333333333,
+    "single loop for evaluation": 0.3333333333333333,
+    "iterative approach for efficiency": 0.3333333333333333,
+    "iterative selection": 0.3333333333333333,
+    "bottom-up dynamic programming": 0.3333333333333333,
+    "early returns": 0.3333333333333333,
+    "short-circuit evaluation": 0.3333333333333333,
+    "divide and conquer": 4.333333333333333,
+    "state tracking": 0.3333333333333333,
+    "greedy algorithm": 0.6666666666666666,
+    "maintaining both maximum and minimum products": 0.3333333333333333,
+    "memoization": 2.0,
+    "operator precedence handling": 0.3333333333333333,
+    "sorting by end time": 1.3333333333333333,
+    "sequential application of functions": 0.3333333333333333,
+    "inversion counting during the merge step": 0.3333333333333333,
+    "stack": 1.0,
+    "randomized priority for balancing": 0.3333333333333333,
+    "iterative processing with validation": 0.3333333333333333,
+    "iterative accumulation": 0.3333333333333333,
+    "in-order traversal for sorted results": 0.3333333333333333,
+    "iterative merge sort for sorting, binary search for searching": 0.3333333333333333,
+    "bottom-up approach": 2.3333333333333335,
+    "stability in sorting": 0.3333333333333333,
+    "iterative approach to merge sort": 0.3333333333333333,
+    "iterative with built-in function": 0.3333333333333333,
+    "base case for stopping recursion": 0.3333333333333333,
+    "arithmetic series formula": 0.3333333333333333,
+    "merge sort (iterative)": 0.3333333333333333,
+    "iterative with a recursive helper": 0.3333333333333333,
+    "partitioning the array into evens and odds": 0.3333333333333333,
+    "sorting": 0.6666666666666666,
+    "use of set for average O(1) operations": 0.3333333333333333,
+    "randomized treap for O(log n) operations": 0.3333333333333333,
+    "recursion": 4.0,
+    "counting evens and odds instead of checking pairs": 0.3333333333333333,
+    "randomized pivot selection": 0.3333333333333333,
+    "stability": 0.3333333333333333,
+    "linked list": 0.3333333333333333,
+    "list comprehensions": 0.3333333333333333,
+    "tail call optimization consideration": 0.3333333333333333,
+    "tracking last added element to avoid duplicates": 0.3333333333333333,
+    "in-place merging with temporary array": 0.3333333333333333,
+    "merging sorted arrays": 0.3333333333333333,
+    "precomputation of palindromes": 0.3333333333333333,
+    "custom sorting using frequency count": 0.3333333333333333,
+    "recursive splitting": 0.3333333333333333,
+    "greedy selection": 0.3333333333333333,
+    "efficient error handling": 0.3333333333333333,
+    "even number skipping": 0.3333333333333333,
+    "sorting by finish time": 0.3333333333333333,
+    "tabulation": 0.3333333333333333,
+    "list comprehension for filtering": 0.3333333333333333,
+    "segment tree with coordinate compression": 0.3333333333333333,
+    "binary search with bisect module": 0.6666666666666666,
+    "recursion with divide and conquer": 0.3333333333333333,
+    "median-of-three pivot selection": 0.3333333333333333,
+    "merge sort for sorting, binary search for counting occurrences": 0.3333333333333333,
+    "iterative approach (not recursive)": 0.3333333333333333,
+    "deque": 0.3333333333333333,
+    "in-place swaps": 0.3333333333333333,
+    "using the last element as pivot": 0.3333333333333333,
+    "iterative traversal": 0.6666666666666666,
+    "built-in sorting optimization": 0.3333333333333333,
+    "dynamic partitioning of the array": 0.3333333333333333,
+    "integer for balance": 0.3333333333333333,
+    "using a boolean array": 0.3333333333333333,
+    "iterative sequence generation to avoid recursion depth issues": 0.3333333333333333,
+    "iterative with conditionals": 0.6666666666666666,
+    "heap-based selection": 0.3333333333333333,
+    "early termination based on array properties": 0.3333333333333333,
+    "divide-and-conquer recursion": 0.3333333333333333,
+    "direct evaluation of expressions": 0.3333333333333333,
+    "binary search (bisect)": 0.3333333333333333,
+    "binary tree": 0.6666666666666666,
+    "exception handling": 0.3333333333333333,
+    "in-place array usage": 0.3333333333333333,
+    "Timsort (Python's built-in sort)": 0.3333333333333333,
+    "binary search using bisect": 0.3333333333333333,
+    "palindrome precomputation": 0.3333333333333333,
+    "combinatorial counting": 0.3333333333333333,
+    "sorting based on duration": 0.3333333333333333,
+    "direct formula calculation": 0.3333333333333333,
+    "conditional sorting": 0.3333333333333333,
+    "early return on finding target": 0.3333333333333333,
+    "using base cases": 0.3333333333333333,
+    "bisect": 0.3333333333333333,
+    "Depth-First Search (DFS)": 0.3333333333333333,
+    "iterative merging and sorting": 0.3333333333333333,
+    "max-heap construction": 0.3333333333333333,
+    "2D list for visited tracking": 0.3333333333333333,
+    "Timsort (a hybrid sorting algorithm)": 0.3333333333333333,
+    "sorting followed by swapping": 0.3333333333333333,
+    "set": 3.6666666666666665,
+    "using previous row values": 0.3333333333333333,
+    "splitting the list": 0.3333333333333333,
+    "not applicable (built-in sorting used)": 0.3333333333333333,
+    "binary search for insertion": 1.6666666666666667,
+    "space optimization": 0.3333333333333333,
+    "iteration and conditional classification": 0.3333333333333333,
+    "separation of concerns": 0.3333333333333333,
+    "tail recursion": 0.3333333333333333,
+    "base case handling": 0.3333333333333333,
+    "binary search for non-overlapping jobs": 0.3333333333333333,
+    "custom key function for sorting": 0.3333333333333333,
+    "divide and conquer (modified merge sort)": 0.3333333333333333,
+    "three-pointer technique": 0.3333333333333333,
+    "storing lengths and sums in separate arrays": 0.3333333333333333,
+    "not applicable (built-in function used)": 0.3333333333333333,
+    "one-dimensional DP array": 0.3333333333333333,
+    "using bisect for efficient search": 0.3333333333333333,
+    "early return for empty input": 0.3333333333333333,
+    "increased recursion limit": 0.3333333333333333,
+    "1D list (dp)": 0.3333333333333333,
+    "function": 0.3333333333333333,
+    "two-pointer technique": 0.3333333333333333,
+    "set operations": 0.3333333333333333,
+    "sorting based on computed costs": 0.3333333333333333,
+    "separate collections for evens and odds": 0.3333333333333333,
+    "early exit on invalid conditions": 0.3333333333333333,
+    "single-row DP optimization": 0.3333333333333333,
+    "combined sorting and searching": 0.3333333333333333,
+    "early exits on invalid input": 0.3333333333333333,
+    "early stopping": 0.6666666666666666,
+    "in-place digit extraction": 0.3333333333333333,
+    "deduplication of coins": 0.3333333333333333,
+    "nonlocal variable for max_sum": 0.3333333333333333,
+    "early termination on imbalance detection": 0.3333333333333333,
+    "runs merging": 0.3333333333333333,
+    "two-variable storage": 0.3333333333333333,
+    "custom sorting": 0.3333333333333333,
+    "using heapq to find n largest elements efficiently": 0.3333333333333333,
+    "shunting-yard algorithm with evaluation": 0.3333333333333333,
+    "using built-in sorted function": 0.3333333333333333,
+    "using a recursive approach to split and merge": 0.3333333333333333,
+    "constant space usage": 1.0,
+    "backtracking with memoization": 0.3333333333333333,
+    "1D array": 0.3333333333333333,
+    "counting inversions during merge": 2.3333333333333335,
+    "range maximum query": 0.3333333333333333,
+    "using stacks for evaluation": 0.3333333333333333,
+    "depth-first search (DFS)": 0.3333333333333333,
+    "iterative approach with a loop": 0.3333333333333333,
+    "stability in merges": 0.3333333333333333,
+    "using Counter for frequency counting": 0.3333333333333333,
+    "use of two variables instead of an array": 0.3333333333333333,
+    "divide and conquer (merge sort)": 2.3333333333333335,
+    "sorting with conditions": 0.3333333333333333,
+    "iterative DP update": 0.3333333333333333,
+    "Fenwick tree": 0.3333333333333333,
+    "prefix frequency counting": 0.3333333333333333,
+    "arithmetic progression": 0.3333333333333333,
+    "uses built-in sorted function for optimization": 0.3333333333333333,
+    "early exits": 0.3333333333333333,
+    "greedy counting": 0.3333333333333333,
+    "path tracking": 0.3333333333333333,
+    "utilizing Python's built-in factorial method": 0.3333333333333333,
+    "shunting-yard algorithm for expression evaluation": 0.3333333333333333,
+    "string": 0.6666666666666666,
+    "list (array)": 0.3333333333333333,
+    "early exit on failure": 0.3333333333333333,
+    "binary search for efficient element lookup": 0.3333333333333333,
+    "sorting and binary search": 0.3333333333333333,
+    "treap": 0.3333333333333333,
+    "Shortest Processing Time (SPT) rule": 0.3333333333333333,
+    "built-in sorting algorithm (Timsort)": 0.3333333333333333,
+    "greedy": 0.6666666666666666,
+    "binary search for previous jobs": 0.3333333333333333,
+    "recursive search": 0.3333333333333333,
+    "built-in sorting function": 0.3333333333333333,
+    "2D list (matrix)": 0.3333333333333333,
+    "singly linked list": 0.3333333333333333,
+    "list of tuples": 0.3333333333333333,
+    "integers": 2.3333333333333335,
+    "backtracking with recursion": 0.3333333333333333,
+    "early exit on found target": 0.3333333333333333,
+    "sorting with key function": 0.3333333333333333,
+    "built-in sorting (Timsort)": 0.3333333333333333,
+    "pair swapping to create wave pattern": 0.3333333333333333,
+    "scanning for non-overlapping tasks": 0.3333333333333333,
+    "pruning": 0.3333333333333333,
+    "recursion with a loop for counting": 0.3333333333333333,
+    "utilizing Python's built-in sorted function": 0.3333333333333333,
+    "regex for structured input validation": 0.3333333333333333,
+    "adaptive sorting": 1.0,
+    "binary search for insertion point": 0.6666666666666666,
+    "recursion with binary search": 0.3333333333333333,
+    "integer": 3.6666666666666665,
+    "sorting followed by binary search": 2.0,
+    "maintaining minimal tails": 0.3333333333333333,
+    "class-based implementation": 0.3333333333333333,
+    "utilizing Python's built-in sorting function": 0.3333333333333333,
+    "bytearray": 0.3333333333333333,
+    "conditional checks": 0.3333333333333333,
+    "dict": 0.6666666666666666,
+    "starting at the square of the prime": 0.3333333333333333,
+    "2D list (array)": 0.3333333333333333,
+    "two-pass sorting": 0.3333333333333333,
+    "merge sort": 2.3333333333333335,
+    "error handling with functional programming": 0.3333333333333333,
+    "preserving order of equal elements": 0.3333333333333333,
+    "iterative composition": 0.3333333333333333,
+    "directly checking sorted halves": 0.3333333333333333,
+    "in-place merging could be considered for space optimization": 0.3333333333333333,
+    "Horner's method": 0.3333333333333333,
+    "recursive approach": 0.6666666666666666,
+    "independent sorting of partitions": 0.3333333333333333,
+    "reversal of coefficients": 0.3333333333333333,
+    "modified binary search for first occurrence": 0.3333333333333333,
+    "Sieve of Eratosthenes": 0.3333333333333333,
+    "bottom-up approach in merge sort": 0.3333333333333333,
+    "list (acting as stack)": 0.3333333333333333,
+    "minrun optimization": 0.3333333333333333,
+    "divide and conquer (binary search)": 0.3333333333333333,
+    "breadth-first search (BFS)": 0.3333333333333333,
+    "narrowing search space": 0.3333333333333333,
+    "1D list": 0.3333333333333333,
+    "modified binary search": 0.3333333333333333,
+    "in-place merging": 0.6666666666666666,
+    "iterative implementation (not recursive as described in the problem)": 0.3333333333333333,
+    "building a DP table": 0.3333333333333333,
+    "custom sorting with validation": 0.6666666666666666,
+    "integer counters": 0.3333333333333333,
+    "tokenization": 0.6666666666666666,
+    "direct calculation of sum": 0.3333333333333333,
+    "iterative balance checking": 0.3333333333333333,
+    "custom sorting with recursion through stable sorting": 0.3333333333333333,
+    "sorting with validation": 0.3333333333333333,
+    "loop": 0.6666666666666666,
+    "binary insertion using bisect module": 0.3333333333333333,
+    "1D DP array": 0.3333333333333333,
+    "recursive divide-and-conquer": 0.3333333333333333,
+    "segment tree": 0.3333333333333333,
+    "integer variables for max/min/global product": 0.3333333333333333,
+    "1-D table usage": 0.3333333333333333,
+    "variables (a, b)": 0.3333333333333333,
+    "binary search using bisect module": 0.3333333333333333,
+    "heap-based merging": 0.3333333333333333,
+    "dynamic programming with patience sorting": 0.3333333333333333,
+    "duplicate avoidance": 0.3333333333333333,
+    "iterative approach to manage recursion depth": 0.3333333333333333,
+    "linear search": 2.0,
+    "list for counter": 0.3333333333333333,
+    "variables for state tracking": 0.3333333333333333,
+    "Timsort (hybrid sorting algorithm)": 0.3333333333333333,
+    "recursion with memoization": 0.3333333333333333,
+    "regex matching for parsing": 0.3333333333333333,
+    "using a priority queue for efficient merging": 0.3333333333333333,
+    "validation before sorting": 0.3333333333333333,
+    "2D array for DP table": 0.3333333333333333,
+    "use of auxiliary buffer for merging": 0.3333333333333333,
+    "Counter": 0.3333333333333333,
+    "dictionary": 2.6666666666666665,
+    "iterative filtering": 0.6666666666666666,
+    "Kadane's algorithm": 0.6666666666666666,
+    "fast-slow pointer for splitting": 0.3333333333333333,
+    "iterative implementation": 0.3333333333333333,
+    "none": 0.3333333333333333,
+    "recursive descent parsing": 0.3333333333333333,
+    "built-in sorting": 1.0,
+    "bitmasking": 0.3333333333333333,
+    "recursion and iteration": 0.3333333333333333,
+    "binary search to find last non-overlapping job": 0.3333333333333333,
+    "heap (priority queue)": 0.3333333333333333,
+    "greedy partitioning": 0.3333333333333333,
+    "index-based tie-breaking": 0.3333333333333333,
+    "heap sort": 0.3333333333333333,
+    "dynamic programming with Fenwick tree (Binary Indexed Tree)": 0.3333333333333333,
+    "iterative calculation": 0.3333333333333333,
+    "efficient tokenization": 0.3333333333333333,
+    "merging with custom comparator": 0.3333333333333333,
+    "iterative with conditional formatting": 0.3333333333333333,
+    "iterative filtering and sorting": 0.3333333333333333,
+    "integer variables": 2.0,
+    "function mapping": 0.3333333333333333,
+    "dynamic programming": 11.333333333333334,
+    "binary search": 3.0,
+    "sorting to establish order": 0.3333333333333333,
+    "space optimization by using 1D array": 0.3333333333333333,
+    "Dutch National Flag algorithm": 0.3333333333333333,
+    "early exit on empty condition": 0.3333333333333333,
+    "special case handling": 0.3333333333333333,
+    "divide-and-conquer": 0.3333333333333333,
+    "merging sorted halves": 0.3333333333333333,
+    "merge sort with inversion counting": 0.3333333333333333,
+    "using Python's built-in stable sort": 0.3333333333333333,
+    "validation of sorted order before searching": 0.3333333333333333,
+    "handling duplicates by shrinking search range": 0.3333333333333333,
+    "recursive sorting": 0.3333333333333333,
+    "greedy selection of tasks": 0.3333333333333333,
+    "adaptive to existing order": 0.3333333333333333,
+    "dynamic programming with binary search": 3.6666666666666665,
+    "sorting and searching": 1.0,
+    "flattening the matrix conceptually": 0.3333333333333333,
+    "use of variables to track sums without additional data structures": 0.3333333333333333,
+    "early return for null nodes": 0.3333333333333333,
+    "using bisect for efficient searching": 0.3333333333333333,
+    "coordinate compression": 0.6666666666666666,
+    "dynamic programming with recursion": 0.3333333333333333,
+    "modulus checks combined into one for FizzBuzz": 0.3333333333333333,
+    "Kadane's algorithm for maximum subarray sum": 0.3333333333333333,
+    "iterative merge process": 0.3333333333333333,
+    "iterative calculation to avoid recursion overhead": 0.3333333333333333,
+    "quicksort": 0.3333333333333333,
+    "iterative processing with error handling": 0.3333333333333333,
+    "temporary array": 0.3333333333333333,
+    "heap": 0.3333333333333333,
+    "queue": 0.3333333333333333,
+    "tracking best lengths and sums": 0.3333333333333333,
+    "custom sorting algorithm": 0.3333333333333333,
+    "Timsort for sorting": 0.3333333333333333,
+    "dynamic programming to store optimal solutions": 0.3333333333333333,
+    "looping until n becomes 0": 0.3333333333333333,
+    "early exit for non-negative input": 0.3333333333333333,
+    "depth-first search with memoization": 0.3333333333333333,
+    "priority queue for efficient merging": 0.3333333333333333,
+    "array": 6.666666666666667,
+    "iterative construction": 0.3333333333333333,
+    "dictionary (hashmap)": 0.3333333333333333,
+    "2D list": 0.6666666666666666,
+    "backtracking": 0.6666666666666666,
+    "iterative quick sort with median-of-three pivot selection": 0.3333333333333333,
+    "in-place sorting": 2.6666666666666665,
+    "generator for flattening": 0.3333333333333333,
+    "reducing recursion depth with divide-and-conquer": 0.3333333333333333,
+    "use of an internal sorted copy": 0.3333333333333333,
+    "using a tails array to track subsequences": 0.3333333333333333,
+    "stable sort": 0.6666666666666666,
+    "list": 54.0,
+    "recursive binary search": 1.3333333333333333,
+    "use of built-in sorted function": 0.3333333333333333,
+    "early exit could be considered if all zeros detected": 0.3333333333333333,
+    "min-heap": 0.3333333333333333,
+    "sorting followed by filtering": 0.3333333333333333,
+    "in-place updates could be used instead of a separate DP table": 0.3333333333333333,
+    "conditional classification": 0.3333333333333333,
+    "iterative computation": 0.3333333333333333,
+    "combination of set for uniqueness and sorting": 0.3333333333333333,
+    "modified merge sort": 0.3333333333333333,
+    "space optimization could be applied since only the current and previous rows are needed": 0.3333333333333333,
+    "iteration for final sum validation": 0.3333333333333333
+  },
+  "comparative_analysis": {
+    "algorithms-conditionals-dynamic_programming-loops-very hard": {
+      "patterns": {
+        "dynamic programming": 1.0,
+        "special case handling": 1.0,
+        "binary search (bisect)": 1.0,
+        "set": 1.0,
+        "list (array)": 1.0
+      },
+      "success_rate": 0.0,
+      "avg_attempts": 1.125,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "data_structures-error_handling-loops-recursion-hard": {
+      "patterns": {
+        "recursion": 1.0,
+        "list": 1.0
+      },
+      "success_rate": 0.3333333333333333,
+      "avg_attempts": 1.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-dynamic_programming-hard": {
+      "patterns": {
+        "dynamic programming": 1.0,
+        "array": 1.0,
+        "space optimization by using 1D array": 1.0,
+        "deduplication of coins": 1.0
+      },
+      "success_rate": 0.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 1.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "dynamic_programming-searching-hard": {
+      "patterns": {
+        "dynamic programming": 0.5,
+        "list": 1.0,
+        "patience sorting": 0.5,
+        "using a tails array to track subsequences": 0.5,
+        "integer variables": 0.5,
+        "dynamic programming with binary search": 1.0,
+        "binary search for insertion": 0.5,
+        "binary search with bisect module": 0.5,
+        "early termination based on array properties": 0.5
+      },
+      "success_rate": 0.25,
+      "avg_attempts": 2.25,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "error_handling-recursion-medium": {
+      "patterns": {
+        "list": 1.5,
+        "recursion": 1.0,
+        "iterative approach": 0.5,
+        "none": 0.5
+      },
+      "success_rate": 0.625,
+      "avg_attempts": 2.25,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-functions-loops-recursion-medium": {
+      "patterns": {
+        "list": 1.0,
+        "iterative approach": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "dynamic_programming-functions-hard": {
+      "patterns": {
+        "dynamic programming": 1.0,
+        "in-place updates could be used instead of a separate DP table": 1.0,
+        "2D list (DP table)": 1.0
+      },
+      "success_rate": 0.0,
+      "avg_attempts": 1.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "data_structures-dynamic_programming-hard": {
+      "patterns": {},
+      "success_rate": 0.0,
+      "avg_attempts": 1.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-recursion-hard": {
+      "patterns": {},
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "dynamic_programming-error_handling-functions-sorting-very hard": {
+      "patterns": {},
+      "success_rate": 0.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "functions-loops-medium": {
+      "patterns": {
+        "early exit for non-negative input": 1.0,
+        "iterative calculation": 1.0,
+        "integers": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "dynamic_programming-error_handling-medium": {
+      "patterns": {
+        "dynamic programming": 2.0,
+        "integers": 1.0,
+        "2D array for DP table": 1.0,
+        "space optimization could be applied since only the current and previous rows are needed": 1.0,
+        "use of two variables instead of an array": 1.0
+      },
+      "success_rate": 0.6666666666666666,
+      "avg_attempts": 2.0,
+      "pattern_distribution": {
+        "optimization_patterns": 1.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-data_structures-medium": {
+      "patterns": {
+        "binary tree": 1.0,
+        "early termination on imbalance detection": 1.0,
+        "depth-first search (DFS)": 1.0
+      },
+      "success_rate": 0.0,
+      "avg_attempts": 0.75,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-dynamic_programming-medium": {
+      "patterns": {},
+      "success_rate": 0.0,
+      "avg_attempts": 1.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-error_handling-searching-hard": {
+      "patterns": {
+        "linear search": 1.0,
+        "list": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-dynamic_programming-error_handling-searching-very hard": {
+      "patterns": {
+        "dynamic programming": 1.0,
+        "list": 1.0,
+        "patience sorting": 1.0,
+        "array": 1.0,
+        "integer variables": 1.0,
+        "dynamic programming with binary search": 1.0,
+        "binary search for insertion": 1.0,
+        "use of variables to track sums without additional data structures": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 1.0
+      }
+    },
+    "algorithms-dynamic_programming-medium": {
+      "patterns": {
+        "dynamic programming": 1.0,
+        "using previous row values": 1.0,
+        "one-dimensional DP array": 1.0,
+        "list": 1.0
+      },
+      "success_rate": 0.3333333333333333,
+      "avg_attempts": 1.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-sorting-very hard": {
+      "patterns": {
+        "list": 6.0,
+        "built-in sorting algorithm (Timsort)": 1.0,
+        "stability": 1.0,
+        "merge sort with inversion counting": 1.0,
+        "divide and conquer": 2.0,
+        "counting inversions during merge": 1.0,
+        "Timsort (a hybrid sorting algorithm)": 1.0,
+        "inversion counting during the merge step": 1.0,
+        "built-in sorting function": 1.0,
+        "adaptive to existing order": 1.0,
+        "runs merging": 1.0,
+        "adaptive sorting": 2.0,
+        "Timsort (hybrid sorting algorithm)": 1.0,
+        "minrun optimization": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 1.0,
+        "algorithmic_patterns": 3.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "dynamic_programming-recursion-hard": {
+      "patterns": {},
+      "success_rate": 0.0,
+      "avg_attempts": 0.75,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-error_handling-loops-searching-very hard": {
+      "patterns": {
+        "linear search": 1.0,
+        "list": 2.0,
+        "recursive search": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "data_structures-searching-medium": {
+      "patterns": {
+        "array": 1.0,
+        "narrowing search space": 1.0,
+        "binary search": 1.0,
+        "divide and conquer": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "error_handling-sorting-very hard": {
+      "patterns": {
+        "sorting with validation": 1.0,
+        "list": 2.0,
+        "iterative filtering and sorting": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "dynamic_programming-error_handling-very hard": {
+      "patterns": {
+        "dynamic programming": 2.0,
+        "greedy selection": 1.0,
+        "integer variables for max/min/global product": 1.0,
+        "list": 2.0,
+        "Kadane's algorithm": 1.0,
+        "integer": 1.0,
+        "maintaining both maximum and minimum products": 1.0,
+        "greedy counting": 1.0,
+        "set": 1.0
+      },
+      "success_rate": 0.2857142857142857,
+      "avg_attempts": 1.7142857142857142,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 1.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-data_structures-very hard": {
+      "patterns": {
+        "list": 1.5,
+        "conditional checks": 0.5,
+        "early exits": 0.5,
+        "lazy propagation could be added for optimization": 0.5,
+        "coordinate compression": 0.5,
+        "dictionary": 0.5,
+        "set": 0.5,
+        "segment tree with coordinate compression": 0.5,
+        "segment tree": 0.5,
+        "iterative filtering": 1.0
+      },
+      "success_rate": 0.3833333333333333,
+      "avg_attempts": 1.6,
+      "pattern_distribution": {
+        "optimization_patterns": 0.5,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-recursion-hard": {
+      "patterns": {
+        "recursion": 1.0,
+        "integers": 1.0,
+        "tail recursion": 1.0
+      },
+      "success_rate": 0.25,
+      "avg_attempts": 0.75,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "data_structures-sorting-hard": {
+      "patterns": {
+        "two-pointer technique": 1.0,
+        "list": 1.0,
+        "tracking last added element to avoid duplicates": 1.0
+      },
+      "success_rate": 0.3333333333333333,
+      "avg_attempts": 1.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-loops-medium": {
+      "patterns": {
+        "list": 0.3333333333333333,
+        "arithmetic progression": 0.3333333333333333,
+        "direct calculation of sum": 0.3333333333333333,
+        "iterative approach": 0.3333333333333333
+      },
+      "success_rate": 0.6666666666666666,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-loops-hard": {
+      "patterns": {
+        "dynamic programming": 0.5,
+        "bytearray": 0.5,
+        "list": 0.5,
+        "Sieve of Eratosthenes": 0.5,
+        "iterative traversal": 0.5,
+        "starting at the square of the prime": 0.5,
+        "iterative approach": 0.5,
+        "integer variables": 0.5,
+        "using a boolean array": 0.5,
+        "two-variable storage": 0.5,
+        "early exit could be considered if all zeros detected": 0.5
+      },
+      "success_rate": 0.8333333333333333,
+      "avg_attempts": 2.5,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-error_handling-functions-searching-very hard": {
+      "patterns": {},
+      "success_rate": 0.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-functions-loops-recursion-very hard": {
+      "patterns": {
+        "list": 2.0,
+        "recursion with divide and conquer": 1.0,
+        "operator precedence handling": 1.0,
+        "stack": 1.0,
+        "iterative with conditional formatting": 1.0,
+        "divide and conquer": 1.0,
+        "integers": 1.0,
+        "shunting-yard algorithm for expression evaluation": 1.0,
+        "tokenization": 1.0
+      },
+      "success_rate": 0.375,
+      "avg_attempts": 1.125,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 1.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-functions-loops-recursion-hard": {
+      "patterns": {
+        "backtracking": 1.0,
+        "list": 1.0,
+        "early exit on invalid conditions": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-loops-medium": {
+      "patterns": {
+        "modulus checks combined into one for FizzBuzz": 1.0,
+        "list": 1.0,
+        "iterative with conditionals": 1.0
+      },
+      "success_rate": 0.3333333333333333,
+      "avg_attempts": 1.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "dynamic_programming-searching-very hard": {
+      "patterns": {
+        "dynamic programming": 0.5,
+        "list": 1.0,
+        "patience sorting": 0.5,
+        "dynamic programming with binary search": 0.5,
+        "binary search for insertion": 0.5,
+        "bottom-up approach": 0.5
+      },
+      "success_rate": 0.03571428571428571,
+      "avg_attempts": 2.0357142857142856,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "functions-recursion-medium": {
+      "patterns": {
+        "integer variables": 1.0,
+        "iterative approach (instead of pure recursion)": 1.0,
+        "iterative calculation to avoid recursion overhead": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-functions-loops-recursion-very hard": {
+      "patterns": {
+        "divide-and-conquer recursion": 1.0,
+        "list": 1.0,
+        "reducing recursion depth with divide-and-conquer": 1.0,
+        "iterative sequence generation to avoid recursion depth issues": 1.0,
+        "even number skipping": 1.0,
+        "iterative approach with a loop": 1.0,
+        "integers": 1.0,
+        "memoization": 1.0,
+        "recursion with a loop for counting": 1.0,
+        "dictionary (hashmap)": 1.0,
+        "list for counter": 1.0,
+        "recursion with memoization": 1.0,
+        "base case for stopping recursion": 1.0
+      },
+      "success_rate": 0.5714285714285714,
+      "avg_attempts": 2.142857142857143,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "dynamic_programming-sorting-medium": {
+      "patterns": {
+        "greedy": 1.0,
+        "using a priority queue for efficient merging": 1.0,
+        "min-heap": 1.0
+      },
+      "success_rate": 0.25,
+      "avg_attempts": 1.5,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-recursion-medium": {
+      "patterns": {
+        "integer": 0.5,
+        "loop": 0.5,
+        "iterative implementation (not recursive as described in the problem)": 0.5
+      },
+      "success_rate": 0.5,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.5,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-sorting-medium": {
+      "patterns": {
+        "list": 0.5,
+        "in-place swaps": 0.5,
+        "Dutch National Flag algorithm": 0.5,
+        "array": 0.5,
+        "sorting with key function": 0.5,
+        "custom sorting": 0.5,
+        "three-pointer technique": 0.5
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.5,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-functions-hard": {
+      "patterns": {
+        "list": 1.5,
+        "sorting based on computed costs": 0.5,
+        "sorting by end time": 0.5,
+        "iterative composition": 0.5,
+        "greedy": 0.5,
+        "greedy selection of tasks": 0.5,
+        "tuple": 0.5,
+        "set": 0.5,
+        "stable sort": 0.5
+      },
+      "success_rate": 0.25,
+      "avg_attempts": 1.5,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-error_handling-recursion-searching-very hard": {
+      "patterns": {
+        "list": 7.0,
+        "binary search": 1.0,
+        "early return on finding target": 1.0,
+        "recursive binary search": 3.0,
+        "nonlocal variable to store path": 1.0,
+        "early exits on invalid input": 1.0,
+        "early exit on found target": 1.0,
+        "validation of sorted order before searching": 1.0,
+        "recursion": 2.0,
+        "path tracking": 1.0,
+        "recursion with binary search": 1.0,
+        "tuple": 1.0
+      },
+      "success_rate": 0.2857142857142857,
+      "avg_attempts": 1.4285714285714286,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-data_structures-error_handling-recursion-very hard": {
+      "patterns": {},
+      "success_rate": 0.0,
+      "avg_attempts": 0.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-error_handling-searching-very hard": {
+      "patterns": {
+        "linear search": 3.0,
+        "list": 4.0,
+        "binary search": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "functions-loops-very hard": {
+      "patterns": {
+        "backtracking": 1.0,
+        "integer": 1.0,
+        "Horner's method": 1.0,
+        "memoization": 1.0,
+        "list": 6.0,
+        "tokenization": 1.0,
+        "dictionary": 1.0,
+        "reversal of coefficients": 1.0,
+        "shunting-yard algorithm with evaluation": 1.0,
+        "stack": 1.0,
+        "recursive descent parsing": 1.0,
+        "iterative accumulation": 1.0,
+        "iterative computation": 1.0,
+        "constant space usage": 1.0,
+        "utilizing Python's built-in factorial method": 1.0,
+        "direct evaluation of expressions": 1.0,
+        "variables (a, b)": 1.0,
+        "efficient tokenization": 1.0,
+        "single loop for evaluation": 1.0,
+        "iterative with built-in function": 1.0,
+        "iterative construction": 1.0,
+        "pruning": 1.0,
+        "string": 1.0,
+        "using stacks for evaluation": 1.0
+      },
+      "success_rate": 0.35,
+      "avg_attempts": 1.5,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 1.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-conditionals-data_structures-dynamic_programming-medium": {
+      "patterns": {
+        "dynamic programming": 1.0,
+        "array": 1.0,
+        "bottom-up approach": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "data_structures-dynamic_programming-functions-sorting-very hard": {
+      "patterns": {
+        "dynamic programming": 2.0,
+        "list": 6.0,
+        "prefix frequency counting": 1.0,
+        "two-pass approach": 1.0,
+        "Shortest Processing Time (SPT) rule": 1.0,
+        "sorting": 1.0,
+        "sorting by end time": 1.0,
+        "dynamic programming with binary search": 1.0,
+        "binary search for non-overlapping jobs": 1.0,
+        "use of an internal sorted copy": 1.0,
+        "dynamic partitioning of the array": 1.0,
+        "sorting based on duration": 1.0,
+        "greedy partitioning": 1.0,
+        "index-based tie-breaking": 1.0,
+        "tuple": 2.0,
+        "dictionary": 1.0
+      },
+      "success_rate": 0.35294117647058826,
+      "avg_attempts": 1.588235294117647,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-data_structures-error_handling-searching-very hard": {
+      "patterns": {},
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "loops-recursion-searching-sorting-very hard": {
+      "patterns": {
+        "list": 3.0,
+        "in-place merging could be considered for space optimization": 1.0,
+        "divide and conquer": 2.0,
+        "binary search for efficient element lookup": 1.0,
+        "built-in sorting with binary search": 1.0,
+        "merging sorted arrays": 1.0,
+        "early return for empty input": 1.0,
+        "recursive splitting": 1.0
+      },
+      "success_rate": 0.6,
+      "avg_attempts": 1.8,
+      "pattern_distribution": {
+        "optimization_patterns": 1.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-error_handling-recursion-searching-very hard": {
+      "patterns": {
+        "list": 1.0,
+        "recursive binary search": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-dynamic_programming-very hard": {
+      "patterns": {
+        "dynamic programming": 1.0,
+        "array": 1.0,
+        "list": 1.0,
+        "tracking best lengths and sums": 1.0
+      },
+      "success_rate": 0.0,
+      "avg_attempts": 1.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-functions-hard": {
+      "patterns": {},
+      "success_rate": 0.3333333333333333,
+      "avg_attempts": 2.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "error_handling-recursion-hard": {
+      "patterns": {
+        "recursion": 0.5,
+        "list": 0.5,
+        "increased recursion limit": 0.5
+      },
+      "success_rate": 0.625,
+      "avg_attempts": 1.875,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "data_structures-sorting-medium": {
+      "patterns": {
+        "list": 1.0,
+        "in-place merging": 0.5,
+        "fast-slow pointer for splitting": 0.5,
+        "singly linked list": 0.5,
+        "merge sort": 0.5,
+        "combination of set for uniqueness and sorting": 0.5,
+        "built-in sorting": 0.5,
+        "set": 0.5,
+        "utilizing Python's built-in sorting function": 0.5
+      },
+      "success_rate": 0.75,
+      "avg_attempts": 2.25,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-dynamic_programming-loops-recursion-very hard": {
+      "patterns": {
+        "dynamic programming": 1.0,
+        "list": 1.0,
+        "bottom-up approach": 1.0
+      },
+      "success_rate": 0.0,
+      "avg_attempts": 0.8571428571428571,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "loops-searching-sorting-very hard": {
+      "patterns": {
+        "modified binary search for first occurrence": 1.0,
+        "list": 6.0,
+        "in-place sorting": 2.0,
+        "stability in sorting": 1.0,
+        "iterative approach to merge sort": 1.0,
+        "list comprehensions": 1.0,
+        "bottom-up approach in merge sort": 1.0,
+        "sorting followed by binary search": 2.0,
+        "merge sort for sorting, binary search for counting occurrences": 1.0,
+        "Timsort (Python's built-in sort)": 1.0,
+        "adaptive sorting": 1.0,
+        "iterative merge sort for sorting, binary search for searching": 1.0,
+        "stable sort": 1.0
+      },
+      "success_rate": 0.75,
+      "avg_attempts": 2.25,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-sorting-medium": {
+      "patterns": {
+        "list comprehension for filtering": 1.0,
+        "list": 1.0,
+        "sorting followed by filtering": 1.0
+      },
+      "success_rate": 0.0,
+      "avg_attempts": 1.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "dynamic_programming-loops-medium": {
+      "patterns": {
+        "dynamic programming": 0.5,
+        "list": 1.5,
+        "1D DP array": 0.5,
+        "binary search": 0.5,
+        "patience sorting": 0.5,
+        "dynamic programming with patience sorting": 0.5,
+        "maintaining minimal tails": 0.5,
+        "dynamic programming with binary search": 0.5,
+        "binary search for insertion point": 0.5
+      },
+      "success_rate": 0.375,
+      "avg_attempts": 1.125,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-data_structures-hard": {
+      "patterns": {
+        "list": 0.3333333333333333,
+        "breadth-first search (BFS)": 0.3333333333333333,
+        "dict": 0.3333333333333333,
+        "use of set for average O(1) operations": 0.3333333333333333,
+        "early exit on failure": 0.3333333333333333,
+        "2D list for visited tracking": 0.3333333333333333,
+        "deque": 0.3333333333333333,
+        "set": 0.3333333333333333,
+        "recursive depth-first validation": 0.3333333333333333,
+        "set operations": 0.3333333333333333
+      },
+      "success_rate": 0.3333333333333333,
+      "avg_attempts": 1.8333333333333333,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "data_structures-dynamic_programming-loops-sorting-very hard": {
+      "patterns": {},
+      "success_rate": 0.0,
+      "avg_attempts": 1.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "dynamic_programming-functions-medium": {
+      "patterns": {
+        "dynamic programming": 1.0,
+        "list": 1.0,
+        "1-D table usage": 0.5,
+        "patience sorting": 0.5,
+        "array": 0.5,
+        "iterative approach": 0.5,
+        "dynamic programming with binary search": 0.5,
+        "binary search for insertion point": 0.5
+      },
+      "success_rate": 0.75,
+      "avg_attempts": 2.25,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-searching-hard": {
+      "patterns": {
+        "list": 1.0,
+        "using bisect for efficient search": 1.0,
+        "binary search": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "data_structures-dynamic_programming-error_handling-recursion-very hard": {
+      "patterns": {},
+      "success_rate": 0.0,
+      "avg_attempts": 0.75,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-error_handling-functions-searching-medium": {
+      "patterns": {
+        "linear search": 1.0,
+        "list": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "error_handling-loops-recursion-sorting-very hard": {
+      "patterns": {
+        "list": 1.0,
+        "recursive approach": 1.0,
+        "divide and conquer": 1.0,
+        "merging sorted halves": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-loops-recursion-sorting-very hard": {
+      "patterns": {
+        "list": 7.0,
+        "divide and conquer (merge sort)": 4.0,
+        "iterative quick sort with median-of-three pivot selection": 1.0,
+        "iterative implementation": 1.0,
+        "stack": 1.0,
+        "merge sort": 1.0,
+        "merge sort (iterative)": 1.0,
+        "divide and conquer": 2.0,
+        "counting inversions during merge": 4.0,
+        "modified merge sort": 1.0,
+        "median-of-three pivot selection": 1.0,
+        "array": 4.0,
+        "use of auxiliary buffer for merging": 1.0,
+        "iterative approach to manage recursion depth": 1.0,
+        "in-place merging with temporary array": 1.0,
+        "preserving order of equal elements": 1.0,
+        "bottom-up approach": 1.0
+      },
+      "success_rate": 0.4090909090909091,
+      "avg_attempts": 1.5,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 1.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "data_structures-recursion-sorting-very hard": {
+      "patterns": {
+        "using Python's built-in stable sort": 1.0,
+        "list": 1.0,
+        "tuple": 1.0,
+        "merge sort": 1.0
+      },
+      "success_rate": 0.5,
+      "avg_attempts": 1.5,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-functions-medium": {
+      "patterns": {
+        "regex matching for parsing": 0.5,
+        "list": 0.5,
+        "iterative with conditionals": 0.5,
+        "early exit on empty condition": 0.5,
+        "regex for structured input validation": 0.5,
+        "string": 0.5
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "dynamic_programming-error_handling-searching-sorting-very hard": {
+      "patterns": {
+        "using heapq to find n largest elements efficiently": 1.0,
+        "list": 4.0,
+        "using bisect for efficient searching": 1.0,
+        "binary search": 1.0,
+        "in-place sorting": 1.0,
+        "uses built-in sorted function for optimization": 1.0,
+        "sorting followed by binary search": 1.0,
+        "sorting and binary search": 1.0,
+        "sorting and searching": 1.0,
+        "heap-based selection": 1.0,
+        "heap": 1.0
+      },
+      "success_rate": 0.5714285714285714,
+      "avg_attempts": 2.142857142857143,
+      "pattern_distribution": {
+        "optimization_patterns": 1.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-error_handling-searching-sorting-very hard": {
+      "patterns": {
+        "list": 5.0,
+        "binary search using bisect module": 1.0,
+        "sorting": 1.0,
+        "divide and conquer (binary search)": 1.0,
+        "binary search using bisect": 1.0,
+        "sorting followed by binary search": 1.0,
+        "sorting and searching": 2.0,
+        "Timsort for sorting": 1.0
+      },
+      "success_rate": 0.3333333333333333,
+      "avg_attempts": 1.75,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "data_structures-error_handling-searching-sorting-very hard": {
+      "patterns": {
+        "in-order traversal for sorted results": 1.0,
+        "treap": 1.0,
+        "randomized treap for O(log n) operations": 1.0,
+        "randomized priority for balancing": 1.0
+      },
+      "success_rate": 0.0,
+      "avg_attempts": 0.75,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-data_structures-error_handling-functions-very hard": {
+      "patterns": {
+        "list": 1.0,
+        "exception handling": 1.0,
+        "function mapping": 1.0,
+        "error handling with functional programming": 1.0,
+        "dictionary": 1.0
+      },
+      "success_rate": 0.0,
+      "avg_attempts": 1.5,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "dynamic_programming-error_handling-recursion-sorting-very hard": {
+      "patterns": {
+        "list": 2.0,
+        "sorting by end time": 1.0,
+        "duplicate avoidance": 1.0,
+        "backtracking with recursion": 1.0,
+        "greedy algorithm": 1.0,
+        "scanning for non-overlapping tasks": 1.0,
+        "early stopping": 1.0,
+        "set": 2.0
+      },
+      "success_rate": 0.06666666666666667,
+      "avg_attempts": 1.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 1.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-conditionals-hard": {
+      "patterns": {
+        "dynamic programming": 1.0,
+        "list": 0.5,
+        "conditional evaluations": 0.5,
+        "conditional sorting": 0.5,
+        "short-circuit evaluation": 0.5,
+        "1D list (dp)": 0.5,
+        "integer": 0.5,
+        "separate collections for evens and odds": 0.5,
+        "state tracking": 0.5,
+        "in-place array usage": 0.5,
+        "iterative approach": 0.5,
+        "conditional classification": 0.5,
+        "early returns": 0.5,
+        "variables for state tracking": 0.5
+      },
+      "success_rate": 0.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-sorting-hard": {
+      "patterns": {
+        "list": 0.5,
+        "in-place sorting": 0.5,
+        "array": 0.5,
+        "built-in sorting": 0.5,
+        "heap sort": 0.5,
+        "max-heap construction": 0.5
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "data_structures-error_handling-functions-sorting-very hard": {
+      "patterns": {
+        "efficient error handling": 0.5,
+        "list": 3.5,
+        "binary insertion using bisect module": 0.5,
+        "built-in sorting (Timsort)": 0.5,
+        "in-place sorting": 1.0,
+        "dict": 0.5,
+        "iterative merging and sorting": 0.5,
+        "custom sorting with validation": 1.0,
+        "use of built-in sorted function": 0.5,
+        "dictionary": 1.0,
+        "binary search for insertion": 0.5,
+        "set": 0.5,
+        "comparison-based sorting": 0.5
+      },
+      "success_rate": 0.4444444444444444,
+      "avg_attempts": 2.1666666666666665,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-recursion-medium": {
+      "patterns": {
+        "loop": 0.3333333333333333,
+        "arithmetic series formula": 0.3333333333333333,
+        "integer": 0.3333333333333333,
+        "iterative approach (not recursive)": 0.3333333333333333,
+        "constant space usage": 0.3333333333333333,
+        "direct formula calculation": 0.3333333333333333
+      },
+      "success_rate": 0.6666666666666666,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-conditionals-data_structures-loops-very hard": {
+      "patterns": {
+        "dynamic programming": 2.0,
+        "list": 2.0,
+        "backtracking with memoization": 1.0,
+        "Kadane's algorithm for maximum subarray sum": 1.0,
+        "integer": 1.0,
+        "single-row DP optimization": 1.0,
+        "bitmasking": 1.0,
+        "memoization": 1.0,
+        "skipping odd numbers to reduce unnecessary calculations": 1.0,
+        "tabulation": 1.0,
+        "2D list (array)": 1.0,
+        "dictionary": 1.0,
+        "set": 1.0
+      },
+      "success_rate": 0.5,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 1.0,
+        "algorithmic_patterns": 1.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "error_handling-searching-hard": {
+      "patterns": {
+        "list": 1.0,
+        "binary search": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-data_structures-searching-sorting-very hard": {
+      "patterns": {
+        "list": 4.0,
+        "quicksort (not explicitly implemented, uses built-in sort)": 1.0,
+        "in-place sorting": 1.0,
+        "using built-in sorted function": 1.0,
+        "sorting followed by binary search": 2.0,
+        "combined sorting and searching": 1.0,
+        "built-in sorting optimization": 1.0,
+        "utilizing Python's built-in sorted function": 1.0,
+        "binary search with bisect module": 1.0
+      },
+      "success_rate": 0.5,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 1.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-conditionals-data_structures-very hard": {
+      "patterns": {
+        "queue": 1.0,
+        "Depth-First Search (DFS)": 1.0,
+        "binary tree": 1.0,
+        "nonlocal variable for max_sum": 1.0,
+        "early return for null nodes": 1.0
+      },
+      "success_rate": 0.0,
+      "avg_attempts": 2.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "data_structures-dynamic_programming-recursion-sorting-hard": {
+      "patterns": {
+        "tie-breaking for earliest start": 1.0,
+        "list": 1.0,
+        "Kadane's algorithm": 1.0,
+        "early exit for negative subarrays": 1.0
+      },
+      "success_rate": 0.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 1.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-loops-searching-very hard": {
+      "patterns": {
+        "list": 2.0,
+        "depth-first search with memoization": 1.0,
+        "binary search": 1.0,
+        "memoization": 1.0,
+        "early stopping": 1.0,
+        "flattening the matrix conceptually": 1.0,
+        "set": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "dynamic_programming-recursion-medium": {
+      "patterns": {},
+      "success_rate": 0.0,
+      "avg_attempts": 2.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-error_handling-hard": {
+      "patterns": {
+        "integer": 1.0,
+        "iterative traversal": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "data_structures-error_handling-medium": {
+      "patterns": {
+        "list (acting as stack)": 0.5,
+        "list": 0.5,
+        "command processing": 0.5,
+        "class-based implementation": 0.5
+      },
+      "success_rate": 0.625,
+      "avg_attempts": 1.875,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.5,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-data_structures-recursion-hard": {
+      "patterns": {
+        "integer for balance": 1.0,
+        "iterative balance checking": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-dynamic_programming-very hard": {
+      "patterns": {
+        "dynamic programming": 1.0,
+        "iterative approach": 1.0,
+        "integer variables": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "dynamic_programming-recursion-very hard": {
+      "patterns": {
+        "dynamic programming": 1.5,
+        "1D list": 0.5,
+        "using base cases": 0.5,
+        "integers": 0.5,
+        "iterative approach": 0.5,
+        "bottom-up dynamic programming": 0.5,
+        "2D list (DP table)": 0.5,
+        "building a DP table": 0.5,
+        "space optimization": 0.5,
+        "precomputation of palindromes": 0.5,
+        "2D list": 0.5
+      },
+      "success_rate": 0.625,
+      "avg_attempts": 2.25,
+      "pattern_distribution": {
+        "optimization_patterns": 0.5,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-functions-recursion-sorting-very hard": {
+      "patterns": {
+        "list": 1.0,
+        "quicksort": 1.0,
+        "using the last element as pivot": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-searching-medium": {
+      "patterns": {
+        "list": 1.0,
+        "directly checking sorted halves": 1.0,
+        "binary search": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-error_handling-loops-sorting-very hard": {
+      "patterns": {
+        "list": 1.0,
+        "recursive sorting": 1.0,
+        "divide and conquer": 1.0,
+        "merge sort": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "loops-sorting-medium": {
+      "patterns": {
+        "counting evens and odds instead of checking pairs": 1.0,
+        "combinatorial counting": 1.0,
+        "integer counters": 1.0
+      },
+      "success_rate": 0.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-conditionals-functions-loops-very hard": {
+      "patterns": {},
+      "success_rate": 0.0,
+      "avg_attempts": 0.75,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-data_structures-functions-sorting-very hard": {
+      "patterns": {
+        "list": 3.0,
+        "partitioning the array into evens and odds": 1.0,
+        "tuple-based keys for sorting": 1.0,
+        "heap-based merging": 1.0,
+        "priority queue for efficient merging": 1.0,
+        "validation before sorting": 1.0,
+        "counting inversions during merge": 1.0,
+        "array": 1.0,
+        "independent sorting of partitions": 1.0,
+        "custom sorting algorithm": 1.0,
+        "heap (priority queue)": 1.0,
+        "tuple": 2.0,
+        "divide and conquer (modified merge sort)": 1.0,
+        "two-pass sorting": 1.0
+      },
+      "success_rate": 0.5,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 1.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "functions-sorting-hard": {
+      "patterns": {},
+      "success_rate": 0.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-conditionals-very hard": {
+      "patterns": {},
+      "success_rate": 0.0,
+      "avg_attempts": 1.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "error_handling-loops-medium": {
+      "patterns": {
+        "list": 1.0,
+        "iterative processing with validation": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "error_handling-recursion-very hard": {
+      "patterns": {
+        "list": 3.0,
+        "recursive divide-and-conquer": 1.0,
+        "splitting the list": 1.0,
+        "base case handling": 1.0,
+        "recursion": 2.0
+      },
+      "success_rate": 0.42857142857142855,
+      "avg_attempts": 1.7142857142857142,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "data_structures-functions-recursion-sorting-very hard": {
+      "patterns": {
+        "list": 4.0,
+        "divide and conquer (merge sort)": 2.0,
+        "in-place merging": 1.0,
+        "in-place sorting": 1.0,
+        "generator for flattening": 1.0,
+        "merge sort": 1.0,
+        "list of tuples": 1.0,
+        "custom key function for sorting": 1.0,
+        "stability in merges": 1.0,
+        "counting inversions during merge": 1.0,
+        "divide and conquer": 1.0,
+        "temporary array": 1.0,
+        "custom sorting with recursion through stable sorting": 1.0,
+        "recursion": 1.0,
+        "bottom-up approach": 1.0
+      },
+      "success_rate": 0.2222222222222222,
+      "avg_attempts": 1.5,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "dynamic_programming-recursion-sorting-very hard": {
+      "patterns": {
+        "list": 4.0,
+        "sorting to establish order": 1.0,
+        "pair swapping to create wave pattern": 1.0,
+        "sorting by end time": 1.0,
+        "sorting by finish time": 1.0,
+        "iterative selection": 1.0,
+        "binary search for previous jobs": 1.0,
+        "array": 1.0,
+        "binary search to find last non-overlapping job": 1.0,
+        "greedy algorithm": 1.0,
+        "memoization": 1.0,
+        "sorting followed by swapping": 1.0,
+        "dynamic programming with binary search": 2.0,
+        "tuple": 2.0,
+        "dynamic programming to store optimal solutions": 1.0
+      },
+      "success_rate": 0.2857142857142857,
+      "avg_attempts": 1.7142857142857142,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 1.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-dynamic_programming-functions-very hard": {
+      "patterns": {
+        "dynamic programming": 3.0,
+        "list": 1.0,
+        "array": 2.0,
+        "bottom-up approach": 2.0,
+        "storing lengths and sums in separate arrays": 1.0
+      },
+      "success_rate": 0.2,
+      "avg_attempts": 1.8,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "error_handling-loops-hard": {
+      "patterns": {
+        "list": 1.0,
+        "iterative processing with error handling": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "recursion-sorting-very hard": {
+      "patterns": {
+        "list": 1.0,
+        "recursive approach": 0.5,
+        "divide and conquer (merge sort)": 0.5,
+        "merging step": 0.5,
+        "merge sort": 0.5,
+        "divide and conquer": 1.0,
+        "tail call optimization consideration": 0.5,
+        "array": 0.5,
+        "randomized pivot selection": 0.5
+      },
+      "success_rate": 0.75,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.5,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "loops-sorting-hard": {
+      "patterns": {
+        "list": 1.0,
+        "Counter": 0.5,
+        "using Counter for frequency counting": 0.5,
+        "not applicable (built-in sorting used)": 0.5,
+        "custom sorting using frequency count": 0.5
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-dynamic_programming-loops-very hard": {
+      "patterns": {
+        "dynamic programming": 1.0,
+        "coordinate compression": 1.0,
+        "array": 1.0,
+        "dynamic programming with Fenwick tree (Binary Indexed Tree)": 1.0,
+        "range maximum query": 1.0,
+        "2D list": 1.0,
+        "Fenwick tree": 1.0
+      },
+      "success_rate": 0.6666666666666666,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-dynamic_programming-error_handling-recursion-very hard": {
+      "patterns": {
+        "1D array": 1.0,
+        "palindrome precomputation": 1.0,
+        "2D list (matrix)": 1.0,
+        "memoization": 1.0,
+        "dynamic programming with recursion": 1.0
+      },
+      "success_rate": 0.25,
+      "avg_attempts": 2.25,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "data_structures-dynamic_programming-medium": {
+      "patterns": {
+        "dynamic programming": 1.0,
+        "list": 1.0,
+        "patience sorting": 1.0,
+        "array": 2.0,
+        "dynamic programming with binary search": 1.0,
+        "binary search for insertion": 1.0,
+        "iterative DP update": 1.0
+      },
+      "success_rate": 0.0,
+      "avg_attempts": 1.5,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "dynamic_programming-error_handling-recursion-sorting-hard": {
+      "patterns": {
+        "dynamic programming": 1.0,
+        "divide-and-conquer": 1.0,
+        "using a recursive approach to split and merge": 1.0,
+        "linked list": 1.0,
+        "iterative approach": 1.0,
+        "integer variables": 1.0,
+        "constant space usage": 1.0
+      },
+      "success_rate": 0.3333333333333333,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "functions-loops-recursion-medium": {
+      "patterns": {
+        "recursion": 1.0,
+        "integer": 1.0,
+        "tuple": 1.0
+      },
+      "success_rate": 0.3333333333333333,
+      "avg_attempts": 1.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "loops-recursion-medium": {
+      "patterns": {
+        "iterative with a recursive helper": 0.5,
+        "list": 0.5,
+        "integer": 1.0,
+        "integers": 0.5,
+        "iterative approach for efficiency": 0.5,
+        "iterative approach": 1.0,
+        "recursion and iteration": 0.5,
+        "function": 0.5,
+        "iteration for final sum validation": 0.5,
+        "in-place digit extraction": 0.5,
+        "looping until n becomes 0": 0.5
+      },
+      "success_rate": 0.41666666666666663,
+      "avg_attempts": 1.625,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-data_structures-error_handling-functions-very hard": {
+      "patterns": {
+        "list": 1.0,
+        "dictionary": 1.0,
+        "iteration and conditional classification": 1.0
+      },
+      "success_rate": 0.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-data_structures-functions-sorting-hard": {
+      "patterns": {
+        "merging with custom comparator": 1.0,
+        "list": 1.0,
+        "iterative merge process": 1.0,
+        "merge sort": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "dynamic_programming-error_handling-hard": {
+      "patterns": {
+        "list": 1.0,
+        "patience sorting": 1.0,
+        "bisect": 1.0,
+        "dynamic programming with binary search": 1.0
+      },
+      "success_rate": 0.0,
+      "avg_attempts": 1.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-dynamic_programming-hard": {
+      "patterns": {},
+      "success_rate": 0.0,
+      "avg_attempts": 0.75,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "functions-loops-hard": {
+      "patterns": {
+        "arithmetic calculation": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "searching-sorting-medium": {
+      "patterns": {
+        "list": 1.0,
+        "modified binary search": 1.0,
+        "handling duplicates by shrinking search range": 1.0
+      },
+      "success_rate": 0.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-sorting-hard": {
+      "patterns": {
+        "built-in sorting": 1.0,
+        "sorting with conditions": 1.0,
+        "separation of concerns": 1.0,
+        "list": 1.0
+      },
+      "success_rate": 0.25,
+      "avg_attempts": 0.75,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "conditionals-data_structures-recursion-very hard": {
+      "patterns": {
+        "recursion": 1.0,
+        "list": 1.0,
+        "integer": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "loops-sorting-very hard": {
+      "patterns": {
+        "list": 1.0,
+        "not applicable (built-in function used)": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    },
+    "algorithms-functions-medium": {
+      "patterns": {
+        "list": 1.0,
+        "sequential application of functions": 1.0
+      },
+      "success_rate": 1.0,
+      "avg_attempts": 3.0,
+      "pattern_distribution": {
+        "optimization_patterns": 0.0,
+        "algorithmic_patterns": 0.0,
+        "implementation_patterns": 0.0,
+        "data_structure_patterns": 0.0
+      }
+    }
+  },
+  "pattern_distributions": {
+    "data_structures-functions-recursion-sorting": {
+      "list": 4.0,
+      "divide and conquer (merge sort)": 2.0,
+      "in-place merging": 1.0,
+      "in-place sorting": 1.0,
+      "generator for flattening": 1.0,
+      "merge sort": 1.0,
+      "list of tuples": 1.0,
+      "custom key function for sorting": 1.0,
+      "stability in merges": 1.0,
+      "counting inversions during merge": 1.0,
+      "divide and conquer": 1.0,
+      "temporary array": 1.0,
+      "custom sorting with recursion through stable sorting": 1.0,
+      "recursion": 1.0,
+      "bottom-up approach": 1.0
+    },
+    "conditionals-loops": {
+      "modulus checks combined into one for FizzBuzz": 1.0,
+      "list": 1.0,
+      "iterative with conditionals": 1.0
+    },
+    "algorithms-dynamic_programming-loops": {
+      "dynamic programming": 1.0,
+      "coordinate compression": 1.0,
+      "array": 1.0,
+      "dynamic programming with Fenwick tree (Binary Indexed Tree)": 1.0,
+      "range maximum query": 1.0,
+      "2D list": 1.0,
+      "Fenwick tree": 1.0
+    },
+    "algorithms-data_structures": {
+      "binary tree": 1.0,
+      "early termination on imbalance detection": 1.0,
+      "depth-first search (DFS)": 1.0
+    },
+    "conditionals-data_structures": {
+      "list": 1.3333333333333333,
+      "set operations": 0.3333333333333333,
+      "conditional checks": 0.3333333333333333,
+      "breadth-first search (BFS)": 0.3333333333333333,
+      "dict": 0.3333333333333333,
+      "use of set for average O(1) operations": 0.3333333333333333,
+      "early exit on failure": 0.3333333333333333,
+      "2D list for visited tracking": 0.3333333333333333,
+      "early exits": 0.3333333333333333,
+      "lazy propagation could be added for optimization": 0.3333333333333333,
+      "coordinate compression": 0.3333333333333333,
+      "deque": 0.3333333333333333,
+      "dictionary": 0.3333333333333333,
+      "set": 0.6666666666666666,
+      "recursive depth-first validation": 0.3333333333333333,
+      "segment tree with coordinate compression": 0.3333333333333333,
+      "segment tree": 0.3333333333333333,
+      "iterative filtering": 0.6666666666666666
+    },
+    "algorithms-dynamic_programming-error_handling-searching": {
+      "dynamic programming": 1.0,
+      "list": 1.0,
+      "patience sorting": 1.0,
+      "array": 1.0,
+      "integer variables": 1.0,
+      "dynamic programming with binary search": 1.0,
+      "binary search for insertion": 1.0,
+      "use of variables to track sums without additional data structures": 1.0
+    },
+    "dynamic_programming-error_handling": {
+      "dynamic programming": 4.0,
+      "greedy selection": 1.0,
+      "list": 3.0,
+      "integer variables for max/min/global product": 1.0,
+      "Kadane's algorithm": 1.0,
+      "bisect": 1.0,
+      "integer": 1.0,
+      "dynamic programming with binary search": 1.0,
+      "patience sorting": 1.0,
+      "integers": 1.0,
+      "2D array for DP table": 1.0,
+      "maintaining both maximum and minimum products": 1.0,
+      "greedy counting": 1.0,
+      "space optimization could be applied since only the current and previous rows are needed": 1.0,
+      "set": 1.0,
+      "use of two variables instead of an array": 1.0
+    },
+    "algorithms-conditionals-data_structures-dynamic_programming": {
+      "dynamic programming": 1.0,
+      "array": 1.0,
+      "bottom-up approach": 1.0
+    },
+    "algorithms-conditionals-dynamic_programming-loops": {
+      "dynamic programming": 1.0,
+      "special case handling": 1.0,
+      "binary search (bisect)": 1.0,
+      "set": 1.0,
+      "list (array)": 1.0
+    },
+    "algorithms-dynamic_programming-error_handling-recursion": {
+      "1D array": 1.0,
+      "palindrome precomputation": 1.0,
+      "2D list (matrix)": 1.0,
+      "memoization": 1.0,
+      "dynamic programming with recursion": 1.0
+    },
+    "error_handling-loops": {
+      "list": 2.0,
+      "iterative processing with validation": 1.0,
+      "iterative processing with error handling": 1.0
+    },
+    "dynamic_programming-error_handling-recursion-sorting": {
+      "dynamic programming": 1.0,
+      "list": 2.0,
+      "divide-and-conquer": 1.0,
+      "sorting by end time": 1.0,
+      "using a recursive approach to split and merge": 1.0,
+      "linked list": 1.0,
+      "duplicate avoidance": 1.0,
+      "iterative approach": 1.0,
+      "backtracking with recursion": 1.0,
+      "greedy algorithm": 1.0,
+      "scanning for non-overlapping tasks": 1.0,
+      "integer variables": 1.0,
+      "constant space usage": 1.0,
+      "early stopping": 1.0,
+      "set": 2.0
+    },
+    "algorithms-recursion": {
+      "integer": 1.0,
+      "loop": 1.0,
+      "iterative implementation (not recursive as described in the problem)": 1.0
+    },
+    "algorithms-error_handling-searching-sorting": {
+      "list": 5.0,
+      "binary search using bisect module": 1.0,
+      "sorting": 1.0,
+      "divide and conquer (binary search)": 1.0,
+      "binary search using bisect": 1.0,
+      "sorting followed by binary search": 1.0,
+      "sorting and searching": 2.0,
+      "Timsort for sorting": 1.0
+    },
+    "algorithms-data_structures-functions-sorting": {
+      "list": 4.0,
+      "partitioning the array into evens and odds": 1.0,
+      "tuple-based keys for sorting": 1.0,
+      "iterative merge process": 1.0,
+      "merge sort": 1.0,
+      "merging with custom comparator": 1.0,
+      "heap-based merging": 1.0,
+      "priority queue for efficient merging": 1.0,
+      "validation before sorting": 1.0,
+      "counting inversions during merge": 1.0,
+      "array": 1.0,
+      "independent sorting of partitions": 1.0,
+      "custom sorting algorithm": 1.0,
+      "heap (priority queue)": 1.0,
+      "tuple": 2.0,
+      "divide and conquer (modified merge sort)": 1.0,
+      "two-pass sorting": 1.0
+    },
+    "conditionals-loops-searching": {
+      "list": 2.0,
+      "depth-first search with memoization": 1.0,
+      "binary search": 1.0,
+      "memoization": 1.0,
+      "early stopping": 1.0,
+      "flattening the matrix conceptually": 1.0,
+      "set": 1.0
+    },
+    "conditionals-data_structures-searching-sorting": {
+      "list": 4.0,
+      "quicksort (not explicitly implemented, uses built-in sort)": 1.0,
+      "in-place sorting": 1.0,
+      "using built-in sorted function": 1.0,
+      "sorting followed by binary search": 2.0,
+      "combined sorting and searching": 1.0,
+      "built-in sorting optimization": 1.0,
+      "utilizing Python's built-in sorted function": 1.0,
+      "binary search with bisect module": 1.0
+    },
+    "conditionals-recursion": {
+      "loop": 0.3333333333333333,
+      "arithmetic series formula": 0.3333333333333333,
+      "tail recursion": 0.3333333333333333,
+      "integer": 0.3333333333333333,
+      "integers": 0.3333333333333333,
+      "direct formula calculation": 0.3333333333333333,
+      "iterative approach (not recursive)": 0.3333333333333333,
+      "constant space usage": 0.3333333333333333,
+      "recursion": 0.3333333333333333
+    },
+    "dynamic_programming-sorting": {
+      "greedy": 1.0,
+      "using a priority queue for efficient merging": 1.0,
+      "min-heap": 1.0
+    },
+    "data_structures-searching": {
+      "array": 1.0,
+      "narrowing search space": 1.0,
+      "binary search": 1.0,
+      "divide and conquer": 1.0
+    },
+    "conditionals-sorting": {
+      "list": 1.0,
+      "sorting followed by filtering": 0.5,
+      "built-in sorting": 0.5,
+      "separation of concerns": 0.5,
+      "list comprehension for filtering": 0.5,
+      "sorting with conditions": 0.5
+    },
+    "loops-recursion-searching-sorting": {
+      "list": 3.0,
+      "in-place merging could be considered for space optimization": 1.0,
+      "divide and conquer": 2.0,
+      "binary search for efficient element lookup": 1.0,
+      "built-in sorting with binary search": 1.0,
+      "merging sorted arrays": 1.0,
+      "early return for empty input": 1.0,
+      "recursive splitting": 1.0
+    },
+    "algorithms-loops-recursion-sorting": {
+      "list": 7.0,
+      "divide and conquer (merge sort)": 4.0,
+      "iterative quick sort with median-of-three pivot selection": 1.0,
+      "iterative implementation": 1.0,
+      "stack": 1.0,
+      "merge sort": 1.0,
+      "merge sort (iterative)": 1.0,
+      "divide and conquer": 2.0,
+      "counting inversions during merge": 4.0,
+      "modified merge sort": 1.0,
+      "median-of-three pivot selection": 1.0,
+      "array": 4.0,
+      "use of auxiliary buffer for merging": 1.0,
+      "iterative approach to manage recursion depth": 1.0,
+      "in-place merging with temporary array": 1.0,
+      "preserving order of equal elements": 1.0,
+      "bottom-up approach": 1.0
+    },
+    "algorithms-dynamic_programming-loops-recursion": {
+      "dynamic programming": 1.0,
+      "list": 1.0,
+      "bottom-up approach": 1.0
+    },
+    "conditionals-error_handling-loops-sorting": {
+      "list": 1.0,
+      "recursive sorting": 1.0,
+      "divide and conquer": 1.0,
+      "merge sort": 1.0
+    },
+    "recursion-sorting": {
+      "list": 1.0,
+      "recursive approach": 0.5,
+      "divide and conquer (merge sort)": 0.5,
+      "merging step": 0.5,
+      "merge sort": 0.5,
+      "divide and conquer": 1.0,
+      "tail call optimization consideration": 0.5,
+      "array": 0.5,
+      "randomized pivot selection": 0.5
+    },
+    "functions-loops": {
+      "backtracking": 1.0,
+      "arithmetic calculation": 1.0,
+      "integer": 1.0,
+      "Horner's method": 1.0,
+      "memoization": 1.0,
+      "list": 6.0,
+      "tokenization": 1.0,
+      "dictionary": 1.0,
+      "reversal of coefficients": 1.0,
+      "shunting-yard algorithm with evaluation": 1.0,
+      "stack": 1.0,
+      "recursive descent parsing": 1.0,
+      "integers": 1.0,
+      "iterative accumulation": 1.0,
+      "iterative computation": 1.0,
+      "constant space usage": 1.0,
+      "utilizing Python's built-in factorial method": 1.0,
+      "direct evaluation of expressions": 1.0,
+      "early exit for non-negative input": 1.0,
+      "iterative calculation": 1.0,
+      "variables (a, b)": 1.0,
+      "efficient tokenization": 1.0,
+      "single loop for evaluation": 1.0,
+      "iterative with built-in function": 1.0,
+      "iterative construction": 1.0,
+      "pruning": 1.0,
+      "string": 1.0,
+      "using stacks for evaluation": 1.0
+    },
+    "conditionals-searching": {
+      "list": 1.0,
+      "using bisect for efficient search": 1.0,
+      "binary search": 1.0
+    },
+    "algorithms-dynamic_programming-functions": {
+      "dynamic programming": 3.0,
+      "list": 1.0,
+      "array": 2.0,
+      "bottom-up approach": 2.0,
+      "storing lengths and sums in separate arrays": 1.0
+    },
+    "dynamic_programming-searching": {
+      "dynamic programming": 1.0,
+      "list": 2.0,
+      "patience sorting": 1.0,
+      "using a tails array to track subsequences": 0.5,
+      "integer variables": 0.5,
+      "dynamic programming with binary search": 1.5,
+      "bottom-up approach": 0.5,
+      "binary search for insertion": 1.0,
+      "binary search with bisect module": 0.5,
+      "early termination based on array properties": 0.5
+    },
+    "algorithms-error_handling-functions-searching": {
+      "linear search": 1.0,
+      "list": 1.0
+    },
+    "algorithms-conditionals-data_structures-loops": {
+      "dynamic programming": 2.0,
+      "list": 2.0,
+      "backtracking with memoization": 1.0,
+      "Kadane's algorithm for maximum subarray sum": 1.0,
+      "integer": 1.0,
+      "single-row DP optimization": 1.0,
+      "bitmasking": 1.0,
+      "memoization": 1.0,
+      "skipping odd numbers to reduce unnecessary calculations": 1.0,
+      "tabulation": 1.0,
+      "2D list (array)": 1.0,
+      "dictionary": 1.0,
+      "set": 1.0
+    },
+    "error_handling-searching": {
+      "list": 1.0,
+      "binary search": 1.0
+    },
+    "algorithms-error_handling": {
+      "integer": 1.0,
+      "iterative traversal": 1.0
+    },
+    "algorithms-conditionals": {
+      "dynamic programming": 1.0,
+      "list": 0.5,
+      "conditional evaluations": 0.5,
+      "conditional sorting": 0.5,
+      "short-circuit evaluation": 0.5,
+      "1D list (dp)": 0.5,
+      "integer": 0.5,
+      "separate collections for evens and odds": 0.5,
+      "state tracking": 0.5,
+      "in-place array usage": 0.5,
+      "iterative approach": 0.5,
+      "conditional classification": 0.5,
+      "early returns": 0.5,
+      "variables for state tracking": 0.5
+    },
+    "algorithms-searching": {
+      "list": 1.0,
+      "directly checking sorted halves": 1.0,
+      "binary search": 1.0
+    },
+    "data_structures-error_handling": {
+      "list (acting as stack)": 0.5,
+      "list": 0.5,
+      "command processing": 0.5,
+      "class-based implementation": 0.5
+    },
+    "algorithms-error_handling-recursion-searching": {
+      "list": 7.0,
+      "binary search": 1.0,
+      "early return on finding target": 1.0,
+      "recursive binary search": 3.0,
+      "nonlocal variable to store path": 1.0,
+      "early exits on invalid input": 1.0,
+      "early exit on found target": 1.0,
+      "validation of sorted order before searching": 1.0,
+      "recursion": 2.0,
+      "path tracking": 1.0,
+      "recursion with binary search": 1.0,
+      "tuple": 1.0
+    },
+    "data_structures-error_handling-functions-sorting": {
+      "efficient error handling": 0.5,
+      "list": 3.5,
+      "binary insertion using bisect module": 0.5,
+      "built-in sorting (Timsort)": 0.5,
+      "in-place sorting": 1.0,
+      "dict": 0.5,
+      "iterative merging and sorting": 0.5,
+      "custom sorting with validation": 1.0,
+      "use of built-in sorted function": 0.5,
+      "dictionary": 1.0,
+      "binary search for insertion": 0.5,
+      "set": 0.5,
+      "comparison-based sorting": 0.5
+    },
+    "error_handling-recursion": {
+      "list": 2.3333333333333335,
+      "none": 0.3333333333333333,
+      "recursive divide-and-conquer": 0.3333333333333333,
+      "increased recursion limit": 0.3333333333333333,
+      "base case handling": 0.3333333333333333,
+      "splitting the list": 0.3333333333333333,
+      "iterative approach": 0.3333333333333333,
+      "recursion": 1.6666666666666667
+    },
+    "dynamic_programming-loops": {
+      "dynamic programming": 0.5,
+      "list": 1.5,
+      "1D DP array": 0.5,
+      "binary search": 0.5,
+      "patience sorting": 0.5,
+      "dynamic programming with patience sorting": 0.5,
+      "maintaining minimal tails": 0.5,
+      "dynamic programming with binary search": 0.5,
+      "binary search for insertion point": 0.5
+    },
+    "loops-recursion": {
+      "iterative with a recursive helper": 0.5,
+      "list": 0.5,
+      "integer": 1.0,
+      "integers": 0.5,
+      "iterative approach for efficiency": 0.5,
+      "iterative approach": 1.0,
+      "recursion and iteration": 0.5,
+      "function": 0.5,
+      "iteration for final sum validation": 0.5,
+      "in-place digit extraction": 0.5,
+      "looping until n becomes 0": 0.5
+    },
+    "conditionals-functions-loops-recursion": {
+      "list": 2.0,
+      "recursion with divide and conquer": 1.0,
+      "operator precedence handling": 1.0,
+      "stack": 1.0,
+      "iterative with conditional formatting": 1.0,
+      "divide and conquer": 1.0,
+      "integers": 1.0,
+      "shunting-yard algorithm for expression evaluation": 1.0,
+      "tokenization": 1.0
+    },
+    "data_structures-dynamic_programming-recursion-sorting": {
+      "tie-breaking for earliest start": 1.0,
+      "list": 1.0,
+      "Kadane's algorithm": 1.0,
+      "early exit for negative subarrays": 1.0
+    },
+    "algorithms-data_structures-error_handling-functions": {
+      "list": 1.0,
+      "exception handling": 1.0,
+      "function mapping": 1.0,
+      "error handling with functional programming": 1.0,
+      "dictionary": 1.0
+    },
+    "conditionals-dynamic_programming": {
+      "dynamic programming": 2.0,
+      "space optimization by using 1D array": 1.0,
+      "array": 1.0,
+      "iterative approach": 1.0,
+      "integer variables": 1.0,
+      "deduplication of coins": 1.0
+    },
+    "dynamic_programming-error_handling-searching-sorting": {
+      "using heapq to find n largest elements efficiently": 1.0,
+      "list": 4.0,
+      "using bisect for efficient searching": 1.0,
+      "binary search": 1.0,
+      "in-place sorting": 1.0,
+      "uses built-in sorted function for optimization": 1.0,
+      "sorting followed by binary search": 1.0,
+      "sorting and binary search": 1.0,
+      "sorting and searching": 1.0,
+      "heap-based selection": 1.0,
+      "heap": 1.0
+    },
+    "data_structures-sorting": {
+      "list": 1.5,
+      "in-place merging": 0.5,
+      "fast-slow pointer for splitting": 0.5,
+      "singly linked list": 0.5,
+      "merge sort": 0.5,
+      "combination of set for uniqueness and sorting": 0.5,
+      "built-in sorting": 0.5,
+      "tracking last added element to avoid duplicates": 0.5,
+      "two-pointer technique": 0.5,
+      "set": 0.5,
+      "utilizing Python's built-in sorting function": 0.5
+    },
+    "functions-loops-recursion": {
+      "recursion": 1.0,
+      "integer": 1.0,
+      "tuple": 1.0
+    },
+    "data_structures-dynamic_programming": {
+      "dynamic programming": 1.0,
+      "list": 1.0,
+      "patience sorting": 1.0,
+      "array": 2.0,
+      "dynamic programming with binary search": 1.0,
+      "binary search for insertion": 1.0,
+      "iterative DP update": 1.0
+    },
+    "functions-recursion": {
+      "integer variables": 1.0,
+      "iterative approach (instead of pure recursion)": 1.0,
+      "iterative calculation to avoid recursion overhead": 1.0
+    },
+    "conditionals-functions-recursion-sorting": {
+      "list": 1.0,
+      "quicksort": 1.0,
+      "using the last element as pivot": 1.0
+    },
+    "conditionals-error_handling-recursion-searching": {
+      "list": 1.0,
+      "recursive binary search": 1.0
+    },
+    "conditionals-error_handling-loops-searching": {
+      "linear search": 1.0,
+      "list": 2.0,
+      "recursive search": 1.0
+    },
+    "data_structures-error_handling-searching-sorting": {
+      "in-order traversal for sorted results": 1.0,
+      "treap": 1.0,
+      "randomized treap for O(log n) operations": 1.0,
+      "randomized priority for balancing": 1.0
+    },
+    "data_structures-recursion-sorting": {
+      "using Python's built-in stable sort": 1.0,
+      "list": 1.0,
+      "tuple": 1.0,
+      "merge sort": 1.0
+    },
+    "algorithms-functions": {
+      "list": 2.0,
+      "sorting based on computed costs": 0.5,
+      "sorting by end time": 0.5,
+      "iterative composition": 0.5,
+      "greedy": 0.5,
+      "sequential application of functions": 0.5,
+      "greedy selection of tasks": 0.5,
+      "tuple": 0.5,
+      "set": 0.5,
+      "stable sort": 0.5
+    },
+    "data_structures-dynamic_programming-functions-sorting": {
+      "dynamic programming": 2.0,
+      "list": 6.0,
+      "prefix frequency counting": 1.0,
+      "two-pass approach": 1.0,
+      "Shortest Processing Time (SPT) rule": 1.0,
+      "sorting": 1.0,
+      "sorting by end time": 1.0,
+      "dynamic programming with binary search": 1.0,
+      "binary search for non-overlapping jobs": 1.0,
+      "use of an internal sorted copy": 1.0,
+      "dynamic partitioning of the array": 1.0,
+      "sorting based on duration": 1.0,
+      "greedy partitioning": 1.0,
+      "index-based tie-breaking": 1.0,
+      "tuple": 2.0,
+      "dictionary": 1.0
+    },
+    "dynamic_programming-functions": {
+      "dynamic programming": 1.5,
+      "list": 1.0,
+      "1-D table usage": 0.5,
+      "patience sorting": 0.5,
+      "array": 0.5,
+      "iterative approach": 0.5,
+      "in-place updates could be used instead of a separate DP table": 0.5,
+      "2D list (DP table)": 0.5,
+      "dynamic programming with binary search": 0.5,
+      "binary search for insertion point": 0.5
+    },
+    "error_handling-sorting": {
+      "sorting with validation": 1.0,
+      "list": 2.0,
+      "iterative filtering and sorting": 1.0
+    },
+    "conditionals-data_structures-recursion": {
+      "list": 1.0,
+      "integer": 1.0,
+      "integer for balance": 1.0,
+      "iterative balance checking": 1.0,
+      "recursion": 1.0
+    },
+    "data_structures-error_handling-loops-recursion": {
+      "recursion": 1.0,
+      "list": 1.0
+    },
+    "algorithms-conditionals-data_structures": {
+      "queue": 1.0,
+      "Depth-First Search (DFS)": 1.0,
+      "binary tree": 1.0,
+      "nonlocal variable for max_sum": 1.0,
+      "early return for null nodes": 1.0
+    },
+    "loops-searching-sorting": {
+      "modified binary search for first occurrence": 1.0,
+      "list": 6.0,
+      "in-place sorting": 2.0,
+      "stability in sorting": 1.0,
+      "iterative approach to merge sort": 1.0,
+      "list comprehensions": 1.0,
+      "bottom-up approach in merge sort": 1.0,
+      "sorting followed by binary search": 2.0,
+      "merge sort for sorting, binary search for counting occurrences": 1.0,
+      "Timsort (Python's built-in sort)": 1.0,
+      "adaptive sorting": 1.0,
+      "iterative merge sort for sorting, binary search for searching": 1.0,
+      "stable sort": 1.0
+    },
+    "loops-sorting": {
+      "list": 1.5,
+      "integer counters": 0.5,
+      "combinatorial counting": 0.5,
+      "Counter": 0.5,
+      "using Counter for frequency counting": 0.5,
+      "not applicable (built-in sorting used)": 0.5,
+      "counting evens and odds instead of checking pairs": 0.5,
+      "custom sorting using frequency count": 0.5,
+      "not applicable (built-in function used)": 0.5
+    },
+    "error_handling-loops-recursion-sorting": {
+      "list": 1.0,
+      "recursive approach": 1.0,
+      "divide and conquer": 1.0,
+      "merging sorted halves": 1.0
+    },
+    "conditionals-data_structures-error_handling-functions": {
+      "list": 1.0,
+      "dictionary": 1.0,
+      "iteration and conditional classification": 1.0
+    },
+    "conditionals-functions": {
+      "regex matching for parsing": 0.5,
+      "list": 0.5,
+      "iterative with conditionals": 0.5,
+      "early exit on empty condition": 0.5,
+      "regex for structured input validation": 0.5,
+      "string": 0.5
+    },
+    "algorithms-functions-loops-recursion": {
+      "divide-and-conquer recursion": 1.0,
+      "backtracking": 1.0,
+      "list": 3.0,
+      "reducing recursion depth with divide-and-conquer": 1.0,
+      "iterative sequence generation to avoid recursion depth issues": 1.0,
+      "even number skipping": 1.0,
+      "iterative approach with a loop": 1.0,
+      "early exit on invalid conditions": 1.0,
+      "integers": 1.0,
+      "iterative approach": 1.0,
+      "memoization": 1.0,
+      "recursion with a loop for counting": 1.0,
+      "dictionary (hashmap)": 1.0,
+      "list for counter": 1.0,
+      "recursion with memoization": 1.0,
+      "base case for stopping recursion": 1.0
+    },
+    "searching-sorting": {
+      "list": 1.0,
+      "modified binary search": 1.0,
+      "handling duplicates by shrinking search range": 1.0
+    },
+    "algorithms-loops": {
+      "dynamic programming": 0.3333333333333333,
+      "bytearray": 0.3333333333333333,
+      "list": 0.6666666666666666,
+      "Sieve of Eratosthenes": 0.3333333333333333,
+      "arithmetic progression": 0.3333333333333333,
+      "iterative traversal": 0.3333333333333333,
+      "starting at the square of the prime": 0.3333333333333333,
+      "iterative approach": 0.6666666666666666,
+      "direct calculation of sum": 0.3333333333333333,
+      "integer variables": 0.3333333333333333,
+      "using a boolean array": 0.3333333333333333,
+      "two-variable storage": 0.3333333333333333,
+      "early exit could be considered if all zeros detected": 0.3333333333333333
+    },
+    "dynamic_programming-recursion": {
+      "dynamic programming": 1.5,
+      "1D list": 0.5,
+      "using base cases": 0.5,
+      "integers": 0.5,
+      "iterative approach": 0.5,
+      "bottom-up dynamic programming": 0.5,
+      "2D list (DP table)": 0.5,
+      "building a DP table": 0.5,
+      "space optimization": 0.5,
+      "precomputation of palindromes": 0.5,
+      "2D list": 0.5
+    },
+    "algorithms-sorting": {
+      "in-place sorting": 0.3333333333333333,
+      "divide and conquer": 0.6666666666666666,
+      "Dutch National Flag algorithm": 0.3333333333333333,
+      "list": 2.6666666666666665,
+      "built-in sorting algorithm (Timsort)": 0.3333333333333333,
+      "merge sort with inversion counting": 0.3333333333333333,
+      "in-place swaps": 0.3333333333333333,
+      "inversion counting during the merge step": 0.3333333333333333,
+      "built-in sorting function": 0.3333333333333333,
+      "runs merging": 0.3333333333333333,
+      "max-heap construction": 0.3333333333333333,
+      "custom sorting": 0.3333333333333333,
+      "three-pointer technique": 0.3333333333333333,
+      "stability": 0.3333333333333333,
+      "built-in sorting": 0.3333333333333333,
+      "Timsort (a hybrid sorting algorithm)": 0.3333333333333333,
+      "adaptive to existing order": 0.3333333333333333,
+      "heap sort": 0.3333333333333333,
+      "sorting with key function": 0.3333333333333333,
+      "minrun optimization": 0.3333333333333333,
+      "counting inversions during merge": 0.3333333333333333,
+      "array": 0.6666666666666666,
+      "adaptive sorting": 0.6666666666666666,
+      "Timsort (hybrid sorting algorithm)": 0.3333333333333333
+    },
+    "algorithms-dynamic_programming": {
+      "dynamic programming": 1.0,
+      "list": 1.0,
+      "using previous row values": 0.5,
+      "tracking best lengths and sums": 0.5,
+      "one-dimensional DP array": 0.5,
+      "array": 0.5
+    },
+    "dynamic_programming-recursion-sorting": {
+      "list": 4.0,
+      "sorting to establish order": 1.0,
+      "pair swapping to create wave pattern": 1.0,
+      "sorting by end time": 1.0,
+      "sorting by finish time": 1.0,
+      "iterative selection": 1.0,
+      "binary search for previous jobs": 1.0,
+      "array": 1.0,
+      "binary search to find last non-overlapping job": 1.0,
+      "greedy algorithm": 1.0,
+      "memoization": 1.0,
+      "sorting followed by swapping": 1.0,
+      "dynamic programming with binary search": 2.0,
+      "tuple": 2.0,
+      "dynamic programming to store optimal solutions": 1.0
+    },
+    "conditionals-error_handling-searching": {
+      "linear search": 4.0,
+      "list": 5.0,
+      "binary search": 1.0
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "success_rates_by_concept": {
+    "data_structures": 0.6766070883717942,
+    "searching": 0.7444956477214543,
+    "algorithms": 0.6585801739400701,
+    "error_handling": 0.6968584656084656,
+    "recursion": 0.7027868061332628,
+    "dynamic_programming": 0.5626695526695528,
+    "loops": 0.733056201112186,
+    "conditionals": 0.6521293199554069,
+    "functions": 0.7495691343517431,
+    "sorting": 0.7033286913104568
+  },
+  "success_rates_by_difficulty": {
+    "hard": 0.6294346978557505,
+    "medium": 0.7488212024126467,
+    "very hard": 0.6011362468346743,
+    "easy": 0.8458290371679679
+  },
+  "avg_attempts_by_concept": {
+    "data_structures": 2.692585633762104,
+    "searching": 2.4729358678955453,
+    "algorithms": 2.668338633676884,
+    "error_handling": 2.6058531746031743,
+    "recursion": 2.634713274477054,
+    "dynamic_programming": 2.8779749879749876,
+    "loops": 2.6747406958453808,
+    "conditionals": 2.7578669639539206,
+    "functions": 2.5449471210340775,
+    "sorting": 2.607199926822803
+  },
+  "avg_attempts_by_difficulty": {
+    "hard": 2.728784925276153,
+    "medium": 2.5359054194305313,
+    "very hard": 2.8105009390855833,
+    "easy": 2.414297638336525
+  },
+  "fixer_intervention_rate_difficulty": {
+    "hard": 2.6666666666666665,
+    "medium": 4.333333333333333,
+    "very hard": 9.666666666666666,
+    "easy": 3.3333333333333335
+  },
+  "fixer_intervention_rate_concept": {
+    "searching": 5.666666666666667,
+    "recursion": 5.666666666666667,
+    "error_handling": 8.0,
+    "algorithms": 4.666666666666667,
+    "functions": 5.0,
+    "dynamic_programming": 4.333333333333333,
+    "loops": 5.0,
+    "conditionals": 4.333333333333333,
+    "data_structures": 5.0,
+    "sorting": 7.666666666666667
+  }
+}

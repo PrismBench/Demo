@@ -1,0 +1,5074 @@
+{
+  "error_patterns_by_concept_group": {
+    "algorithms-functions-loops-recursion": {
+      "edge_case_error": 1.0,
+      "fix_performance_error": 5.0,
+      "fix_value_error": 5.0,
+      "fix_case_sensitivity_error": 6.0,
+      "fix_edge_case_error": 6.0,
+      "setup_error": 1.0,
+      "case_sensitivity_error": 2.0,
+      "performance_error": 1.0,
+      "fix_order_error": 1.0,
+      "index_error": 1.0,
+      "fix_index_error": 7.0,
+      "fix_unexpected_input_error": 5.0,
+      "fix_type_error": 2.0
+    },
+    "conditionals-error_handling-recursion-searching": {
+      "fix_value_error": 1.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "fix_order_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 1.0,
+      "fix_type_error": 1.0
+    },
+    "data_structures-functions-recursion-sorting": {
+      "order_error": 2.0,
+      "fix_algorithm_error": 1.0,
+      "output_format_error": 2.0,
+      "edge_case_error": 2.0,
+      "fix_performance_error": 5.0,
+      "logic_error": 1.0,
+      "fix_case_sensitivity_error": 8.0,
+      "fix_value_error": 1.0,
+      "fix_edge_case_error": 7.0,
+      "fix_index_error": 2.0,
+      "fix_logic_error": 1.0,
+      "fix_output_format_error": 1.0,
+      "case_sensitivity_error": 6.0,
+      "type_error": 1.0,
+      "fix_order_error": 3.0,
+      "index_error": 2.0,
+      "assertion_error": 1.0,
+      "fix_unexpected_input_error": 4.0
+    },
+    "data_structures-dynamic_programming-recursion-sorting": {
+      "order_error": 1.0,
+      "root_index_error": 1.0,
+      "output_format_error": 2.0,
+      "root_logic_error": 1.0,
+      "fix_value_error": 1.0,
+      "logic_error": 1.0,
+      "fix_case_sensitivity_error": 3.0,
+      "fix_edge_case_error": 1.0,
+      "setup_error": 1.0,
+      "root_output_format_error": 1.0,
+      "fix_logic_error": 1.0,
+      "fix_index_error": 3.0,
+      "performance_error": 1.0,
+      "index_error": 1.0,
+      "root_edge_case_error": 1.0,
+      "assertion_error": 2.0,
+      "root_case_sensitivity_error": 1.0
+    },
+    "conditionals-data_structures": {
+      "unexpected_input_error": 0.3333333333333333,
+      "output_format_error": 0.6666666666666666,
+      "edge_case_error": 0.6666666666666666,
+      "fix_assertion_error": 0.3333333333333333,
+      "fix_performance_error": 1.6666666666666667,
+      "fix_case_sensitivity_error": 3.3333333333333335,
+      "value_error": 0.3333333333333333,
+      "fix_edge_case_error": 2.6666666666666665,
+      "fix_setup_error": 0.6666666666666666,
+      "fix_logic_error": 0.3333333333333333,
+      "fix_output_format_error": 0.3333333333333333,
+      "case_sensitivity_error": 2.0,
+      "type_error": 0.3333333333333333,
+      "fix_order_error": 0.3333333333333333,
+      "index_error": 1.0,
+      "fix_index_error": 1.3333333333333333
+    },
+    "data_structures-recursion-sorting": {
+      "fix_case_sensitivity_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_edge_case_error": 1.0
+    },
+    "error_handling-recursion": {
+      "fix_value_error": 2.6666666666666665,
+      "fix_edge_case_error": 2.6666666666666665,
+      "fix_unexpected_input_error": 2.0,
+      "logic_error": 0.6666666666666666,
+      "fix_setup_error": 0.3333333333333333,
+      "index_error": 1.0,
+      "root_case_sensitivity_error": 0.3333333333333333,
+      "output_format_error": 0.6666666666666666,
+      "edge_case_error": 0.6666666666666666,
+      "fix_performance_error": 2.0,
+      "value_error": 0.6666666666666666,
+      "fix_output_format_error": 0.6666666666666666,
+      "fix_logic_error": 0.3333333333333333,
+      "case_sensitivity_error": 4.333333333333333,
+      "type_error": 0.6666666666666666,
+      "fix_index_error": 2.3333333333333335,
+      "unexpected_input_error": 0.6666666666666666,
+      "fix_case_sensitivity_error": 4.0,
+      "algorithm_error": 0.3333333333333333,
+      "fix_type_error": 2.0
+    },
+    "algorithms-error_handling-functions-searching": {
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "setup_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "performance_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "data_structures-error_handling-loops-recursion": {
+      "unexpected_input_error": 2.0,
+      "edge_case_error": 1.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "value_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "setup_error": 1.0,
+      "case_sensitivity_error": 2.0,
+      "performance_error": 1.0,
+      "index_error": 1.0,
+      "fix_index_error": 2.0,
+      "fix_type_error": 1.0
+    },
+    "data_structures-dynamic_programming-functions-sorting": {
+      "root_index_error": 1.0,
+      "fix_value_error": 3.0,
+      "fix_edge_case_error": 7.0,
+      "root_type_error": 1.0,
+      "fix_unexpected_input_error": 2.0,
+      "logic_error": 1.0,
+      "root_value_error": 1.0,
+      "index_error": 3.0,
+      "root_case_sensitivity_error": 1.0,
+      "output_format_error": 1.0,
+      "edge_case_error": 3.0,
+      "fix_performance_error": 3.0,
+      "value_error": 2.0,
+      "setup_error": 2.0,
+      "fix_logic_error": 2.0,
+      "case_sensitivity_error": 11.0,
+      "performance_error": 2.0,
+      "type_error": 2.0,
+      "fix_index_error": 2.0,
+      "unexpected_input_error": 2.0,
+      "root_unexpected_input_error": 1.0,
+      "root_logic_error": 1.0,
+      "fix_case_sensitivity_error": 10.0,
+      "assertion_error": 1.0,
+      "fix_type_error": 3.0
+    },
+    "algorithms-functions": {
+      "fix_algorithm_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_performance_error": 2.0,
+      "fix_case_sensitivity_error": 2.5,
+      "logic_error": 0.5,
+      "fix_edge_case_error": 1.5,
+      "setup_error": 0.5,
+      "fix_output_format_error": 0.5,
+      "fix_setup_error": 0.5,
+      "case_sensitivity_error": 2.0,
+      "performance_error": 0.5,
+      "fix_order_error": 0.5,
+      "fix_index_error": 2.0,
+      "fix_unexpected_input_error": 0.5
+    },
+    "algorithms-data_structures": {
+      "root_index_error": 1.0,
+      "fix_algorithm_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_assertion_error": 1.0,
+      "logic_error": 2.0,
+      "fix_case_sensitivity_error": 2.0,
+      "fix_edge_case_error": 1.0,
+      "root_output_format_error": 1.0,
+      "fix_output_format_error": 1.0,
+      "fix_logic_error": 2.0,
+      "fix_setup_error": 1.0,
+      "case_sensitivity_error": 2.0,
+      "root_value_error": 1.0,
+      "performance_error": 1.0,
+      "root_edge_case_error": 1.0,
+      "assertion_error": 2.0,
+      "root_case_sensitivity_error": 2.0
+    },
+    "conditionals-recursion": {
+      "unexpected_input_error": 0.3333333333333333,
+      "output_format_error": 0.3333333333333333,
+      "edge_case_error": 0.3333333333333333,
+      "fix_performance_error": 0.6666666666666666,
+      "fix_value_error": 0.3333333333333333,
+      "fix_case_sensitivity_error": 1.0,
+      "value_error": 0.3333333333333333,
+      "fix_edge_case_error": 1.0,
+      "setup_error": 0.3333333333333333,
+      "algorithm_error": 0.3333333333333333,
+      "fix_index_error": 0.6666666666666666,
+      "fix_setup_error": 0.3333333333333333,
+      "case_sensitivity_error": 1.6666666666666667,
+      "type_error": 0.3333333333333333,
+      "index_error": 0.3333333333333333,
+      "assertion_error": 0.3333333333333333,
+      "fix_unexpected_input_error": 0.3333333333333333
+    },
+    "conditionals-functions-loops-recursion": {
+      "fix_performance_error": 2.0,
+      "fix_value_error": 1.0,
+      "fix_case_sensitivity_error": 3.0,
+      "fix_edge_case_error": 3.0,
+      "fix_setup_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "index_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 2.0,
+      "fix_type_error": 2.0
+    },
+    "algorithms-conditionals-data_structures-dynamic_programming": {
+      "fix_value_error": 1.0,
+      "fix_performance_error": 2.0,
+      "fix_case_sensitivity_error": 2.0,
+      "fix_edge_case_error": 2.0,
+      "fix_index_error": 1.0
+    },
+    "algorithms-dynamic_programming-error_handling-recursion": {
+      "fix_performance_error": 2.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "recursion-sorting": {
+      "unexpected_input_error": 0.5,
+      "fix_algorithm_error": 0.5,
+      "edge_case_error": 0.5,
+      "fix_performance_error": 0.5,
+      "fix_case_sensitivity_error": 2.5,
+      "value_error": 0.5,
+      "fix_edge_case_error": 2.0,
+      "fix_setup_error": 0.5,
+      "algorithm_error": 0.5,
+      "case_sensitivity_error": 1.5,
+      "type_error": 0.5,
+      "fix_order_error": 0.5,
+      "index_error": 1.0,
+      "fix_index_error": 1.5,
+      "fix_unexpected_input_error": 1.0
+    },
+    "algorithms-conditionals": {
+      "root_index_error": 0.5,
+      "fix_value_error": 0.5,
+      "fix_edge_case_error": 3.0,
+      "fix_setup_error": 1.5,
+      "root_value_error": 1.0,
+      "index_error": 2.5,
+      "root_case_sensitivity_error": 1.5,
+      "output_format_error": 0.5,
+      "edge_case_error": 1.0,
+      "fix_assertion_error": 0.5,
+      "fix_performance_error": 0.5,
+      "value_error": 1.5,
+      "setup_error": 1.5,
+      "root_output_format_error": 0.5,
+      "root_performance_error": 0.5,
+      "fix_logic_error": 1.0,
+      "case_sensitivity_error": 3.0,
+      "fix_output_format_error": 1.0,
+      "root_setup_error": 0.5,
+      "type_error": 0.5,
+      "root_edge_case_error": 1.0,
+      "fix_index_error": 1.0,
+      "unexpected_input_error": 0.5,
+      "fix_case_sensitivity_error": 3.0,
+      "algorithm_error": 2.5,
+      "root_algorithm_error": 0.5,
+      "assertion_error": 3.0
+    },
+    "conditionals-searching": {
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 2.0,
+      "fix_edge_case_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "conditionals-sorting": {
+      "output_format_error": 0.5,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 2.0,
+      "value_error": 0.5,
+      "fix_edge_case_error": 0.5,
+      "fix_setup_error": 0.5,
+      "case_sensitivity_error": 0.5,
+      "type_error": 0.5,
+      "fix_index_error": 1.0
+    },
+    "conditionals-functions": {
+      "unexpected_input_error": 0.5,
+      "fix_algorithm_error": 0.5,
+      "output_format_error": 0.5,
+      "fix_value_error": 1.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.5,
+      "fix_edge_case_error": 1.5,
+      "setup_error": 0.5,
+      "fix_output_format_error": 0.5,
+      "case_sensitivity_error": 0.5,
+      "performance_error": 0.5,
+      "index_error": 0.5,
+      "fix_index_error": 0.5,
+      "fix_unexpected_input_error": 1.0,
+      "fix_type_error": 0.5
+    },
+    "conditionals-dynamic_programming": {
+      "root_index_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_edge_case_error": 4.0,
+      "root_order_error": 1.0,
+      "fix_unexpected_input_error": 2.0,
+      "fix_setup_error": 1.0,
+      "root_value_error": 1.0,
+      "index_error": 2.0,
+      "root_case_sensitivity_error": 1.0,
+      "output_format_error": 1.0,
+      "edge_case_error": 2.0,
+      "fix_performance_error": 5.0,
+      "value_error": 1.0,
+      "root_output_format_error": 1.0,
+      "root_performance_error": 1.0,
+      "fix_logic_error": 1.0,
+      "case_sensitivity_error": 8.0,
+      "performance_error": 1.0,
+      "root_setup_error": 1.0,
+      "fix_index_error": 2.0,
+      "root_logic_error": 1.0,
+      "fix_case_sensitivity_error": 5.0,
+      "algorithm_error": 1.0,
+      "root_algorithm_error": 1.0,
+      "assertion_error": 1.0,
+      "fix_type_error": 1.0
+    },
+    "dynamic_programming-error_handling-recursion-sorting": {
+      "fix_value_error": 2.0,
+      "fix_edge_case_error": 3.0,
+      "fix_order_error": 1.0,
+      "fix_unexpected_input_error": 1.0,
+      "logic_error": 1.0,
+      "index_error": 2.0,
+      "root_case_sensitivity_error": 1.0,
+      "fix_algorithm_error": 1.0,
+      "output_format_error": 2.0,
+      "edge_case_error": 2.0,
+      "fix_performance_error": 1.0,
+      "value_error": 3.0,
+      "setup_error": 2.0,
+      "fix_logic_error": 2.0,
+      "case_sensitivity_error": 3.0,
+      "performance_error": 1.0,
+      "type_error": 2.0,
+      "root_edge_case_error": 1.0,
+      "fix_index_error": 1.0,
+      "unexpected_input_error": 2.0,
+      "root_logic_error": 1.0,
+      "fix_case_sensitivity_error": 8.0,
+      "algorithm_error": 1.0,
+      "assertion_error": 2.0
+    },
+    "algorithms-dynamic_programming-functions": {
+      "root_index_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_value_error": 2.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 3.0,
+      "value_error": 1.0,
+      "fix_edge_case_error": 2.0,
+      "fix_index_error": 2.0,
+      "fix_logic_error": 2.0,
+      "case_sensitivity_error": 3.0,
+      "root_value_error": 1.0,
+      "root_order_error": 1.0,
+      "root_algorithm_error": 1.0,
+      "index_error": 2.0,
+      "root_edge_case_error": 1.0,
+      "assertion_error": 1.0,
+      "fix_unexpected_input_error": 1.0,
+      "root_case_sensitivity_error": 1.0
+    },
+    "loops-recursion": {
+      "root_index_error": 1.0,
+      "fix_value_error": 1.5,
+      "fix_edge_case_error": 2.0,
+      "root_order_error": 0.5,
+      "fix_order_error": 0.5,
+      "root_assertion_error": 0.5,
+      "fix_unexpected_input_error": 2.0,
+      "root_value_error": 0.5,
+      "root_case_sensitivity_error": 1.0,
+      "fix_algorithm_error": 0.5,
+      "fix_performance_error": 1.0,
+      "value_error": 0.5,
+      "setup_error": 0.5,
+      "root_output_format_error": 0.5,
+      "fix_logic_error": 0.5,
+      "case_sensitivity_error": 3.5,
+      "root_setup_error": 0.5,
+      "order_error": 0.5,
+      "fix_index_error": 2.5,
+      "root_logic_error": 0.5,
+      "fix_case_sensitivity_error": 2.5,
+      "algorithm_error": 0.5,
+      "root_algorithm_error": 1.0,
+      "assertion_error": 1.0,
+      "fix_type_error": 1.0
+    },
+    "data_structures-error_handling-searching-sorting": {
+      "output_format_error": 2.0,
+      "edge_case_error": 1.0,
+      "logic_error": 1.0,
+      "fix_case_sensitivity_error": 2.0,
+      "fix_edge_case_error": 2.0,
+      "fix_index_error": 1.0,
+      "fix_logic_error": 1.0,
+      "case_sensitivity_error": 2.0,
+      "assertion_error": 1.0
+    },
+    "algorithms-dynamic_programming-loops-recursion": {
+      "edge_case_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "fix_index_error": 1.0
+    },
+    "functions-loops": {
+      "root_index_error": 1.0,
+      "fix_value_error": 8.0,
+      "fix_edge_case_error": 9.0,
+      "root_type_error": 1.0,
+      "root_assertion_error": 1.0,
+      "fix_unexpected_input_error": 6.0,
+      "logic_error": 2.0,
+      "fix_setup_error": 2.0,
+      "root_value_error": 1.0,
+      "index_error": 2.0,
+      "root_case_sensitivity_error": 1.0,
+      "output_format_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_performance_error": 11.0,
+      "value_error": 2.0,
+      "setup_error": 1.0,
+      "fix_output_format_error": 1.0,
+      "fix_logic_error": 2.0,
+      "case_sensitivity_error": 16.0,
+      "performance_error": 1.0,
+      "type_error": 2.0,
+      "root_setup_error": 1.0,
+      "fix_index_error": 8.0,
+      "unexpected_input_error": 1.0,
+      "root_unexpected_input_error": 1.0,
+      "root_logic_error": 1.0,
+      "fix_case_sensitivity_error": 14.0,
+      "algorithm_error": 1.0,
+      "root_algorithm_error": 1.0,
+      "fix_type_error": 3.0
+    },
+    "algorithms-conditionals-data_structures-loops": {
+      "unexpected_input_error": 2.0,
+      "fix_algorithm_error": 1.0,
+      "output_format_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_case_sensitivity_error": 6.0,
+      "value_error": 1.0,
+      "fix_edge_case_error": 2.0,
+      "setup_error": 2.0,
+      "fix_output_format_error": 1.0,
+      "case_sensitivity_error": 2.0,
+      "performance_error": 2.0,
+      "type_error": 1.0,
+      "index_error": 1.0,
+      "fix_index_error": 2.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "algorithms-data_structures-error_handling-searching": {
+      "unexpected_input_error": 2.0,
+      "edge_case_error": 3.0,
+      "fix_performance_error": 2.0,
+      "logic_error": 1.0,
+      "fix_case_sensitivity_error": 2.0,
+      "value_error": 2.0,
+      "fix_edge_case_error": 1.0,
+      "case_sensitivity_error": 3.0,
+      "type_error": 2.0,
+      "index_error": 3.0,
+      "fix_index_error": 1.0,
+      "fix_type_error": 1.0
+    },
+    "algorithms-dynamic_programming-error_handling-searching": {
+      "fix_algorithm_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_performance_error": 3.0,
+      "fix_case_sensitivity_error": 2.0,
+      "fix_edge_case_error": 2.0,
+      "case_sensitivity_error": 2.0,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 3.0,
+      "fix_type_error": 1.0
+    },
+    "data_structures-error_handling": {
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "fix_setup_error": 1.0,
+      "fix_output_format_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "dynamic_programming-functions": {
+      "unexpected_input_error": 0.5,
+      "output_format_error": 0.5,
+      "fix_performance_error": 2.0,
+      "fix_case_sensitivity_error": 3.0,
+      "value_error": 0.5,
+      "fix_edge_case_error": 2.0,
+      "fix_setup_error": 1.5,
+      "fix_output_format_error": 0.5,
+      "case_sensitivity_error": 3.5,
+      "type_error": 0.5,
+      "fix_order_error": 0.5,
+      "index_error": 1.0,
+      "fix_index_error": 1.5,
+      "fix_unexpected_input_error": 0.5
+    },
+    "algorithms-sorting": {
+      "fix_value_error": 0.3333333333333333,
+      "fix_edge_case_error": 3.3333333333333335,
+      "fix_order_error": 1.6666666666666667,
+      "fix_unexpected_input_error": 1.3333333333333333,
+      "fix_setup_error": 0.6666666666666666,
+      "index_error": 0.6666666666666666,
+      "fix_algorithm_error": 0.3333333333333333,
+      "edge_case_error": 0.6666666666666666,
+      "fix_performance_error": 2.6666666666666665,
+      "value_error": 0.3333333333333333,
+      "setup_error": 1.0,
+      "case_sensitivity_error": 5.666666666666667,
+      "performance_error": 1.0,
+      "type_error": 0.3333333333333333,
+      "fix_index_error": 1.6666666666666667,
+      "unexpected_input_error": 0.3333333333333333,
+      "fix_case_sensitivity_error": 4.0,
+      "assertion_error": 0.3333333333333333,
+      "fix_type_error": 0.6666666666666666
+    },
+    "algorithms-loops": {
+      "output_format_error": 0.3333333333333333,
+      "edge_case_error": 0.3333333333333333,
+      "fix_performance_error": 2.3333333333333335,
+      "fix_value_error": 1.6666666666666667,
+      "fix_case_sensitivity_error": 2.3333333333333335,
+      "fix_edge_case_error": 2.6666666666666665,
+      "setup_error": 0.3333333333333333,
+      "fix_output_format_error": 0.3333333333333333,
+      "fix_setup_error": 0.3333333333333333,
+      "case_sensitivity_error": 2.3333333333333335,
+      "performance_error": 0.3333333333333333,
+      "fix_index_error": 2.3333333333333335,
+      "fix_unexpected_input_error": 1.3333333333333333,
+      "fix_type_error": 0.6666666666666666
+    },
+    "loops-recursion-searching-sorting": {
+      "unexpected_input_error": 1.0,
+      "order_error": 1.0,
+      "fix_algorithm_error": 1.0,
+      "output_format_error": 1.0,
+      "assertion_error": 2.0,
+      "edge_case_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_performance_error": 3.0,
+      "fix_case_sensitivity_error": 4.0,
+      "fix_edge_case_error": 4.0,
+      "setup_error": 2.0,
+      "algorithm_error": 2.0,
+      "case_sensitivity_error": 4.0,
+      "index_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 3.0,
+      "fix_type_error": 1.0
+    },
+    "dynamic_programming-recursion": {
+      "fix_performance_error": 2.0,
+      "fix_case_sensitivity_error": 1.5,
+      "fix_edge_case_error": 1.5,
+      "fix_setup_error": 0.5,
+      "fix_unexpected_input_error": 1.0
+    },
+    "algorithms-dynamic_programming": {
+      "fix_algorithm_error": 1.0,
+      "output_format_error": 0.5,
+      "edge_case_error": 1.0,
+      "fix_performance_error": 0.5,
+      "logic_error": 0.5,
+      "fix_case_sensitivity_error": 1.5,
+      "fix_value_error": 1.0,
+      "value_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "setup_error": 0.5,
+      "algorithm_error": 0.5,
+      "fix_logic_error": 1.0,
+      "fix_index_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "type_error": 0.5,
+      "fix_order_error": 0.5,
+      "index_error": 0.5,
+      "assertion_error": 1.0
+    },
+    "conditionals-loops-searching": {
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "data_structures-searching": {
+      "fix_value_error": 1.0,
+      "fix_performance_error": 2.0,
+      "fix_case_sensitivity_error": 3.0,
+      "fix_edge_case_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "index_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "conditionals-functions-recursion-sorting": {
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "case_sensitivity_error": 2.0,
+      "fix_order_error": 1.0
+    },
+    "dynamic_programming-loops": {
+      "fix_algorithm_error": 0.5,
+      "output_format_error": 0.5,
+      "edge_case_error": 1.0,
+      "fix_performance_error": 1.5,
+      "fix_case_sensitivity_error": 2.0,
+      "fix_edge_case_error": 2.0,
+      "fix_setup_error": 0.5,
+      "case_sensitivity_error": 2.0,
+      "index_error": 0.5,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 1.5
+    },
+    "data_structures-dynamic_programming": {
+      "unexpected_input_error": 1.0,
+      "fix_algorithm_error": 3.0,
+      "output_format_error": 1.0,
+      "fix_case_sensitivity_error": 5.0,
+      "fix_edge_case_error": 1.0,
+      "setup_error": 1.0,
+      "fix_index_error": 3.0,
+      "fix_logic_error": 2.0,
+      "algorithm_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "fix_output_format_error": 1.0,
+      "fix_setup_error": 1.0,
+      "index_error": 2.0,
+      "assertion_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "conditionals-error_handling-searching": {
+      "unexpected_input_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_performance_error": 4.0,
+      "fix_value_error": 2.0,
+      "fix_case_sensitivity_error": 6.0,
+      "fix_edge_case_error": 6.0,
+      "fix_output_format_error": 1.0,
+      "case_sensitivity_error": 2.0,
+      "index_error": 1.0,
+      "fix_index_error": 6.0,
+      "fix_unexpected_input_error": 1.0,
+      "fix_type_error": 3.0
+    },
+    "searching-sorting": {
+      "unexpected_input_error": 1.0,
+      "output_format_error": 1.0,
+      "logic_error": 1.0,
+      "fix_case_sensitivity_error": 2.0,
+      "value_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "setup_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "type_error": 1.0,
+      "index_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_type_error": 1.0
+    },
+    "conditionals-data_structures-searching-sorting": {
+      "root_index_error": 2.0,
+      "fix_value_error": 1.0,
+      "fix_edge_case_error": 3.0,
+      "root_order_error": 1.0,
+      "fix_order_error": 2.0,
+      "root_assertion_error": 1.0,
+      "fix_unexpected_input_error": 1.0,
+      "logic_error": 3.0,
+      "fix_setup_error": 1.0,
+      "index_error": 4.0,
+      "root_case_sensitivity_error": 2.0,
+      "output_format_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_performance_error": 3.0,
+      "value_error": 1.0,
+      "case_sensitivity_error": 6.0,
+      "type_error": 1.0,
+      "root_setup_error": 1.0,
+      "order_error": 1.0,
+      "fix_index_error": 2.0,
+      "unexpected_input_error": 1.0,
+      "fix_case_sensitivity_error": 4.0,
+      "root_algorithm_error": 1.0,
+      "assertion_error": 2.0
+    },
+    "conditionals-error_handling-loops-searching": {
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "dynamic_programming-sorting": {
+      "fix_value_error": 1.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 1.0,
+      "fix_type_error": 1.0
+    },
+    "error_handling-sorting": {
+      "unexpected_input_error": 2.0,
+      "order_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_performance_error": 2.0,
+      "fix_case_sensitivity_error": 2.0,
+      "value_error": 1.0,
+      "fix_edge_case_error": 2.0,
+      "case_sensitivity_error": 1.0,
+      "type_error": 1.0,
+      "index_error": 2.0
+    },
+    "algorithms-recursion": {
+      "fix_performance_error": 1.0,
+      "fix_value_error": 2.0,
+      "fix_case_sensitivity_error": 3.0,
+      "fix_edge_case_error": 2.0,
+      "fix_index_error": 2.0,
+      "fix_unexpected_input_error": 2.0,
+      "fix_type_error": 1.0
+    },
+    "algorithms-data_structures-error_handling-functions": {
+      "root_index_error": 2.0,
+      "fix_case_sensitivity_error": 1.0,
+      "root_output_format_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "root_value_error": 1.0,
+      "root_algorithm_error": 1.0,
+      "index_error": 1.0,
+      "fix_index_error": 1.0,
+      "root_case_sensitivity_error": 2.0
+    },
+    "algorithms-conditionals-data_structures": {
+      "root_index_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_value_error": 1.0,
+      "logic_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "setup_error": 1.0,
+      "algorithm_error": 1.0,
+      "fix_logic_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "root_value_error": 1.0,
+      "performance_error": 1.0,
+      "index_error": 2.0,
+      "root_edge_case_error": 1.0,
+      "assertion_error": 1.0,
+      "fix_unexpected_input_error": 1.0,
+      "root_case_sensitivity_error": 1.0
+    },
+    "dynamic_programming-error_handling": {
+      "unexpected_input_error": 2.0,
+      "assertion_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_value_error": 6.0,
+      "fix_performance_error": 3.0,
+      "fix_case_sensitivity_error": 9.0,
+      "logic_error": 1.0,
+      "value_error": 1.0,
+      "fix_edge_case_error": 5.0,
+      "fix_output_format_error": 1.0,
+      "fix_logic_error": 2.0,
+      "case_sensitivity_error": 3.0,
+      "type_error": 1.0,
+      "index_error": 3.0,
+      "fix_index_error": 4.0,
+      "fix_unexpected_input_error": 4.0,
+      "fix_type_error": 1.0
+    },
+    "loops-searching-sorting": {
+      "fix_algorithm_error": 2.0,
+      "edge_case_error": 1.0,
+      "fix_performance_error": 6.0,
+      "fix_case_sensitivity_error": 10.0,
+      "fix_edge_case_error": 9.0,
+      "setup_error": 1.0,
+      "fix_output_format_error": 1.0,
+      "case_sensitivity_error": 9.0,
+      "performance_error": 1.0,
+      "fix_order_error": 2.0,
+      "fix_index_error": 3.0,
+      "fix_unexpected_input_error": 3.0
+    },
+    "algorithms-loops-recursion-sorting": {
+      "root_index_error": 1.0,
+      "fix_value_error": 4.0,
+      "fix_edge_case_error": 10.0,
+      "fix_order_error": 4.0,
+      "fix_unexpected_input_error": 3.0,
+      "fix_setup_error": 1.0,
+      "root_value_error": 1.0,
+      "index_error": 4.0,
+      "root_case_sensitivity_error": 1.0,
+      "fix_algorithm_error": 5.0,
+      "output_format_error": 3.0,
+      "edge_case_error": 1.0,
+      "fix_assertion_error": 1.0,
+      "fix_performance_error": 8.0,
+      "value_error": 1.0,
+      "setup_error": 3.0,
+      "fix_output_format_error": 2.0,
+      "fix_logic_error": 2.0,
+      "root_output_format_error": 1.0,
+      "case_sensitivity_error": 13.0,
+      "performance_error": 3.0,
+      "type_error": 1.0,
+      "order_error": 1.0,
+      "fix_index_error": 4.0,
+      "unexpected_input_error": 2.0,
+      "fix_case_sensitivity_error": 14.0,
+      "algorithm_error": 1.0,
+      "root_algorithm_error": 1.0
+    },
+    "algorithms-conditionals-dynamic_programming-loops": {
+      "unexpected_input_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "value_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "type_error": 1.0,
+      "index_error": 1.0,
+      "fix_index_error": 1.0
+    },
+    "error_handling-loops": {
+      "fix_value_error": 1.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 2.0,
+      "fix_edge_case_error": 2.0,
+      "fix_setup_error": 1.0,
+      "case_sensitivity_error": 3.0,
+      "fix_unexpected_input_error": 1.0,
+      "fix_type_error": 1.0
+    },
+    "conditionals-loops": {
+      "output_format_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "setup_error": 1.0,
+      "performance_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 1.0,
+      "fix_type_error": 1.0
+    },
+    "dynamic_programming-error_handling-searching-sorting": {
+      "fix_value_error": 3.0,
+      "fix_performance_error": 3.0,
+      "fix_case_sensitivity_error": 4.0,
+      "fix_edge_case_error": 3.0,
+      "fix_index_error": 4.0,
+      "fix_type_error": 1.0
+    },
+    "data_structures-sorting": {
+      "order_error": 0.5,
+      "output_format_error": 0.5,
+      "edge_case_error": 0.5,
+      "fix_performance_error": 2.5,
+      "fix_case_sensitivity_error": 3.0,
+      "fix_edge_case_error": 2.5,
+      "setup_error": 0.5,
+      "fix_output_format_error": 0.5,
+      "case_sensitivity_error": 3.0,
+      "performance_error": 0.5,
+      "index_error": 0.5,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "conditionals-error_handling-loops-sorting": {
+      "edge_case_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "setup_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "performance_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "error_handling-loops-recursion-sorting": {
+      "unexpected_input_error": 1.0,
+      "order_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "fix_order_error": 1.0,
+      "index_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 1.0,
+      "fix_type_error": 1.0
+    },
+    "algorithms-dynamic_programming-loops": {
+      "fix_performance_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_case_sensitivity_error": 3.0,
+      "fix_edge_case_error": 3.0,
+      "fix_setup_error": 1.0,
+      "fix_output_format_error": 1.0,
+      "case_sensitivity_error": 4.0,
+      "fix_index_error": 2.0
+    },
+    "algorithms-error_handling": {
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "fix_index_error": 1.0
+    },
+    "conditionals-data_structures-error_handling-functions": {
+      "unexpected_input_error": 2.0,
+      "fix_case_sensitivity_error": 2.0,
+      "value_error": 2.0,
+      "root_output_format_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_logic_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "type_error": 2.0,
+      "root_type_error": 1.0,
+      "index_error": 2.0,
+      "assertion_error": 1.0,
+      "root_case_sensitivity_error": 1.0
+    },
+    "data_structures-error_handling-functions-sorting": {
+      "fix_value_error": 1.5,
+      "fix_edge_case_error": 3.0,
+      "fix_order_error": 0.5,
+      "fix_unexpected_input_error": 2.0,
+      "logic_error": 1.0,
+      "fix_setup_error": 0.5,
+      "index_error": 0.5,
+      "root_case_sensitivity_error": 1.0,
+      "fix_algorithm_error": 0.5,
+      "output_format_error": 0.5,
+      "edge_case_error": 1.5,
+      "fix_performance_error": 2.5,
+      "value_error": 0.5,
+      "setup_error": 1.0,
+      "fix_output_format_error": 0.5,
+      "case_sensitivity_error": 3.0,
+      "performance_error": 1.0,
+      "fix_index_error": 1.5,
+      "unexpected_input_error": 1.0,
+      "fix_case_sensitivity_error": 4.5,
+      "fix_type_error": 1.0
+    },
+    "algorithms-searching": {
+      "fix_performance_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_case_sensitivity_error": 3.0,
+      "fix_edge_case_error": 1.0,
+      "fix_setup_error": 1.0,
+      "fix_output_format_error": 1.0,
+      "case_sensitivity_error": 3.0
+    },
+    "conditionals-data_structures-recursion": {
+      "edge_case_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_performance_error": 2.0,
+      "fix_case_sensitivity_error": 2.0,
+      "fix_edge_case_error": 2.0,
+      "fix_output_format_error": 1.0,
+      "case_sensitivity_error": 4.0,
+      "fix_index_error": 3.0,
+      "fix_type_error": 1.0
+    },
+    "dynamic_programming-recursion-sorting": {
+      "fix_value_error": 2.0,
+      "fix_edge_case_error": 3.0,
+      "root_type_error": 1.0,
+      "fix_unexpected_input_error": 1.0,
+      "root_value_error": 1.0,
+      "index_error": 2.0,
+      "root_case_sensitivity_error": 2.0,
+      "output_format_error": 1.0,
+      "fix_performance_error": 2.0,
+      "value_error": 2.0,
+      "root_output_format_error": 2.0,
+      "fix_output_format_error": 1.0,
+      "root_performance_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "performance_error": 1.0,
+      "type_error": 1.0,
+      "fix_index_error": 3.0,
+      "unexpected_input_error": 1.0,
+      "root_unexpected_input_error": 1.0,
+      "fix_case_sensitivity_error": 4.0,
+      "algorithm_error": 1.0,
+      "root_algorithm_error": 1.0,
+      "fix_type_error": 1.0
+    },
+    "loops-sorting": {
+      "unexpected_input_error": 0.5,
+      "fix_performance_error": 0.5,
+      "fix_case_sensitivity_error": 2.0,
+      "value_error": 0.5,
+      "fix_edge_case_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "type_error": 0.5,
+      "index_error": 1.5,
+      "fix_index_error": 0.5,
+      "fix_unexpected_input_error": 0.5
+    },
+    "algorithms-error_handling-searching-sorting": {
+      "unexpected_input_error": 1.0,
+      "output_format_error": 1.0,
+      "fix_performance_error": 3.0,
+      "fix_value_error": 2.0,
+      "fix_case_sensitivity_error": 4.0,
+      "logic_error": 1.0,
+      "value_error": 1.0,
+      "fix_edge_case_error": 3.0,
+      "fix_setup_error": 2.0,
+      "fix_output_format_error": 1.0,
+      "case_sensitivity_error": 8.0,
+      "type_error": 1.0,
+      "fix_order_error": 1.0,
+      "index_error": 1.0,
+      "fix_index_error": 5.0,
+      "fix_unexpected_input_error": 3.0,
+      "fix_type_error": 2.0
+    },
+    "functions-loops-recursion": {
+      "unexpected_input_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "index_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "error_handling-searching": {
+      "unexpected_input_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 2.0,
+      "fix_edge_case_error": 2.0,
+      "fix_index_error": 2.0
+    },
+    "functions-recursion": {
+      "fix_value_error": 1.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "setup_error": 1.0,
+      "case_sensitivity_error": 3.0,
+      "performance_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "algorithms-data_structures-functions-sorting": {
+      "root_index_error": 1.0,
+      "fix_value_error": 2.0,
+      "fix_edge_case_error": 4.0,
+      "root_order_error": 1.0,
+      "fix_order_error": 3.0,
+      "fix_unexpected_input_error": 3.0,
+      "logic_error": 2.0,
+      "index_error": 3.0,
+      "root_case_sensitivity_error": 2.0,
+      "fix_algorithm_error": 1.0,
+      "output_format_error": 3.0,
+      "edge_case_error": 1.0,
+      "fix_performance_error": 2.0,
+      "value_error": 3.0,
+      "fix_logic_error": 2.0,
+      "case_sensitivity_error": 9.0,
+      "order_error": 2.0,
+      "root_edge_case_error": 1.0,
+      "fix_index_error": 5.0,
+      "root_unexpected_input_error": 1.0,
+      "root_logic_error": 1.0,
+      "fix_case_sensitivity_error": 9.0,
+      "algorithm_error": 3.0,
+      "root_algorithm_error": 1.0,
+      "assertion_error": 2.0,
+      "fix_type_error": 3.0
+    },
+    "algorithms-error_handling-recursion-searching": {
+      "unexpected_input_error": 3.0,
+      "order_error": 1.0,
+      "edge_case_error": 3.0,
+      "fix_value_error": 3.0,
+      "fix_performance_error": 6.0,
+      "fix_case_sensitivity_error": 7.0,
+      "fix_edge_case_error": 5.0,
+      "algorithm_error": 1.0,
+      "fix_setup_error": 2.0,
+      "fix_logic_error": 1.0,
+      "case_sensitivity_error": 4.0,
+      "type_error": 1.0,
+      "index_error": 4.0,
+      "fix_index_error": 6.0,
+      "fix_unexpected_input_error": 4.0,
+      "fix_type_error": 1.0
+    },
+    "dynamic_programming-searching": {
+      "output_format_error": 1.0,
+      "fix_value_error": 0.5,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 3.0,
+      "value_error": 0.5,
+      "fix_edge_case_error": 2.0,
+      "algorithm_error": 0.5,
+      "root_case_sensitivity_error": 0.5,
+      "case_sensitivity_error": 2.5,
+      "fix_order_error": 0.5,
+      "index_error": 0.5,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 0.5,
+      "fix_type_error": 0.5
+    }
+  },
+  "error_patterns_by_difficulty": {
+    "medium": {
+      "root_index_error": 1.0,
+      "fix_value_error": 7.666666666666667,
+      "fix_edge_case_error": 15.666666666666666,
+      "root_order_error": 0.3333333333333333,
+      "fix_order_error": 1.3333333333333333,
+      "root_assertion_error": 0.3333333333333333,
+      "fix_unexpected_input_error": 9.333333333333334,
+      "logic_error": 1.3333333333333333,
+      "fix_setup_error": 3.3333333333333335,
+      "root_value_error": 0.6666666666666666,
+      "index_error": 4.0,
+      "root_case_sensitivity_error": 1.6666666666666667,
+      "fix_algorithm_error": 2.6666666666666665,
+      "output_format_error": 3.0,
+      "edge_case_error": 4.0,
+      "fix_assertion_error": 0.3333333333333333,
+      "fix_performance_error": 13.666666666666666,
+      "value_error": 2.0,
+      "setup_error": 3.3333333333333335,
+      "fix_output_format_error": 2.6666666666666665,
+      "root_output_format_error": 0.6666666666666666,
+      "fix_logic_error": 1.6666666666666667,
+      "case_sensitivity_error": 20.666666666666668,
+      "performance_error": 2.3333333333333335,
+      "type_error": 1.6666666666666667,
+      "root_setup_error": 0.3333333333333333,
+      "order_error": 0.6666666666666666,
+      "root_edge_case_error": 0.3333333333333333,
+      "fix_index_error": 11.666666666666666,
+      "unexpected_input_error": 2.0,
+      "root_logic_error": 0.3333333333333333,
+      "fix_case_sensitivity_error": 22.666666666666668,
+      "algorithm_error": 1.0,
+      "root_algorithm_error": 0.6666666666666666,
+      "assertion_error": 2.0,
+      "fix_type_error": 3.6666666666666665
+    },
+    "hard": {
+      "root_index_error": 1.0,
+      "fix_value_error": 5.333333333333333,
+      "fix_edge_case_error": 15.0,
+      "root_order_error": 0.3333333333333333,
+      "fix_order_error": 1.0,
+      "fix_unexpected_input_error": 5.333333333333333,
+      "logic_error": 0.6666666666666666,
+      "fix_setup_error": 3.6666666666666665,
+      "root_value_error": 1.0,
+      "index_error": 6.0,
+      "root_case_sensitivity_error": 2.0,
+      "fix_algorithm_error": 1.3333333333333333,
+      "output_format_error": 3.3333333333333335,
+      "edge_case_error": 4.0,
+      "fix_assertion_error": 0.6666666666666666,
+      "fix_performance_error": 9.333333333333334,
+      "value_error": 3.0,
+      "setup_error": 3.3333333333333335,
+      "root_output_format_error": 1.0,
+      "root_performance_error": 0.6666666666666666,
+      "fix_logic_error": 1.6666666666666667,
+      "case_sensitivity_error": 15.0,
+      "fix_output_format_error": 2.0,
+      "performance_error": 2.6666666666666665,
+      "root_setup_error": 0.6666666666666666,
+      "type_error": 1.6666666666666667,
+      "order_error": 0.3333333333333333,
+      "root_edge_case_error": 1.0,
+      "fix_index_error": 11.666666666666666,
+      "unexpected_input_error": 2.6666666666666665,
+      "root_logic_error": 0.6666666666666666,
+      "fix_case_sensitivity_error": 19.333333333333332,
+      "algorithm_error": 2.0,
+      "root_algorithm_error": 0.6666666666666666,
+      "assertion_error": 3.3333333333333335,
+      "fix_type_error": 2.3333333333333335
+    },
+    "very hard": {
+      "root_index_error": 3.3333333333333335,
+      "fix_value_error": 19.333333333333332,
+      "fix_edge_case_error": 46.333333333333336,
+      "root_order_error": 1.0,
+      "root_type_error": 1.3333333333333333,
+      "fix_order_error": 8.666666666666666,
+      "root_assertion_error": 0.6666666666666666,
+      "fix_unexpected_input_error": 22.0,
+      "logic_error": 6.333333333333333,
+      "fix_setup_error": 4.666666666666667,
+      "root_value_error": 2.3333333333333335,
+      "index_error": 18.333333333333332,
+      "root_case_sensitivity_error": 5.666666666666667,
+      "fix_algorithm_error": 5.0,
+      "output_format_error": 7.333333333333333,
+      "edge_case_error": 11.666666666666666,
+      "fix_assertion_error": 0.3333333333333333,
+      "fix_performance_error": 35.666666666666664,
+      "value_error": 9.666666666666666,
+      "setup_error": 6.0,
+      "fix_output_format_error": 4.333333333333333,
+      "fix_logic_error": 7.333333333333333,
+      "root_output_format_error": 1.6666666666666667,
+      "case_sensitivity_error": 50.333333333333336,
+      "root_performance_error": 0.3333333333333333,
+      "performance_error": 5.0,
+      "type_error": 7.333333333333333,
+      "root_setup_error": 0.6666666666666666,
+      "order_error": 3.3333333333333335,
+      "root_edge_case_error": 1.3333333333333333,
+      "fix_index_error": 31.0,
+      "unexpected_input_error": 10.333333333333334,
+      "root_unexpected_input_error": 1.3333333333333333,
+      "root_logic_error": 1.3333333333333333,
+      "fix_case_sensitivity_error": 63.0,
+      "algorithm_error": 5.0,
+      "root_algorithm_error": 2.3333333333333335,
+      "assertion_error": 5.666666666666667,
+      "fix_type_error": 11.0
+    }
+  },
+  "total_error_patterns": {
+    "root_index_error": 5.333333333333333,
+    "fix_value_error": 32.333333333333336,
+    "fix_edge_case_error": 77.0,
+    "root_order_error": 1.6666666666666667,
+    "root_type_error": 1.3333333333333333,
+    "fix_order_error": 11.0,
+    "root_assertion_error": 1.0,
+    "fix_unexpected_input_error": 36.666666666666664,
+    "logic_error": 8.333333333333334,
+    "fix_setup_error": 11.666666666666666,
+    "root_value_error": 4.0,
+    "index_error": 28.333333333333332,
+    "root_case_sensitivity_error": 9.333333333333334,
+    "fix_algorithm_error": 9.0,
+    "output_format_error": 13.666666666666666,
+    "edge_case_error": 19.666666666666668,
+    "fix_assertion_error": 1.3333333333333333,
+    "fix_performance_error": 58.666666666666664,
+    "value_error": 14.666666666666666,
+    "setup_error": 12.666666666666666,
+    "root_output_format_error": 3.3333333333333335,
+    "root_performance_error": 1.0,
+    "fix_logic_error": 10.666666666666666,
+    "case_sensitivity_error": 86.0,
+    "fix_output_format_error": 9.0,
+    "performance_error": 10.0,
+    "type_error": 10.666666666666666,
+    "root_setup_error": 1.6666666666666667,
+    "order_error": 4.333333333333333,
+    "root_edge_case_error": 2.6666666666666665,
+    "fix_index_error": 54.333333333333336,
+    "unexpected_input_error": 15.0,
+    "root_unexpected_input_error": 1.3333333333333333,
+    "root_logic_error": 2.3333333333333335,
+    "fix_case_sensitivity_error": 105.0,
+    "algorithm_error": 8.0,
+    "root_algorithm_error": 3.6666666666666665,
+    "assertion_error": 11.0,
+    "fix_type_error": 17.0
+  },
+  "comparative_analysis": {
+    "loops-sorting-medium": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 0.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 1.0,
+        "fix_case_sensitivity_error": 2.0,
+        "value_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "type_error": 1.0,
+        "index_error": 2.0
+      },
+      "success_rate": 0.0
+    },
+    "dynamic_programming-error_handling-recursion-sorting-hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 2.0,
+        "output_format_error": 1.0,
+        "edge_case_error": 1.0,
+        "fix_case_sensitivity_error": 3.0,
+        "value_error": 2.0,
+        "fix_edge_case_error": 2.0,
+        "setup_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "performance_error": 1.0,
+        "type_error": 2.0,
+        "index_error": 2.0,
+        "assertion_error": 1.0
+      },
+      "success_rate": 0.3333333333333333
+    },
+    "algorithms-sorting-hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 0.5,
+        "test_setup_errors": 1.5,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_algorithm_error": 0.5,
+        "fix_performance_error": 0.5,
+        "fix_case_sensitivity_error": 0.5,
+        "fix_edge_case_error": 0.5,
+        "setup_error": 1.0,
+        "fix_setup_error": 0.5,
+        "case_sensitivity_error": 3.0,
+        "performance_error": 1.0,
+        "fix_order_error": 0.5,
+        "fix_index_error": 0.5,
+        "fix_unexpected_input_error": 0.5
+      },
+      "success_rate": 1.0
+    },
+    "functions-sorting-hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 0.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {},
+      "success_rate": 0.0
+    },
+    "algorithms-loops-recursion-sorting-very hard": {
+      "avg_attempts": 1.5,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 2.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 1.0
+      },
+      "error_patterns": {
+        "root_index_error": 1.0,
+        "fix_value_error": 4.0,
+        "fix_edge_case_error": 10.0,
+        "fix_order_error": 4.0,
+        "fix_unexpected_input_error": 3.0,
+        "fix_setup_error": 1.0,
+        "root_value_error": 1.0,
+        "index_error": 4.0,
+        "root_case_sensitivity_error": 1.0,
+        "fix_algorithm_error": 5.0,
+        "output_format_error": 3.0,
+        "edge_case_error": 1.0,
+        "fix_assertion_error": 1.0,
+        "fix_performance_error": 8.0,
+        "value_error": 1.0,
+        "setup_error": 3.0,
+        "fix_output_format_error": 2.0,
+        "fix_logic_error": 2.0,
+        "root_output_format_error": 1.0,
+        "case_sensitivity_error": 13.0,
+        "performance_error": 3.0,
+        "type_error": 1.0,
+        "order_error": 1.0,
+        "fix_index_error": 4.0,
+        "unexpected_input_error": 2.0,
+        "fix_case_sensitivity_error": 14.0,
+        "algorithm_error": 1.0,
+        "root_algorithm_error": 1.0
+      },
+      "success_rate": 0.4090909090909091
+    },
+    "algorithms-functions-medium": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_algorithm_error": 1.0,
+        "edge_case_error": 1.0,
+        "fix_value_error": 1.0,
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "fix_output_format_error": 1.0,
+        "case_sensitivity_error": 3.0,
+        "fix_order_error": 1.0,
+        "fix_index_error": 2.0,
+        "fix_unexpected_input_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "error_handling-recursion-hard": {
+      "avg_attempts": 1.875,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.5,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_performance_error": 1.5,
+        "fix_value_error": 0.5,
+        "fix_case_sensitivity_error": 1.5,
+        "fix_edge_case_error": 1.0,
+        "fix_setup_error": 0.5,
+        "case_sensitivity_error": 1.5,
+        "fix_index_error": 1.0,
+        "fix_unexpected_input_error": 1.5,
+        "fix_type_error": 1.0
+      },
+      "success_rate": 0.625
+    },
+    "error_handling-sorting-very hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 2.0,
+        "order_error": 1.0,
+        "edge_case_error": 1.0,
+        "fix_performance_error": 2.0,
+        "fix_case_sensitivity_error": 2.0,
+        "value_error": 1.0,
+        "fix_edge_case_error": 2.0,
+        "case_sensitivity_error": 1.0,
+        "type_error": 1.0,
+        "index_error": 2.0
+      },
+      "success_rate": 1.0
+    },
+    "conditionals-loops-medium": {
+      "avg_attempts": 1.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "output_format_error": 1.0,
+        "fix_value_error": 1.0,
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "setup_error": 1.0,
+        "performance_error": 1.0,
+        "fix_index_error": 1.0,
+        "fix_unexpected_input_error": 1.0,
+        "fix_type_error": 1.0
+      },
+      "success_rate": 0.3333333333333333
+    },
+    "conditionals-functions-recursion-sorting-very hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "case_sensitivity_error": 2.0,
+        "fix_order_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "algorithms-conditionals-data_structures-dynamic_programming-medium": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_value_error": 1.0,
+        "fix_performance_error": 2.0,
+        "fix_case_sensitivity_error": 2.0,
+        "fix_edge_case_error": 2.0,
+        "fix_index_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "conditionals-recursion-hard": {
+      "avg_attempts": 0.75,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "output_format_error": 1.0,
+        "fix_value_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "case_sensitivity_error": 2.0,
+        "fix_index_error": 1.0
+      },
+      "success_rate": 0.25
+    },
+    "error_handling-recursion-medium": {
+      "avg_attempts": 2.25,
+      "error_distribution": {
+        "edge_case_errors": 1.5,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.5
+      },
+      "error_patterns": {
+        "output_format_error": 0.5,
+        "edge_case_error": 1.0,
+        "fix_value_error": 1.0,
+        "fix_performance_error": 0.5,
+        "fix_case_sensitivity_error": 1.5,
+        "logic_error": 0.5,
+        "fix_edge_case_error": 1.0,
+        "fix_output_format_error": 1.0,
+        "root_case_sensitivity_error": 0.5,
+        "case_sensitivity_error": 4.0,
+        "fix_index_error": 1.0,
+        "fix_unexpected_input_error": 0.5,
+        "fix_type_error": 0.5
+      },
+      "success_rate": 0.625
+    },
+    "algorithms-data_structures-error_handling-functions-very hard": {
+      "avg_attempts": 1.5,
+      "error_distribution": {
+        "edge_case_errors": 0.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "root_index_error": 2.0,
+        "fix_case_sensitivity_error": 1.0,
+        "root_output_format_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "root_value_error": 1.0,
+        "root_algorithm_error": 1.0,
+        "index_error": 1.0,
+        "fix_index_error": 1.0,
+        "root_case_sensitivity_error": 2.0
+      },
+      "success_rate": 0.0
+    },
+    "algorithms-searching-medium": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_performance_error": 1.0,
+        "fix_value_error": 1.0,
+        "fix_case_sensitivity_error": 3.0,
+        "fix_edge_case_error": 1.0,
+        "fix_setup_error": 1.0,
+        "fix_output_format_error": 1.0,
+        "case_sensitivity_error": 3.0
+      },
+      "success_rate": 1.0
+    },
+    "conditionals-error_handling-functions-searching-very hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 0.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {},
+      "success_rate": 0.0
+    },
+    "conditionals-error_handling-searching-very hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 1.0,
+        "fix_performance_error": 3.0,
+        "fix_value_error": 2.0,
+        "fix_case_sensitivity_error": 5.0,
+        "fix_edge_case_error": 5.0,
+        "fix_output_format_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "fix_index_error": 5.0,
+        "fix_unexpected_input_error": 1.0,
+        "fix_type_error": 3.0
+      },
+      "success_rate": 1.0
+    },
+    "functions-loops-medium": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_value_error": 1.0,
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "fix_index_error": 1.0,
+        "fix_unexpected_input_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "functions-recursion-medium": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_value_error": 1.0,
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "setup_error": 1.0,
+        "case_sensitivity_error": 3.0,
+        "performance_error": 1.0,
+        "fix_unexpected_input_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "conditionals-dynamic_programming-very hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "edge_case_error": 1.0,
+        "fix_performance_error": 3.0,
+        "fix_value_error": 1.0,
+        "fix_case_sensitivity_error": 3.0,
+        "fix_edge_case_error": 3.0,
+        "case_sensitivity_error": 6.0,
+        "fix_index_error": 1.0,
+        "fix_unexpected_input_error": 2.0,
+        "fix_type_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "algorithms-dynamic_programming-loops-recursion-very hard": {
+      "avg_attempts": 0.8571428571428571,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "edge_case_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "fix_index_error": 1.0
+      },
+      "success_rate": 0.0
+    },
+    "conditionals-data_structures-searching-sorting-very hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 2.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 1.0
+      },
+      "error_patterns": {
+        "root_index_error": 2.0,
+        "fix_value_error": 1.0,
+        "fix_edge_case_error": 3.0,
+        "root_order_error": 1.0,
+        "fix_order_error": 2.0,
+        "root_assertion_error": 1.0,
+        "fix_unexpected_input_error": 1.0,
+        "logic_error": 3.0,
+        "fix_setup_error": 1.0,
+        "index_error": 4.0,
+        "root_case_sensitivity_error": 2.0,
+        "output_format_error": 1.0,
+        "edge_case_error": 1.0,
+        "fix_performance_error": 3.0,
+        "value_error": 1.0,
+        "case_sensitivity_error": 6.0,
+        "type_error": 1.0,
+        "root_setup_error": 1.0,
+        "order_error": 1.0,
+        "fix_index_error": 2.0,
+        "unexpected_input_error": 1.0,
+        "fix_case_sensitivity_error": 4.0,
+        "root_algorithm_error": 1.0,
+        "assertion_error": 2.0
+      },
+      "success_rate": 0.5
+    },
+    "dynamic_programming-recursion-very hard": {
+      "avg_attempts": 2.25,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.5,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_performance_error": 2.0,
+        "fix_case_sensitivity_error": 1.5,
+        "fix_edge_case_error": 1.5,
+        "fix_setup_error": 0.5,
+        "fix_unexpected_input_error": 1.0
+      },
+      "success_rate": 0.625
+    },
+    "algorithms-dynamic_programming-very hard": {
+      "avg_attempts": 1.0,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 2.0
+      },
+      "error_patterns": {
+        "fix_algorithm_error": 1.0,
+        "output_format_error": 1.0,
+        "edge_case_error": 2.0,
+        "fix_value_error": 2.0,
+        "logic_error": 1.0,
+        "fix_case_sensitivity_error": 2.0,
+        "value_error": 2.0,
+        "fix_edge_case_error": 1.0,
+        "setup_error": 1.0,
+        "algorithm_error": 1.0,
+        "fix_logic_error": 2.0,
+        "fix_index_error": 2.0,
+        "case_sensitivity_error": 2.0,
+        "type_error": 1.0,
+        "fix_order_error": 1.0,
+        "index_error": 1.0,
+        "assertion_error": 2.0
+      },
+      "success_rate": 0.0
+    },
+    "algorithms-functions-loops-recursion-medium": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_performance_error": 1.0,
+        "fix_value_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "fix_unexpected_input_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "algorithms-dynamic_programming-functions-very hard": {
+      "avg_attempts": 1.8,
+      "error_distribution": {
+        "edge_case_errors": 3.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 1.0
+      },
+      "error_patterns": {
+        "root_index_error": 1.0,
+        "edge_case_error": 1.0,
+        "fix_value_error": 2.0,
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 3.0,
+        "value_error": 1.0,
+        "fix_edge_case_error": 2.0,
+        "fix_index_error": 2.0,
+        "fix_logic_error": 2.0,
+        "case_sensitivity_error": 3.0,
+        "root_value_error": 1.0,
+        "root_order_error": 1.0,
+        "root_algorithm_error": 1.0,
+        "index_error": 2.0,
+        "root_edge_case_error": 1.0,
+        "assertion_error": 1.0,
+        "fix_unexpected_input_error": 1.0,
+        "root_case_sensitivity_error": 1.0
+      },
+      "success_rate": 0.2
+    },
+    "algorithms-data_structures-error_handling-recursion-very hard": {
+      "avg_attempts": 0.0,
+      "error_distribution": {
+        "edge_case_errors": 0.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {},
+      "success_rate": 0.0
+    },
+    "error_handling-recursion-very hard": {
+      "avg_attempts": 1.7142857142857142,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 2.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 2.0,
+        "output_format_error": 1.0,
+        "fix_value_error": 5.0,
+        "logic_error": 1.0,
+        "fix_case_sensitivity_error": 6.0,
+        "fix_performance_error": 2.0,
+        "value_error": 2.0,
+        "fix_edge_case_error": 4.0,
+        "algorithm_error": 1.0,
+        "fix_logic_error": 1.0,
+        "case_sensitivity_error": 2.0,
+        "type_error": 2.0,
+        "index_error": 3.0,
+        "fix_index_error": 3.0,
+        "fix_unexpected_input_error": 2.0,
+        "fix_type_error": 3.0
+      },
+      "success_rate": 0.42857142857142855
+    },
+    "dynamic_programming-error_handling-functions-sorting-very hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 0.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {},
+      "success_rate": 0.0
+    },
+    "algorithms-functions-hard": {
+      "avg_attempts": 1.5,
+      "error_distribution": {
+        "edge_case_errors": 1.5,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.5
+      },
+      "error_patterns": {
+        "fix_algorithm_error": 0.5,
+        "edge_case_error": 0.5,
+        "fix_performance_error": 1.5,
+        "logic_error": 0.5,
+        "fix_case_sensitivity_error": 2.0,
+        "fix_value_error": 0.5,
+        "fix_edge_case_error": 1.0,
+        "setup_error": 0.5,
+        "fix_setup_error": 0.5,
+        "case_sensitivity_error": 0.5,
+        "performance_error": 0.5,
+        "fix_index_error": 1.0
+      },
+      "success_rate": 0.25
+    },
+    "functions-loops-very hard": {
+      "avg_attempts": 1.5,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 3.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 3.0
+      },
+      "error_patterns": {
+        "root_index_error": 1.0,
+        "fix_value_error": 6.0,
+        "fix_edge_case_error": 7.0,
+        "root_type_error": 1.0,
+        "root_assertion_error": 1.0,
+        "fix_unexpected_input_error": 4.0,
+        "logic_error": 2.0,
+        "fix_setup_error": 2.0,
+        "root_value_error": 1.0,
+        "index_error": 2.0,
+        "root_case_sensitivity_error": 1.0,
+        "output_format_error": 1.0,
+        "fix_performance_error": 9.0,
+        "value_error": 2.0,
+        "setup_error": 1.0,
+        "fix_output_format_error": 1.0,
+        "fix_logic_error": 2.0,
+        "case_sensitivity_error": 15.0,
+        "performance_error": 1.0,
+        "type_error": 2.0,
+        "root_setup_error": 1.0,
+        "fix_index_error": 6.0,
+        "unexpected_input_error": 1.0,
+        "root_unexpected_input_error": 1.0,
+        "root_logic_error": 1.0,
+        "fix_case_sensitivity_error": 12.0,
+        "algorithm_error": 1.0,
+        "root_algorithm_error": 1.0,
+        "fix_type_error": 3.0
+      },
+      "success_rate": 0.35
+    },
+    "dynamic_programming-error_handling-hard": {
+      "avg_attempts": 1.0,
+      "error_distribution": {
+        "edge_case_errors": 0.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_case_sensitivity_error": 1.0,
+        "case_sensitivity_error": 1.0
+      },
+      "success_rate": 0.0
+    },
+    "algorithms-loops-hard": {
+      "avg_attempts": 2.5,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.5,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_performance_error": 2.0,
+        "fix_value_error": 1.5,
+        "fix_case_sensitivity_error": 2.0,
+        "fix_edge_case_error": 2.5,
+        "setup_error": 0.5,
+        "fix_output_format_error": 0.5,
+        "case_sensitivity_error": 1.5,
+        "performance_error": 0.5,
+        "fix_index_error": 1.5,
+        "fix_unexpected_input_error": 1.5,
+        "fix_type_error": 0.5
+      },
+      "success_rate": 0.8333333333333333
+    },
+    "algorithms-conditionals-hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 2.5,
+        "test_setup_errors": 2.5,
+        "implementation_errors": 0.0,
+        "logic_errors": 1.0
+      },
+      "error_patterns": {
+        "root_index_error": 0.5,
+        "fix_value_error": 0.5,
+        "fix_edge_case_error": 3.0,
+        "fix_setup_error": 1.5,
+        "root_value_error": 1.0,
+        "index_error": 2.5,
+        "root_case_sensitivity_error": 1.5,
+        "output_format_error": 0.5,
+        "edge_case_error": 1.0,
+        "fix_assertion_error": 0.5,
+        "fix_performance_error": 0.5,
+        "value_error": 1.5,
+        "setup_error": 1.5,
+        "root_output_format_error": 0.5,
+        "root_performance_error": 0.5,
+        "fix_logic_error": 1.0,
+        "case_sensitivity_error": 3.0,
+        "fix_output_format_error": 1.0,
+        "root_setup_error": 0.5,
+        "type_error": 0.5,
+        "root_edge_case_error": 1.0,
+        "fix_index_error": 1.0,
+        "unexpected_input_error": 0.5,
+        "fix_case_sensitivity_error": 3.0,
+        "algorithm_error": 2.5,
+        "root_algorithm_error": 0.5,
+        "assertion_error": 3.0
+      },
+      "success_rate": 0.0
+    },
+    "data_structures-error_handling-loops-recursion-hard": {
+      "avg_attempts": 1.0,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 2.0,
+        "edge_case_error": 1.0,
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "value_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "setup_error": 1.0,
+        "case_sensitivity_error": 2.0,
+        "performance_error": 1.0,
+        "index_error": 1.0,
+        "fix_index_error": 2.0,
+        "fix_type_error": 1.0
+      },
+      "success_rate": 0.3333333333333333
+    },
+    "data_structures-recursion-sorting-very hard": {
+      "avg_attempts": 1.5,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_case_sensitivity_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "fix_index_error": 1.0,
+        "fix_edge_case_error": 1.0
+      },
+      "success_rate": 0.5
+    },
+    "data_structures-error_handling-searching-sorting-very hard": {
+      "avg_attempts": 0.75,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 2.0
+      },
+      "error_patterns": {
+        "output_format_error": 2.0,
+        "edge_case_error": 1.0,
+        "logic_error": 1.0,
+        "fix_case_sensitivity_error": 2.0,
+        "fix_edge_case_error": 2.0,
+        "fix_index_error": 1.0,
+        "fix_logic_error": 1.0,
+        "case_sensitivity_error": 2.0,
+        "assertion_error": 1.0
+      },
+      "success_rate": 0.0
+    },
+    "algorithms-functions-loops-recursion-very hard": {
+      "avg_attempts": 2.142857142857143,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "edge_case_error": 1.0,
+        "fix_performance_error": 4.0,
+        "fix_value_error": 3.0,
+        "fix_case_sensitivity_error": 4.0,
+        "fix_edge_case_error": 4.0,
+        "setup_error": 1.0,
+        "case_sensitivity_error": 2.0,
+        "performance_error": 1.0,
+        "fix_order_error": 1.0,
+        "index_error": 1.0,
+        "fix_index_error": 5.0,
+        "fix_unexpected_input_error": 3.0,
+        "fix_type_error": 1.0
+      },
+      "success_rate": 0.5714285714285714
+    },
+    "conditionals-sorting-medium": {
+      "avg_attempts": 1.0,
+      "error_distribution": {
+        "edge_case_errors": 0.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "output_format_error": 1.0,
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 3.0,
+        "value_error": 1.0,
+        "fix_setup_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "type_error": 1.0,
+        "fix_index_error": 2.0
+      },
+      "success_rate": 0.0
+    },
+    "algorithms-error_handling-functions-searching-medium": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "setup_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "performance_error": 1.0,
+        "fix_unexpected_input_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "algorithms-data_structures-medium": {
+      "avg_attempts": 0.75,
+      "error_distribution": {
+        "edge_case_errors": 3.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 2.0
+      },
+      "error_patterns": {
+        "root_index_error": 1.0,
+        "fix_algorithm_error": 1.0,
+        "edge_case_error": 1.0,
+        "fix_assertion_error": 1.0,
+        "logic_error": 2.0,
+        "fix_case_sensitivity_error": 2.0,
+        "fix_edge_case_error": 1.0,
+        "root_output_format_error": 1.0,
+        "fix_output_format_error": 1.0,
+        "fix_logic_error": 2.0,
+        "fix_setup_error": 1.0,
+        "case_sensitivity_error": 2.0,
+        "root_value_error": 1.0,
+        "performance_error": 1.0,
+        "root_edge_case_error": 1.0,
+        "assertion_error": 2.0,
+        "root_case_sensitivity_error": 2.0
+      },
+      "success_rate": 0.0
+    },
+    "algorithms-sorting-medium": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.5,
+        "test_setup_errors": 0.5,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "edge_case_error": 1.0,
+        "fix_performance_error": 1.0,
+        "fix_value_error": 0.5,
+        "fix_case_sensitivity_error": 2.0,
+        "value_error": 0.5,
+        "fix_edge_case_error": 1.0,
+        "setup_error": 0.5,
+        "case_sensitivity_error": 2.5,
+        "performance_error": 0.5,
+        "type_error": 0.5,
+        "fix_order_error": 0.5,
+        "fix_index_error": 0.5,
+        "fix_type_error": 0.5
+      },
+      "success_rate": 1.0
+    },
+    "algorithms-conditionals-functions-loops-very hard": {
+      "avg_attempts": 0.75,
+      "error_distribution": {
+        "edge_case_errors": 0.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {},
+      "success_rate": 0.0
+    },
+    "dynamic_programming-error_handling-recursion-sorting-very hard": {
+      "avg_attempts": 1.0,
+      "error_distribution": {
+        "edge_case_errors": 3.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 3.0
+      },
+      "error_patterns": {
+        "fix_value_error": 2.0,
+        "fix_edge_case_error": 1.0,
+        "fix_order_error": 1.0,
+        "fix_unexpected_input_error": 1.0,
+        "logic_error": 1.0,
+        "root_case_sensitivity_error": 1.0,
+        "fix_algorithm_error": 1.0,
+        "output_format_error": 1.0,
+        "edge_case_error": 1.0,
+        "fix_performance_error": 1.0,
+        "value_error": 1.0,
+        "setup_error": 1.0,
+        "fix_logic_error": 2.0,
+        "case_sensitivity_error": 2.0,
+        "root_edge_case_error": 1.0,
+        "fix_index_error": 1.0,
+        "root_logic_error": 1.0,
+        "fix_case_sensitivity_error": 5.0,
+        "algorithm_error": 1.0,
+        "assertion_error": 1.0
+      },
+      "success_rate": 0.06666666666666667
+    },
+    "dynamic_programming-loops-medium": {
+      "avg_attempts": 1.125,
+      "error_distribution": {
+        "edge_case_errors": 1.5,
+        "test_setup_errors": 0.5,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_algorithm_error": 0.5,
+        "output_format_error": 0.5,
+        "edge_case_error": 1.0,
+        "fix_performance_error": 1.5,
+        "fix_case_sensitivity_error": 2.0,
+        "fix_edge_case_error": 2.0,
+        "fix_setup_error": 0.5,
+        "case_sensitivity_error": 2.0,
+        "index_error": 0.5,
+        "fix_index_error": 1.0,
+        "fix_unexpected_input_error": 1.5
+      },
+      "success_rate": 0.375
+    },
+    "data_structures-dynamic_programming-functions-sorting-very hard": {
+      "avg_attempts": 1.588235294117647,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 3.0
+      },
+      "error_patterns": {
+        "root_index_error": 1.0,
+        "fix_value_error": 3.0,
+        "fix_edge_case_error": 7.0,
+        "root_type_error": 1.0,
+        "fix_unexpected_input_error": 2.0,
+        "logic_error": 1.0,
+        "root_value_error": 1.0,
+        "index_error": 3.0,
+        "root_case_sensitivity_error": 1.0,
+        "output_format_error": 1.0,
+        "edge_case_error": 3.0,
+        "fix_performance_error": 3.0,
+        "value_error": 2.0,
+        "setup_error": 2.0,
+        "fix_logic_error": 2.0,
+        "case_sensitivity_error": 11.0,
+        "performance_error": 2.0,
+        "type_error": 2.0,
+        "fix_index_error": 2.0,
+        "unexpected_input_error": 2.0,
+        "root_unexpected_input_error": 1.0,
+        "root_logic_error": 1.0,
+        "fix_case_sensitivity_error": 10.0,
+        "assertion_error": 1.0,
+        "fix_type_error": 3.0
+      },
+      "success_rate": 0.35294117647058826
+    },
+    "loops-recursion-medium": {
+      "avg_attempts": 1.625,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 1.0
+      },
+      "error_patterns": {
+        "root_index_error": 1.0,
+        "fix_value_error": 1.5,
+        "fix_edge_case_error": 2.0,
+        "root_order_error": 0.5,
+        "fix_order_error": 0.5,
+        "root_assertion_error": 0.5,
+        "fix_unexpected_input_error": 2.0,
+        "root_value_error": 0.5,
+        "root_case_sensitivity_error": 1.0,
+        "fix_algorithm_error": 0.5,
+        "fix_performance_error": 1.0,
+        "value_error": 0.5,
+        "setup_error": 0.5,
+        "root_output_format_error": 0.5,
+        "fix_logic_error": 0.5,
+        "case_sensitivity_error": 3.5,
+        "root_setup_error": 0.5,
+        "order_error": 0.5,
+        "fix_index_error": 2.5,
+        "root_logic_error": 0.5,
+        "fix_case_sensitivity_error": 2.5,
+        "algorithm_error": 0.5,
+        "root_algorithm_error": 1.0,
+        "assertion_error": 1.0,
+        "fix_type_error": 1.0
+      },
+      "success_rate": 0.41666666666666663
+    },
+    "algorithms-error_handling-recursion-searching-very hard": {
+      "avg_attempts": 1.4285714285714286,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 1.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 3.0,
+        "order_error": 1.0,
+        "edge_case_error": 3.0,
+        "fix_value_error": 3.0,
+        "fix_performance_error": 6.0,
+        "fix_case_sensitivity_error": 7.0,
+        "fix_edge_case_error": 5.0,
+        "algorithm_error": 1.0,
+        "fix_setup_error": 2.0,
+        "fix_logic_error": 1.0,
+        "case_sensitivity_error": 4.0,
+        "type_error": 1.0,
+        "index_error": 4.0,
+        "fix_index_error": 6.0,
+        "fix_unexpected_input_error": 4.0,
+        "fix_type_error": 1.0
+      },
+      "success_rate": 0.2857142857142857
+    },
+    "algorithms-error_handling-searching-sorting-very hard": {
+      "avg_attempts": 1.75,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 1.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 1.0,
+        "output_format_error": 1.0,
+        "fix_performance_error": 3.0,
+        "fix_value_error": 2.0,
+        "fix_case_sensitivity_error": 4.0,
+        "logic_error": 1.0,
+        "value_error": 1.0,
+        "fix_edge_case_error": 3.0,
+        "fix_setup_error": 2.0,
+        "fix_output_format_error": 1.0,
+        "case_sensitivity_error": 8.0,
+        "type_error": 1.0,
+        "fix_order_error": 1.0,
+        "index_error": 1.0,
+        "fix_index_error": 5.0,
+        "fix_unexpected_input_error": 3.0,
+        "fix_type_error": 2.0
+      },
+      "success_rate": 0.3333333333333333
+    },
+    "error_handling-searching-hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 1.0,
+        "edge_case_error": 1.0,
+        "fix_value_error": 1.0,
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 2.0,
+        "fix_edge_case_error": 2.0,
+        "fix_index_error": 2.0
+      },
+      "success_rate": 1.0
+    },
+    "functions-loops-hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "edge_case_error": 1.0,
+        "fix_value_error": 1.0,
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "fix_index_error": 1.0,
+        "fix_unexpected_input_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "algorithms-dynamic_programming-error_handling-searching-very hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_algorithm_error": 1.0,
+        "edge_case_error": 1.0,
+        "fix_value_error": 1.0,
+        "fix_performance_error": 3.0,
+        "fix_case_sensitivity_error": 2.0,
+        "fix_edge_case_error": 2.0,
+        "case_sensitivity_error": 2.0,
+        "fix_index_error": 1.0,
+        "fix_unexpected_input_error": 3.0,
+        "fix_type_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "dynamic_programming-searching-very hard": {
+      "avg_attempts": 2.0357142857142856,
+      "error_distribution": {
+        "edge_case_errors": 0.5,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "output_format_error": 0.5,
+        "fix_performance_error": 0.5,
+        "fix_case_sensitivity_error": 1.5,
+        "value_error": 0.5,
+        "fix_edge_case_error": 0.5,
+        "algorithm_error": 0.5,
+        "fix_index_error": 0.5
+      },
+      "success_rate": 0.03571428571428571
+    },
+    "data_structures-error_handling-functions-sorting-very hard": {
+      "avg_attempts": 2.1666666666666665,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 1.0
+      },
+      "error_patterns": {
+        "fix_value_error": 1.5,
+        "fix_edge_case_error": 3.0,
+        "fix_order_error": 0.5,
+        "fix_unexpected_input_error": 2.0,
+        "logic_error": 1.0,
+        "fix_setup_error": 0.5,
+        "index_error": 0.5,
+        "root_case_sensitivity_error": 1.0,
+        "fix_algorithm_error": 0.5,
+        "output_format_error": 0.5,
+        "edge_case_error": 1.5,
+        "fix_performance_error": 2.5,
+        "value_error": 0.5,
+        "setup_error": 1.0,
+        "fix_output_format_error": 0.5,
+        "case_sensitivity_error": 3.0,
+        "performance_error": 1.0,
+        "fix_index_error": 1.5,
+        "unexpected_input_error": 1.0,
+        "fix_case_sensitivity_error": 4.5,
+        "fix_type_error": 1.0
+      },
+      "success_rate": 0.4444444444444444
+    },
+    "conditionals-dynamic_programming-hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 2.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 2.0
+      },
+      "error_patterns": {
+        "root_index_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "root_order_error": 1.0,
+        "fix_setup_error": 1.0,
+        "root_value_error": 1.0,
+        "index_error": 2.0,
+        "root_case_sensitivity_error": 1.0,
+        "output_format_error": 1.0,
+        "edge_case_error": 1.0,
+        "fix_performance_error": 2.0,
+        "value_error": 1.0,
+        "root_output_format_error": 1.0,
+        "root_performance_error": 1.0,
+        "fix_logic_error": 1.0,
+        "case_sensitivity_error": 2.0,
+        "performance_error": 1.0,
+        "root_setup_error": 1.0,
+        "fix_index_error": 1.0,
+        "root_logic_error": 1.0,
+        "fix_case_sensitivity_error": 2.0,
+        "algorithm_error": 1.0,
+        "root_algorithm_error": 1.0,
+        "assertion_error": 1.0
+      },
+      "success_rate": 0.0
+    },
+    "algorithms-conditionals-data_structures-very hard": {
+      "avg_attempts": 2.0,
+      "error_distribution": {
+        "edge_case_errors": 3.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 2.0
+      },
+      "error_patterns": {
+        "root_index_error": 1.0,
+        "edge_case_error": 1.0,
+        "fix_value_error": 1.0,
+        "logic_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "setup_error": 1.0,
+        "algorithm_error": 1.0,
+        "fix_logic_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "root_value_error": 1.0,
+        "performance_error": 1.0,
+        "index_error": 2.0,
+        "root_edge_case_error": 1.0,
+        "assertion_error": 1.0,
+        "fix_unexpected_input_error": 1.0,
+        "root_case_sensitivity_error": 1.0
+      },
+      "success_rate": 0.0
+    },
+    "dynamic_programming-functions-hard": {
+      "avg_attempts": 1.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 1.0,
+        "output_format_error": 1.0,
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 3.0,
+        "value_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "fix_output_format_error": 1.0,
+        "fix_setup_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "type_error": 1.0,
+        "index_error": 1.0
+      },
+      "success_rate": 0.0
+    },
+    "data_structures-dynamic_programming-medium": {
+      "avg_attempts": 1.5,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 2.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 1.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 1.0,
+        "fix_algorithm_error": 3.0,
+        "output_format_error": 1.0,
+        "fix_case_sensitivity_error": 5.0,
+        "fix_edge_case_error": 1.0,
+        "setup_error": 1.0,
+        "fix_index_error": 3.0,
+        "fix_logic_error": 2.0,
+        "algorithm_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "fix_output_format_error": 1.0,
+        "fix_setup_error": 1.0,
+        "index_error": 2.0,
+        "assertion_error": 1.0,
+        "fix_unexpected_input_error": 1.0
+      },
+      "success_rate": 0.0
+    },
+    "dynamic_programming-recursion-hard": {
+      "avg_attempts": 0.75,
+      "error_distribution": {
+        "edge_case_errors": 0.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {},
+      "success_rate": 0.0
+    },
+    "dynamic_programming-error_handling-medium": {
+      "avg_attempts": 2.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_value_error": 3.0,
+        "fix_performance_error": 2.0,
+        "fix_case_sensitivity_error": 2.0,
+        "fix_edge_case_error": 2.0,
+        "fix_index_error": 1.0,
+        "fix_unexpected_input_error": 2.0
+      },
+      "success_rate": 0.6666666666666666
+    },
+    "algorithms-functions-loops-recursion-hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_value_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "fix_index_error": 2.0,
+        "fix_unexpected_input_error": 1.0,
+        "fix_type_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "data_structures-sorting-hard": {
+      "avg_attempts": 1.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "fix_index_error": 1.0,
+        "fix_unexpected_input_error": 1.0
+      },
+      "success_rate": 0.3333333333333333
+    },
+    "dynamic_programming-recursion-medium": {
+      "avg_attempts": 2.0,
+      "error_distribution": {
+        "edge_case_errors": 0.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {},
+      "success_rate": 0.0
+    },
+    "algorithms-dynamic_programming-medium": {
+      "avg_attempts": 1.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_performance_error": 1.0,
+        "fix_algorithm_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0
+      },
+      "success_rate": 0.3333333333333333
+    },
+    "conditionals-error_handling-loops-searching-very hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "fix_index_error": 1.0,
+        "fix_unexpected_input_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "algorithms-loops-medium": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.3333333333333333,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "output_format_error": 0.3333333333333333,
+        "edge_case_error": 0.3333333333333333,
+        "fix_performance_error": 1.0,
+        "fix_value_error": 0.6666666666666666,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "fix_setup_error": 0.3333333333333333,
+        "case_sensitivity_error": 1.3333333333333333,
+        "fix_index_error": 1.3333333333333333,
+        "fix_unexpected_input_error": 0.3333333333333333,
+        "fix_type_error": 0.3333333333333333
+      },
+      "success_rate": 0.6666666666666666
+    },
+    "functions-loops-recursion-medium": {
+      "avg_attempts": 1.0,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 1.0,
+        "edge_case_error": 1.0,
+        "fix_value_error": 1.0,
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "index_error": 1.0,
+        "fix_unexpected_input_error": 1.0
+      },
+      "success_rate": 0.3333333333333333
+    },
+    "data_structures-dynamic_programming-recursion-sorting-hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 3.0
+      },
+      "error_patterns": {
+        "order_error": 1.0,
+        "root_index_error": 1.0,
+        "output_format_error": 2.0,
+        "root_logic_error": 1.0,
+        "fix_value_error": 1.0,
+        "logic_error": 1.0,
+        "fix_case_sensitivity_error": 3.0,
+        "fix_edge_case_error": 1.0,
+        "setup_error": 1.0,
+        "root_output_format_error": 1.0,
+        "fix_logic_error": 1.0,
+        "fix_index_error": 3.0,
+        "performance_error": 1.0,
+        "index_error": 1.0,
+        "root_edge_case_error": 1.0,
+        "assertion_error": 2.0,
+        "root_case_sensitivity_error": 1.0
+      },
+      "success_rate": 0.0
+    },
+    "data_structures-dynamic_programming-hard": {
+      "avg_attempts": 1.0,
+      "error_distribution": {
+        "edge_case_errors": 0.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {},
+      "success_rate": 0.0
+    },
+    "algorithms-error_handling-hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "fix_index_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "algorithms-data_structures-functions-sorting-very hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 3.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 3.0
+      },
+      "error_patterns": {
+        "root_index_error": 1.0,
+        "fix_value_error": 1.0,
+        "fix_edge_case_error": 3.0,
+        "root_order_error": 1.0,
+        "fix_order_error": 2.0,
+        "fix_unexpected_input_error": 2.0,
+        "logic_error": 2.0,
+        "index_error": 3.0,
+        "root_case_sensitivity_error": 2.0,
+        "output_format_error": 3.0,
+        "edge_case_error": 1.0,
+        "fix_performance_error": 2.0,
+        "value_error": 3.0,
+        "fix_logic_error": 2.0,
+        "case_sensitivity_error": 6.0,
+        "order_error": 2.0,
+        "root_edge_case_error": 1.0,
+        "fix_index_error": 4.0,
+        "root_unexpected_input_error": 1.0,
+        "root_logic_error": 1.0,
+        "fix_case_sensitivity_error": 7.0,
+        "algorithm_error": 3.0,
+        "root_algorithm_error": 1.0,
+        "assertion_error": 2.0,
+        "fix_type_error": 2.0
+      },
+      "success_rate": 0.5
+    },
+    "data_structures-error_handling-medium": {
+      "avg_attempts": 1.875,
+      "error_distribution": {
+        "edge_case_errors": 0.5,
+        "test_setup_errors": 0.5,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_performance_error": 0.5,
+        "fix_case_sensitivity_error": 0.5,
+        "fix_edge_case_error": 0.5,
+        "fix_setup_error": 0.5,
+        "fix_output_format_error": 0.5,
+        "fix_index_error": 0.5,
+        "fix_unexpected_input_error": 0.5
+      },
+      "success_rate": 0.625
+    },
+    "algorithms-conditionals-very hard": {
+      "avg_attempts": 1.0,
+      "error_distribution": {
+        "edge_case_errors": 0.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {},
+      "success_rate": 0.0
+    },
+    "conditionals-error_handling-searching-hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "edge_case_error": 1.0,
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "index_error": 1.0,
+        "fix_index_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "algorithms-data_structures-error_handling-searching-very hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 1.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 2.0,
+        "edge_case_error": 3.0,
+        "fix_performance_error": 2.0,
+        "logic_error": 1.0,
+        "fix_case_sensitivity_error": 2.0,
+        "value_error": 2.0,
+        "fix_edge_case_error": 1.0,
+        "case_sensitivity_error": 3.0,
+        "type_error": 2.0,
+        "index_error": 3.0,
+        "fix_index_error": 1.0,
+        "fix_type_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "conditionals-error_handling-loops-sorting-very hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "edge_case_error": 1.0,
+        "fix_value_error": 1.0,
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "setup_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "performance_error": 1.0,
+        "fix_unexpected_input_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "conditionals-error_handling-recursion-searching-very hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_value_error": 1.0,
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "fix_order_error": 1.0,
+        "fix_index_error": 1.0,
+        "fix_unexpected_input_error": 1.0,
+        "fix_type_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "conditionals-data_structures-error_handling-functions-very hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 0.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 1.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 2.0,
+        "fix_case_sensitivity_error": 2.0,
+        "value_error": 2.0,
+        "root_output_format_error": 1.0,
+        "fix_index_error": 1.0,
+        "fix_logic_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "type_error": 2.0,
+        "root_type_error": 1.0,
+        "index_error": 2.0,
+        "assertion_error": 1.0,
+        "root_case_sensitivity_error": 1.0
+      },
+      "success_rate": 0.0
+    },
+    "loops-searching-sorting-very hard": {
+      "avg_attempts": 2.25,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_algorithm_error": 2.0,
+        "edge_case_error": 1.0,
+        "fix_performance_error": 6.0,
+        "fix_case_sensitivity_error": 10.0,
+        "fix_edge_case_error": 9.0,
+        "setup_error": 1.0,
+        "fix_output_format_error": 1.0,
+        "case_sensitivity_error": 9.0,
+        "performance_error": 1.0,
+        "fix_order_error": 2.0,
+        "fix_index_error": 3.0,
+        "fix_unexpected_input_error": 3.0
+      },
+      "success_rate": 0.75
+    },
+    "conditionals-searching-hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 2.0,
+        "fix_edge_case_error": 1.0,
+        "fix_index_error": 1.0,
+        "fix_unexpected_input_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "algorithms-data_structures-functions-sorting-hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_algorithm_error": 1.0,
+        "fix_value_error": 1.0,
+        "fix_case_sensitivity_error": 2.0,
+        "fix_edge_case_error": 1.0,
+        "case_sensitivity_error": 3.0,
+        "fix_order_error": 1.0,
+        "fix_index_error": 1.0,
+        "fix_unexpected_input_error": 1.0,
+        "fix_type_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "dynamic_programming-functions-medium": {
+      "avg_attempts": 2.25,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_performance_error": 1.5,
+        "fix_case_sensitivity_error": 1.5,
+        "fix_edge_case_error": 1.5,
+        "fix_setup_error": 1.0,
+        "case_sensitivity_error": 3.0,
+        "fix_order_error": 0.5,
+        "index_error": 0.5,
+        "fix_index_error": 1.5,
+        "fix_unexpected_input_error": 0.5
+      },
+      "success_rate": 0.75
+    },
+    "error_handling-loops-recursion-sorting-very hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 1.0,
+        "order_error": 1.0,
+        "fix_value_error": 1.0,
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "fix_order_error": 1.0,
+        "index_error": 1.0,
+        "fix_index_error": 1.0,
+        "fix_unexpected_input_error": 1.0,
+        "fix_type_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "error_handling-loops-hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_value_error": 1.0,
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "fix_setup_error": 1.0,
+        "case_sensitivity_error": 3.0,
+        "fix_unexpected_input_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "loops-sorting-very hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_case_sensitivity_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "fix_performance_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "conditionals-data_structures-very hard": {
+      "avg_attempts": 1.6,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 2.0,
+        "fix_edge_case_error": 2.0,
+        "case_sensitivity_error": 2.0,
+        "fix_order_error": 0.5,
+        "fix_index_error": 0.5
+      },
+      "success_rate": 0.3833333333333333
+    },
+    "dynamic_programming-searching-hard": {
+      "avg_attempts": 2.25,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "output_format_error": 0.5,
+        "fix_value_error": 0.5,
+        "fix_performance_error": 0.5,
+        "fix_case_sensitivity_error": 1.5,
+        "fix_edge_case_error": 1.5,
+        "root_case_sensitivity_error": 0.5,
+        "case_sensitivity_error": 2.5,
+        "fix_order_error": 0.5,
+        "index_error": 0.5,
+        "fix_index_error": 0.5,
+        "fix_unexpected_input_error": 0.5,
+        "fix_type_error": 0.5
+      },
+      "success_rate": 0.25
+    },
+    "conditionals-data_structures-hard": {
+      "avg_attempts": 1.8333333333333333,
+      "error_distribution": {
+        "edge_case_errors": 1.3333333333333333,
+        "test_setup_errors": 0.3333333333333333,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.3333333333333333
+      },
+      "error_patterns": {
+        "unexpected_input_error": 0.3333333333333333,
+        "output_format_error": 0.6666666666666666,
+        "edge_case_error": 0.6666666666666666,
+        "fix_assertion_error": 0.3333333333333333,
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 2.0,
+        "value_error": 0.3333333333333333,
+        "fix_edge_case_error": 1.3333333333333333,
+        "fix_setup_error": 0.6666666666666666,
+        "fix_logic_error": 0.3333333333333333,
+        "fix_output_format_error": 0.3333333333333333,
+        "case_sensitivity_error": 0.6666666666666666,
+        "type_error": 0.3333333333333333,
+        "index_error": 1.0,
+        "fix_index_error": 1.0
+      },
+      "success_rate": 0.3333333333333333
+    },
+    "algorithms-dynamic_programming-hard": {
+      "avg_attempts": 0.75,
+      "error_distribution": {
+        "edge_case_errors": 0.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {},
+      "success_rate": 0.0
+    },
+    "error_handling-loops-medium": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "fix_type_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "conditionals-data_structures-recursion-very hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_value_error": 1.0,
+        "fix_performance_error": 2.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "fix_output_format_error": 1.0,
+        "case_sensitivity_error": 3.0,
+        "fix_index_error": 2.0,
+        "fix_type_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "recursion-sorting-very hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.5,
+        "test_setup_errors": 0.5,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 0.5,
+        "fix_algorithm_error": 0.5,
+        "edge_case_error": 0.5,
+        "fix_performance_error": 0.5,
+        "fix_case_sensitivity_error": 2.5,
+        "value_error": 0.5,
+        "fix_edge_case_error": 2.0,
+        "fix_setup_error": 0.5,
+        "algorithm_error": 0.5,
+        "case_sensitivity_error": 1.5,
+        "type_error": 0.5,
+        "fix_order_error": 0.5,
+        "index_error": 1.0,
+        "fix_index_error": 1.5,
+        "fix_unexpected_input_error": 1.0
+      },
+      "success_rate": 0.75
+    },
+    "algorithms-sorting-very hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 1.0,
+        "fix_performance_error": 5.0,
+        "fix_case_sensitivity_error": 7.0,
+        "fix_edge_case_error": 7.0,
+        "fix_index_error": 3.0,
+        "fix_setup_error": 1.0,
+        "case_sensitivity_error": 6.0,
+        "fix_order_error": 3.0,
+        "index_error": 2.0,
+        "assertion_error": 1.0,
+        "fix_unexpected_input_error": 3.0,
+        "fix_type_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "algorithms-recursion-hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_value_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "fix_index_error": 1.0,
+        "fix_unexpected_input_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "searching-sorting-medium": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 1.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 1.0,
+        "output_format_error": 1.0,
+        "logic_error": 1.0,
+        "fix_case_sensitivity_error": 2.0,
+        "value_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "setup_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "type_error": 1.0,
+        "index_error": 1.0,
+        "fix_index_error": 1.0,
+        "fix_type_error": 1.0
+      },
+      "success_rate": 0.0
+    },
+    "conditionals-functions-medium": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.5,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 0.5,
+        "output_format_error": 0.5,
+        "fix_value_error": 0.5,
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "setup_error": 0.5,
+        "case_sensitivity_error": 0.5,
+        "performance_error": 0.5,
+        "index_error": 0.5,
+        "fix_unexpected_input_error": 1.0,
+        "fix_type_error": 0.5
+      },
+      "success_rate": 1.0
+    },
+    "dynamic_programming-error_handling-searching-sorting-very hard": {
+      "avg_attempts": 2.142857142857143,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_value_error": 3.0,
+        "fix_performance_error": 3.0,
+        "fix_case_sensitivity_error": 4.0,
+        "fix_edge_case_error": 3.0,
+        "fix_index_error": 4.0,
+        "fix_type_error": 1.0
+      },
+      "success_rate": 0.5714285714285714
+    },
+    "conditionals-sorting-hard": {
+      "avg_attempts": 0.75,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0
+      },
+      "success_rate": 0.25
+    },
+    "conditionals-functions-loops-recursion-very hard": {
+      "avg_attempts": 1.125,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_performance_error": 2.0,
+        "fix_value_error": 1.0,
+        "fix_case_sensitivity_error": 3.0,
+        "fix_edge_case_error": 3.0,
+        "fix_setup_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "index_error": 1.0,
+        "fix_index_error": 1.0,
+        "fix_unexpected_input_error": 2.0,
+        "fix_type_error": 2.0
+      },
+      "success_rate": 0.375
+    },
+    "algorithms-dynamic_programming-loops-very hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_performance_error": 1.0,
+        "fix_value_error": 1.0,
+        "fix_case_sensitivity_error": 3.0,
+        "fix_edge_case_error": 3.0,
+        "fix_setup_error": 1.0,
+        "fix_output_format_error": 1.0,
+        "case_sensitivity_error": 4.0,
+        "fix_index_error": 2.0
+      },
+      "success_rate": 0.6666666666666666
+    },
+    "dynamic_programming-sorting-medium": {
+      "avg_attempts": 1.5,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_value_error": 1.0,
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "fix_index_error": 1.0,
+        "fix_unexpected_input_error": 1.0,
+        "fix_type_error": 1.0
+      },
+      "success_rate": 0.25
+    },
+    "conditionals-dynamic_programming-medium": {
+      "avg_attempts": 1.0,
+      "error_distribution": {
+        "edge_case_errors": 0.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {},
+      "success_rate": 0.0
+    },
+    "dynamic_programming-error_handling-very hard": {
+      "avg_attempts": 1.7142857142857142,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 2.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 2.0,
+        "edge_case_error": 1.0,
+        "fix_value_error": 3.0,
+        "logic_error": 1.0,
+        "fix_case_sensitivity_error": 6.0,
+        "fix_performance_error": 1.0,
+        "value_error": 1.0,
+        "fix_edge_case_error": 3.0,
+        "fix_index_error": 3.0,
+        "fix_logic_error": 2.0,
+        "fix_output_format_error": 1.0,
+        "case_sensitivity_error": 2.0,
+        "type_error": 1.0,
+        "index_error": 3.0,
+        "assertion_error": 1.0,
+        "fix_unexpected_input_error": 2.0,
+        "fix_type_error": 1.0
+      },
+      "success_rate": 0.2857142857142857
+    },
+    "algorithms-conditionals-data_structures-loops-very hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 2.0,
+        "fix_algorithm_error": 1.0,
+        "output_format_error": 1.0,
+        "edge_case_error": 1.0,
+        "fix_case_sensitivity_error": 6.0,
+        "value_error": 1.0,
+        "fix_edge_case_error": 2.0,
+        "setup_error": 2.0,
+        "fix_output_format_error": 1.0,
+        "case_sensitivity_error": 2.0,
+        "performance_error": 2.0,
+        "type_error": 1.0,
+        "index_error": 1.0,
+        "fix_index_error": 2.0,
+        "fix_unexpected_input_error": 1.0
+      },
+      "success_rate": 0.5
+    },
+    "dynamic_programming-recursion-sorting-very hard": {
+      "avg_attempts": 1.7142857142857142,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_value_error": 2.0,
+        "fix_edge_case_error": 3.0,
+        "root_type_error": 1.0,
+        "fix_unexpected_input_error": 1.0,
+        "root_value_error": 1.0,
+        "index_error": 2.0,
+        "root_case_sensitivity_error": 2.0,
+        "output_format_error": 1.0,
+        "fix_performance_error": 2.0,
+        "value_error": 2.0,
+        "root_output_format_error": 2.0,
+        "fix_output_format_error": 1.0,
+        "root_performance_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "performance_error": 1.0,
+        "type_error": 1.0,
+        "fix_index_error": 3.0,
+        "unexpected_input_error": 1.0,
+        "root_unexpected_input_error": 1.0,
+        "fix_case_sensitivity_error": 4.0,
+        "algorithm_error": 1.0,
+        "root_algorithm_error": 1.0,
+        "fix_type_error": 1.0
+      },
+      "success_rate": 0.2857142857142857
+    },
+    "algorithms-conditionals-dynamic_programming-loops-very hard": {
+      "avg_attempts": 1.125,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 1.0,
+        "edge_case_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "value_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "type_error": 1.0,
+        "index_error": 1.0,
+        "fix_index_error": 1.0
+      },
+      "success_rate": 0.0
+    },
+    "conditionals-data_structures-recursion-hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "edge_case_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "fix_index_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "data_structures-dynamic_programming-loops-sorting-very hard": {
+      "avg_attempts": 1.0,
+      "error_distribution": {
+        "edge_case_errors": 0.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {},
+      "success_rate": 0.0
+    },
+    "data_structures-searching-medium": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_value_error": 1.0,
+        "fix_performance_error": 2.0,
+        "fix_case_sensitivity_error": 3.0,
+        "fix_edge_case_error": 1.0,
+        "case_sensitivity_error": 1.0,
+        "index_error": 1.0,
+        "fix_index_error": 1.0,
+        "fix_unexpected_input_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "conditionals-loops-searching-very hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_performance_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "fix_unexpected_input_error": 1.0
+      },
+      "success_rate": 1.0
+    },
+    "data_structures-sorting-medium": {
+      "avg_attempts": 2.25,
+      "error_distribution": {
+        "edge_case_errors": 1.5,
+        "test_setup_errors": 0.5,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "order_error": 0.5,
+        "output_format_error": 0.5,
+        "edge_case_error": 0.5,
+        "fix_performance_error": 2.0,
+        "fix_case_sensitivity_error": 2.5,
+        "fix_edge_case_error": 2.0,
+        "setup_error": 0.5,
+        "fix_output_format_error": 0.5,
+        "case_sensitivity_error": 3.0,
+        "performance_error": 0.5,
+        "index_error": 0.5,
+        "fix_index_error": 0.5,
+        "fix_unexpected_input_error": 0.5
+      },
+      "success_rate": 0.75
+    },
+    "loops-recursion-searching-sorting-very hard": {
+      "avg_attempts": 1.8,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 1.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 1.0,
+        "order_error": 1.0,
+        "fix_algorithm_error": 1.0,
+        "output_format_error": 1.0,
+        "assertion_error": 2.0,
+        "edge_case_error": 1.0,
+        "fix_value_error": 1.0,
+        "fix_performance_error": 3.0,
+        "fix_case_sensitivity_error": 4.0,
+        "fix_edge_case_error": 4.0,
+        "setup_error": 2.0,
+        "algorithm_error": 2.0,
+        "case_sensitivity_error": 4.0,
+        "index_error": 1.0,
+        "fix_index_error": 1.0,
+        "fix_unexpected_input_error": 3.0,
+        "fix_type_error": 1.0
+      },
+      "success_rate": 0.6
+    },
+    "conditionals-recursion-medium": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.6666666666666666,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "unexpected_input_error": 0.3333333333333333,
+        "edge_case_error": 0.3333333333333333,
+        "fix_performance_error": 0.6666666666666666,
+        "fix_case_sensitivity_error": 0.6666666666666666,
+        "value_error": 0.3333333333333333,
+        "fix_edge_case_error": 0.6666666666666666,
+        "setup_error": 0.3333333333333333,
+        "algorithm_error": 0.3333333333333333,
+        "fix_index_error": 0.3333333333333333,
+        "fix_setup_error": 0.3333333333333333,
+        "case_sensitivity_error": 1.0,
+        "type_error": 0.3333333333333333,
+        "index_error": 0.3333333333333333,
+        "assertion_error": 0.3333333333333333,
+        "fix_unexpected_input_error": 0.3333333333333333
+      },
+      "success_rate": 0.6666666666666666
+    },
+    "algorithms-dynamic_programming-error_handling-recursion-very hard": {
+      "avg_attempts": 2.25,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_performance_error": 2.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "fix_unexpected_input_error": 1.0
+      },
+      "success_rate": 0.25
+    },
+    "conditionals-functions-hard": {
+      "avg_attempts": 2.0,
+      "error_distribution": {
+        "edge_case_errors": 1.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_algorithm_error": 1.0,
+        "fix_value_error": 1.0,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 1.0,
+        "fix_output_format_error": 1.0,
+        "fix_index_error": 1.0
+      },
+      "success_rate": 0.3333333333333333
+    },
+    "algorithms-recursion-medium": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 0.5,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_performance_error": 0.5,
+        "fix_value_error": 0.5,
+        "fix_case_sensitivity_error": 1.0,
+        "fix_edge_case_error": 0.5,
+        "fix_index_error": 0.5,
+        "fix_unexpected_input_error": 0.5,
+        "fix_type_error": 0.5
+      },
+      "success_rate": 0.5
+    },
+    "data_structures-dynamic_programming-error_handling-recursion-very hard": {
+      "avg_attempts": 0.75,
+      "error_distribution": {
+        "edge_case_errors": 0.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {},
+      "success_rate": 0.0
+    },
+    "data_structures-functions-recursion-sorting-very hard": {
+      "avg_attempts": 1.5,
+      "error_distribution": {
+        "edge_case_errors": 2.0,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 2.0
+      },
+      "error_patterns": {
+        "order_error": 2.0,
+        "fix_algorithm_error": 1.0,
+        "output_format_error": 2.0,
+        "edge_case_error": 2.0,
+        "fix_performance_error": 5.0,
+        "logic_error": 1.0,
+        "fix_case_sensitivity_error": 8.0,
+        "fix_value_error": 1.0,
+        "fix_edge_case_error": 7.0,
+        "fix_index_error": 2.0,
+        "fix_logic_error": 1.0,
+        "fix_output_format_error": 1.0,
+        "case_sensitivity_error": 6.0,
+        "type_error": 1.0,
+        "fix_order_error": 3.0,
+        "index_error": 2.0,
+        "assertion_error": 1.0,
+        "fix_unexpected_input_error": 4.0
+      },
+      "success_rate": 0.2222222222222222
+    },
+    "loops-sorting-hard": {
+      "avg_attempts": 3.0,
+      "error_distribution": {
+        "edge_case_errors": 0.5,
+        "test_setup_errors": 0.0,
+        "implementation_errors": 0.0,
+        "logic_errors": 0.0
+      },
+      "error_patterns": {
+        "fix_case_sensitivity_error": 0.5,
+        "fix_edge_case_error": 0.5,
+        "index_error": 0.5,
+        "fix_index_error": 0.5,
+        "fix_unexpected_input_error": 0.5
+      },
+      "success_rate": 1.0
+    }
+  },
+  "error_distributions": {
+    "algorithms-functions-loops-recursion": {
+      "edge_case_error": 1.0,
+      "fix_performance_error": 5.0,
+      "fix_value_error": 5.0,
+      "fix_case_sensitivity_error": 6.0,
+      "fix_edge_case_error": 6.0,
+      "setup_error": 1.0,
+      "case_sensitivity_error": 2.0,
+      "performance_error": 1.0,
+      "fix_order_error": 1.0,
+      "index_error": 1.0,
+      "fix_index_error": 7.0,
+      "fix_unexpected_input_error": 5.0,
+      "fix_type_error": 2.0
+    },
+    "conditionals-error_handling-recursion-searching": {
+      "fix_value_error": 1.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "fix_order_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 1.0,
+      "fix_type_error": 1.0
+    },
+    "data_structures-functions-recursion-sorting": {
+      "order_error": 2.0,
+      "fix_algorithm_error": 1.0,
+      "output_format_error": 2.0,
+      "edge_case_error": 2.0,
+      "fix_performance_error": 5.0,
+      "logic_error": 1.0,
+      "fix_case_sensitivity_error": 8.0,
+      "fix_value_error": 1.0,
+      "fix_edge_case_error": 7.0,
+      "fix_index_error": 2.0,
+      "fix_logic_error": 1.0,
+      "fix_output_format_error": 1.0,
+      "case_sensitivity_error": 6.0,
+      "type_error": 1.0,
+      "fix_order_error": 3.0,
+      "index_error": 2.0,
+      "assertion_error": 1.0,
+      "fix_unexpected_input_error": 4.0
+    },
+    "data_structures-dynamic_programming-recursion-sorting": {
+      "order_error": 1.0,
+      "root_index_error": 1.0,
+      "output_format_error": 2.0,
+      "root_logic_error": 1.0,
+      "fix_value_error": 1.0,
+      "logic_error": 1.0,
+      "fix_case_sensitivity_error": 3.0,
+      "fix_edge_case_error": 1.0,
+      "setup_error": 1.0,
+      "root_output_format_error": 1.0,
+      "fix_logic_error": 1.0,
+      "fix_index_error": 3.0,
+      "performance_error": 1.0,
+      "index_error": 1.0,
+      "root_edge_case_error": 1.0,
+      "assertion_error": 2.0,
+      "root_case_sensitivity_error": 1.0
+    },
+    "conditionals-data_structures": {
+      "unexpected_input_error": 0.3333333333333333,
+      "output_format_error": 0.6666666666666666,
+      "edge_case_error": 0.6666666666666666,
+      "fix_assertion_error": 0.3333333333333333,
+      "fix_performance_error": 1.6666666666666667,
+      "fix_case_sensitivity_error": 3.3333333333333335,
+      "value_error": 0.3333333333333333,
+      "fix_edge_case_error": 2.6666666666666665,
+      "fix_setup_error": 0.6666666666666666,
+      "fix_logic_error": 0.3333333333333333,
+      "fix_output_format_error": 0.3333333333333333,
+      "case_sensitivity_error": 2.0,
+      "type_error": 0.3333333333333333,
+      "fix_order_error": 0.3333333333333333,
+      "index_error": 1.0,
+      "fix_index_error": 1.3333333333333333
+    },
+    "data_structures-recursion-sorting": {
+      "fix_case_sensitivity_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_edge_case_error": 1.0
+    },
+    "error_handling-recursion": {
+      "fix_value_error": 2.6666666666666665,
+      "fix_edge_case_error": 2.6666666666666665,
+      "fix_unexpected_input_error": 2.0,
+      "logic_error": 0.6666666666666666,
+      "fix_setup_error": 0.3333333333333333,
+      "index_error": 1.0,
+      "root_case_sensitivity_error": 0.3333333333333333,
+      "output_format_error": 0.6666666666666666,
+      "edge_case_error": 0.6666666666666666,
+      "fix_performance_error": 2.0,
+      "value_error": 0.6666666666666666,
+      "fix_output_format_error": 0.6666666666666666,
+      "fix_logic_error": 0.3333333333333333,
+      "case_sensitivity_error": 4.333333333333333,
+      "type_error": 0.6666666666666666,
+      "fix_index_error": 2.3333333333333335,
+      "unexpected_input_error": 0.6666666666666666,
+      "fix_case_sensitivity_error": 4.0,
+      "algorithm_error": 0.3333333333333333,
+      "fix_type_error": 2.0
+    },
+    "algorithms-error_handling-functions-searching": {
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "setup_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "performance_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "data_structures-error_handling-loops-recursion": {
+      "unexpected_input_error": 2.0,
+      "edge_case_error": 1.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "value_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "setup_error": 1.0,
+      "case_sensitivity_error": 2.0,
+      "performance_error": 1.0,
+      "index_error": 1.0,
+      "fix_index_error": 2.0,
+      "fix_type_error": 1.0
+    },
+    "data_structures-dynamic_programming-functions-sorting": {
+      "root_index_error": 1.0,
+      "fix_value_error": 3.0,
+      "fix_edge_case_error": 7.0,
+      "root_type_error": 1.0,
+      "fix_unexpected_input_error": 2.0,
+      "logic_error": 1.0,
+      "root_value_error": 1.0,
+      "index_error": 3.0,
+      "root_case_sensitivity_error": 1.0,
+      "output_format_error": 1.0,
+      "edge_case_error": 3.0,
+      "fix_performance_error": 3.0,
+      "value_error": 2.0,
+      "setup_error": 2.0,
+      "fix_logic_error": 2.0,
+      "case_sensitivity_error": 11.0,
+      "performance_error": 2.0,
+      "type_error": 2.0,
+      "fix_index_error": 2.0,
+      "unexpected_input_error": 2.0,
+      "root_unexpected_input_error": 1.0,
+      "root_logic_error": 1.0,
+      "fix_case_sensitivity_error": 10.0,
+      "assertion_error": 1.0,
+      "fix_type_error": 3.0
+    },
+    "algorithms-functions": {
+      "fix_algorithm_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_performance_error": 2.0,
+      "fix_case_sensitivity_error": 2.5,
+      "logic_error": 0.5,
+      "fix_edge_case_error": 1.5,
+      "setup_error": 0.5,
+      "fix_output_format_error": 0.5,
+      "fix_setup_error": 0.5,
+      "case_sensitivity_error": 2.0,
+      "performance_error": 0.5,
+      "fix_order_error": 0.5,
+      "fix_index_error": 2.0,
+      "fix_unexpected_input_error": 0.5
+    },
+    "algorithms-data_structures": {
+      "root_index_error": 1.0,
+      "fix_algorithm_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_assertion_error": 1.0,
+      "logic_error": 2.0,
+      "fix_case_sensitivity_error": 2.0,
+      "fix_edge_case_error": 1.0,
+      "root_output_format_error": 1.0,
+      "fix_output_format_error": 1.0,
+      "fix_logic_error": 2.0,
+      "fix_setup_error": 1.0,
+      "case_sensitivity_error": 2.0,
+      "root_value_error": 1.0,
+      "performance_error": 1.0,
+      "root_edge_case_error": 1.0,
+      "assertion_error": 2.0,
+      "root_case_sensitivity_error": 2.0
+    },
+    "conditionals-recursion": {
+      "unexpected_input_error": 0.3333333333333333,
+      "output_format_error": 0.3333333333333333,
+      "edge_case_error": 0.3333333333333333,
+      "fix_performance_error": 0.6666666666666666,
+      "fix_value_error": 0.3333333333333333,
+      "fix_case_sensitivity_error": 1.0,
+      "value_error": 0.3333333333333333,
+      "fix_edge_case_error": 1.0,
+      "setup_error": 0.3333333333333333,
+      "algorithm_error": 0.3333333333333333,
+      "fix_index_error": 0.6666666666666666,
+      "fix_setup_error": 0.3333333333333333,
+      "case_sensitivity_error": 1.6666666666666667,
+      "type_error": 0.3333333333333333,
+      "index_error": 0.3333333333333333,
+      "assertion_error": 0.3333333333333333,
+      "fix_unexpected_input_error": 0.3333333333333333
+    },
+    "conditionals-functions-loops-recursion": {
+      "fix_performance_error": 2.0,
+      "fix_value_error": 1.0,
+      "fix_case_sensitivity_error": 3.0,
+      "fix_edge_case_error": 3.0,
+      "fix_setup_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "index_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 2.0,
+      "fix_type_error": 2.0
+    },
+    "algorithms-conditionals-data_structures-dynamic_programming": {
+      "fix_value_error": 1.0,
+      "fix_performance_error": 2.0,
+      "fix_case_sensitivity_error": 2.0,
+      "fix_edge_case_error": 2.0,
+      "fix_index_error": 1.0
+    },
+    "algorithms-dynamic_programming-error_handling-recursion": {
+      "fix_performance_error": 2.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "recursion-sorting": {
+      "unexpected_input_error": 0.5,
+      "fix_algorithm_error": 0.5,
+      "edge_case_error": 0.5,
+      "fix_performance_error": 0.5,
+      "fix_case_sensitivity_error": 2.5,
+      "value_error": 0.5,
+      "fix_edge_case_error": 2.0,
+      "fix_setup_error": 0.5,
+      "algorithm_error": 0.5,
+      "case_sensitivity_error": 1.5,
+      "type_error": 0.5,
+      "fix_order_error": 0.5,
+      "index_error": 1.0,
+      "fix_index_error": 1.5,
+      "fix_unexpected_input_error": 1.0
+    },
+    "algorithms-conditionals": {
+      "root_index_error": 0.5,
+      "fix_value_error": 0.5,
+      "fix_edge_case_error": 3.0,
+      "fix_setup_error": 1.5,
+      "root_value_error": 1.0,
+      "index_error": 2.5,
+      "root_case_sensitivity_error": 1.5,
+      "output_format_error": 0.5,
+      "edge_case_error": 1.0,
+      "fix_assertion_error": 0.5,
+      "fix_performance_error": 0.5,
+      "value_error": 1.5,
+      "setup_error": 1.5,
+      "root_output_format_error": 0.5,
+      "root_performance_error": 0.5,
+      "fix_logic_error": 1.0,
+      "case_sensitivity_error": 3.0,
+      "fix_output_format_error": 1.0,
+      "root_setup_error": 0.5,
+      "type_error": 0.5,
+      "root_edge_case_error": 1.0,
+      "fix_index_error": 1.0,
+      "unexpected_input_error": 0.5,
+      "fix_case_sensitivity_error": 3.0,
+      "algorithm_error": 2.5,
+      "root_algorithm_error": 0.5,
+      "assertion_error": 3.0
+    },
+    "conditionals-searching": {
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 2.0,
+      "fix_edge_case_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "conditionals-sorting": {
+      "output_format_error": 0.5,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 2.0,
+      "value_error": 0.5,
+      "fix_edge_case_error": 0.5,
+      "fix_setup_error": 0.5,
+      "case_sensitivity_error": 0.5,
+      "type_error": 0.5,
+      "fix_index_error": 1.0
+    },
+    "conditionals-functions": {
+      "unexpected_input_error": 0.5,
+      "fix_algorithm_error": 0.5,
+      "output_format_error": 0.5,
+      "fix_value_error": 1.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.5,
+      "fix_edge_case_error": 1.5,
+      "setup_error": 0.5,
+      "fix_output_format_error": 0.5,
+      "case_sensitivity_error": 0.5,
+      "performance_error": 0.5,
+      "index_error": 0.5,
+      "fix_index_error": 0.5,
+      "fix_unexpected_input_error": 1.0,
+      "fix_type_error": 0.5
+    },
+    "conditionals-dynamic_programming": {
+      "root_index_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_edge_case_error": 4.0,
+      "root_order_error": 1.0,
+      "fix_unexpected_input_error": 2.0,
+      "fix_setup_error": 1.0,
+      "root_value_error": 1.0,
+      "index_error": 2.0,
+      "root_case_sensitivity_error": 1.0,
+      "output_format_error": 1.0,
+      "edge_case_error": 2.0,
+      "fix_performance_error": 5.0,
+      "value_error": 1.0,
+      "root_output_format_error": 1.0,
+      "root_performance_error": 1.0,
+      "fix_logic_error": 1.0,
+      "case_sensitivity_error": 8.0,
+      "performance_error": 1.0,
+      "root_setup_error": 1.0,
+      "fix_index_error": 2.0,
+      "root_logic_error": 1.0,
+      "fix_case_sensitivity_error": 5.0,
+      "algorithm_error": 1.0,
+      "root_algorithm_error": 1.0,
+      "assertion_error": 1.0,
+      "fix_type_error": 1.0
+    },
+    "dynamic_programming-error_handling-recursion-sorting": {
+      "fix_value_error": 2.0,
+      "fix_edge_case_error": 3.0,
+      "fix_order_error": 1.0,
+      "fix_unexpected_input_error": 1.0,
+      "logic_error": 1.0,
+      "index_error": 2.0,
+      "root_case_sensitivity_error": 1.0,
+      "fix_algorithm_error": 1.0,
+      "output_format_error": 2.0,
+      "edge_case_error": 2.0,
+      "fix_performance_error": 1.0,
+      "value_error": 3.0,
+      "setup_error": 2.0,
+      "fix_logic_error": 2.0,
+      "case_sensitivity_error": 3.0,
+      "performance_error": 1.0,
+      "type_error": 2.0,
+      "root_edge_case_error": 1.0,
+      "fix_index_error": 1.0,
+      "unexpected_input_error": 2.0,
+      "root_logic_error": 1.0,
+      "fix_case_sensitivity_error": 8.0,
+      "algorithm_error": 1.0,
+      "assertion_error": 2.0
+    },
+    "algorithms-dynamic_programming-functions": {
+      "root_index_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_value_error": 2.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 3.0,
+      "value_error": 1.0,
+      "fix_edge_case_error": 2.0,
+      "fix_index_error": 2.0,
+      "fix_logic_error": 2.0,
+      "case_sensitivity_error": 3.0,
+      "root_value_error": 1.0,
+      "root_order_error": 1.0,
+      "root_algorithm_error": 1.0,
+      "index_error": 2.0,
+      "root_edge_case_error": 1.0,
+      "assertion_error": 1.0,
+      "fix_unexpected_input_error": 1.0,
+      "root_case_sensitivity_error": 1.0
+    },
+    "loops-recursion": {
+      "root_index_error": 1.0,
+      "fix_value_error": 1.5,
+      "fix_edge_case_error": 2.0,
+      "root_order_error": 0.5,
+      "fix_order_error": 0.5,
+      "root_assertion_error": 0.5,
+      "fix_unexpected_input_error": 2.0,
+      "root_value_error": 0.5,
+      "root_case_sensitivity_error": 1.0,
+      "fix_algorithm_error": 0.5,
+      "fix_performance_error": 1.0,
+      "value_error": 0.5,
+      "setup_error": 0.5,
+      "root_output_format_error": 0.5,
+      "fix_logic_error": 0.5,
+      "case_sensitivity_error": 3.5,
+      "root_setup_error": 0.5,
+      "order_error": 0.5,
+      "fix_index_error": 2.5,
+      "root_logic_error": 0.5,
+      "fix_case_sensitivity_error": 2.5,
+      "algorithm_error": 0.5,
+      "root_algorithm_error": 1.0,
+      "assertion_error": 1.0,
+      "fix_type_error": 1.0
+    },
+    "data_structures-error_handling-searching-sorting": {
+      "output_format_error": 2.0,
+      "edge_case_error": 1.0,
+      "logic_error": 1.0,
+      "fix_case_sensitivity_error": 2.0,
+      "fix_edge_case_error": 2.0,
+      "fix_index_error": 1.0,
+      "fix_logic_error": 1.0,
+      "case_sensitivity_error": 2.0,
+      "assertion_error": 1.0
+    },
+    "algorithms-dynamic_programming-loops-recursion": {
+      "edge_case_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "fix_index_error": 1.0
+    },
+    "functions-loops": {
+      "root_index_error": 1.0,
+      "fix_value_error": 8.0,
+      "fix_edge_case_error": 9.0,
+      "root_type_error": 1.0,
+      "root_assertion_error": 1.0,
+      "fix_unexpected_input_error": 6.0,
+      "logic_error": 2.0,
+      "fix_setup_error": 2.0,
+      "root_value_error": 1.0,
+      "index_error": 2.0,
+      "root_case_sensitivity_error": 1.0,
+      "output_format_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_performance_error": 11.0,
+      "value_error": 2.0,
+      "setup_error": 1.0,
+      "fix_output_format_error": 1.0,
+      "fix_logic_error": 2.0,
+      "case_sensitivity_error": 16.0,
+      "performance_error": 1.0,
+      "type_error": 2.0,
+      "root_setup_error": 1.0,
+      "fix_index_error": 8.0,
+      "unexpected_input_error": 1.0,
+      "root_unexpected_input_error": 1.0,
+      "root_logic_error": 1.0,
+      "fix_case_sensitivity_error": 14.0,
+      "algorithm_error": 1.0,
+      "root_algorithm_error": 1.0,
+      "fix_type_error": 3.0
+    },
+    "algorithms-conditionals-data_structures-loops": {
+      "unexpected_input_error": 2.0,
+      "fix_algorithm_error": 1.0,
+      "output_format_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_case_sensitivity_error": 6.0,
+      "value_error": 1.0,
+      "fix_edge_case_error": 2.0,
+      "setup_error": 2.0,
+      "fix_output_format_error": 1.0,
+      "case_sensitivity_error": 2.0,
+      "performance_error": 2.0,
+      "type_error": 1.0,
+      "index_error": 1.0,
+      "fix_index_error": 2.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "algorithms-data_structures-error_handling-searching": {
+      "unexpected_input_error": 2.0,
+      "edge_case_error": 3.0,
+      "fix_performance_error": 2.0,
+      "logic_error": 1.0,
+      "fix_case_sensitivity_error": 2.0,
+      "value_error": 2.0,
+      "fix_edge_case_error": 1.0,
+      "case_sensitivity_error": 3.0,
+      "type_error": 2.0,
+      "index_error": 3.0,
+      "fix_index_error": 1.0,
+      "fix_type_error": 1.0
+    },
+    "algorithms-dynamic_programming-error_handling-searching": {
+      "fix_algorithm_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_performance_error": 3.0,
+      "fix_case_sensitivity_error": 2.0,
+      "fix_edge_case_error": 2.0,
+      "case_sensitivity_error": 2.0,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 3.0,
+      "fix_type_error": 1.0
+    },
+    "data_structures-error_handling": {
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "fix_setup_error": 1.0,
+      "fix_output_format_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "dynamic_programming-functions": {
+      "unexpected_input_error": 0.5,
+      "output_format_error": 0.5,
+      "fix_performance_error": 2.0,
+      "fix_case_sensitivity_error": 3.0,
+      "value_error": 0.5,
+      "fix_edge_case_error": 2.0,
+      "fix_setup_error": 1.5,
+      "fix_output_format_error": 0.5,
+      "case_sensitivity_error": 3.5,
+      "type_error": 0.5,
+      "fix_order_error": 0.5,
+      "index_error": 1.0,
+      "fix_index_error": 1.5,
+      "fix_unexpected_input_error": 0.5
+    },
+    "algorithms-sorting": {
+      "fix_value_error": 0.3333333333333333,
+      "fix_edge_case_error": 3.3333333333333335,
+      "fix_order_error": 1.6666666666666667,
+      "fix_unexpected_input_error": 1.3333333333333333,
+      "fix_setup_error": 0.6666666666666666,
+      "index_error": 0.6666666666666666,
+      "fix_algorithm_error": 0.3333333333333333,
+      "edge_case_error": 0.6666666666666666,
+      "fix_performance_error": 2.6666666666666665,
+      "value_error": 0.3333333333333333,
+      "setup_error": 1.0,
+      "case_sensitivity_error": 5.666666666666667,
+      "performance_error": 1.0,
+      "type_error": 0.3333333333333333,
+      "fix_index_error": 1.6666666666666667,
+      "unexpected_input_error": 0.3333333333333333,
+      "fix_case_sensitivity_error": 4.0,
+      "assertion_error": 0.3333333333333333,
+      "fix_type_error": 0.6666666666666666
+    },
+    "algorithms-loops": {
+      "output_format_error": 0.3333333333333333,
+      "edge_case_error": 0.3333333333333333,
+      "fix_performance_error": 2.3333333333333335,
+      "fix_value_error": 1.6666666666666667,
+      "fix_case_sensitivity_error": 2.3333333333333335,
+      "fix_edge_case_error": 2.6666666666666665,
+      "setup_error": 0.3333333333333333,
+      "fix_output_format_error": 0.3333333333333333,
+      "fix_setup_error": 0.3333333333333333,
+      "case_sensitivity_error": 2.3333333333333335,
+      "performance_error": 0.3333333333333333,
+      "fix_index_error": 2.3333333333333335,
+      "fix_unexpected_input_error": 1.3333333333333333,
+      "fix_type_error": 0.6666666666666666
+    },
+    "loops-recursion-searching-sorting": {
+      "unexpected_input_error": 1.0,
+      "order_error": 1.0,
+      "fix_algorithm_error": 1.0,
+      "output_format_error": 1.0,
+      "assertion_error": 2.0,
+      "edge_case_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_performance_error": 3.0,
+      "fix_case_sensitivity_error": 4.0,
+      "fix_edge_case_error": 4.0,
+      "setup_error": 2.0,
+      "algorithm_error": 2.0,
+      "case_sensitivity_error": 4.0,
+      "index_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 3.0,
+      "fix_type_error": 1.0
+    },
+    "dynamic_programming-recursion": {
+      "fix_performance_error": 2.0,
+      "fix_case_sensitivity_error": 1.5,
+      "fix_edge_case_error": 1.5,
+      "fix_setup_error": 0.5,
+      "fix_unexpected_input_error": 1.0
+    },
+    "algorithms-dynamic_programming": {
+      "fix_algorithm_error": 1.0,
+      "output_format_error": 0.5,
+      "edge_case_error": 1.0,
+      "fix_performance_error": 0.5,
+      "logic_error": 0.5,
+      "fix_case_sensitivity_error": 1.5,
+      "fix_value_error": 1.0,
+      "value_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "setup_error": 0.5,
+      "algorithm_error": 0.5,
+      "fix_logic_error": 1.0,
+      "fix_index_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "type_error": 0.5,
+      "fix_order_error": 0.5,
+      "index_error": 0.5,
+      "assertion_error": 1.0
+    },
+    "conditionals-loops-searching": {
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "data_structures-searching": {
+      "fix_value_error": 1.0,
+      "fix_performance_error": 2.0,
+      "fix_case_sensitivity_error": 3.0,
+      "fix_edge_case_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "index_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "conditionals-functions-recursion-sorting": {
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "case_sensitivity_error": 2.0,
+      "fix_order_error": 1.0
+    },
+    "dynamic_programming-loops": {
+      "fix_algorithm_error": 0.5,
+      "output_format_error": 0.5,
+      "edge_case_error": 1.0,
+      "fix_performance_error": 1.5,
+      "fix_case_sensitivity_error": 2.0,
+      "fix_edge_case_error": 2.0,
+      "fix_setup_error": 0.5,
+      "case_sensitivity_error": 2.0,
+      "index_error": 0.5,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 1.5
+    },
+    "data_structures-dynamic_programming": {
+      "unexpected_input_error": 1.0,
+      "fix_algorithm_error": 3.0,
+      "output_format_error": 1.0,
+      "fix_case_sensitivity_error": 5.0,
+      "fix_edge_case_error": 1.0,
+      "setup_error": 1.0,
+      "fix_index_error": 3.0,
+      "fix_logic_error": 2.0,
+      "algorithm_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "fix_output_format_error": 1.0,
+      "fix_setup_error": 1.0,
+      "index_error": 2.0,
+      "assertion_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "conditionals-error_handling-searching": {
+      "unexpected_input_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_performance_error": 4.0,
+      "fix_value_error": 2.0,
+      "fix_case_sensitivity_error": 6.0,
+      "fix_edge_case_error": 6.0,
+      "fix_output_format_error": 1.0,
+      "case_sensitivity_error": 2.0,
+      "index_error": 1.0,
+      "fix_index_error": 6.0,
+      "fix_unexpected_input_error": 1.0,
+      "fix_type_error": 3.0
+    },
+    "searching-sorting": {
+      "unexpected_input_error": 1.0,
+      "output_format_error": 1.0,
+      "logic_error": 1.0,
+      "fix_case_sensitivity_error": 2.0,
+      "value_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "setup_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "type_error": 1.0,
+      "index_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_type_error": 1.0
+    },
+    "conditionals-data_structures-searching-sorting": {
+      "root_index_error": 2.0,
+      "fix_value_error": 1.0,
+      "fix_edge_case_error": 3.0,
+      "root_order_error": 1.0,
+      "fix_order_error": 2.0,
+      "root_assertion_error": 1.0,
+      "fix_unexpected_input_error": 1.0,
+      "logic_error": 3.0,
+      "fix_setup_error": 1.0,
+      "index_error": 4.0,
+      "root_case_sensitivity_error": 2.0,
+      "output_format_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_performance_error": 3.0,
+      "value_error": 1.0,
+      "case_sensitivity_error": 6.0,
+      "type_error": 1.0,
+      "root_setup_error": 1.0,
+      "order_error": 1.0,
+      "fix_index_error": 2.0,
+      "unexpected_input_error": 1.0,
+      "fix_case_sensitivity_error": 4.0,
+      "root_algorithm_error": 1.0,
+      "assertion_error": 2.0
+    },
+    "conditionals-error_handling-loops-searching": {
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "dynamic_programming-sorting": {
+      "fix_value_error": 1.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 1.0,
+      "fix_type_error": 1.0
+    },
+    "error_handling-sorting": {
+      "unexpected_input_error": 2.0,
+      "order_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_performance_error": 2.0,
+      "fix_case_sensitivity_error": 2.0,
+      "value_error": 1.0,
+      "fix_edge_case_error": 2.0,
+      "case_sensitivity_error": 1.0,
+      "type_error": 1.0,
+      "index_error": 2.0
+    },
+    "algorithms-recursion": {
+      "fix_performance_error": 1.0,
+      "fix_value_error": 2.0,
+      "fix_case_sensitivity_error": 3.0,
+      "fix_edge_case_error": 2.0,
+      "fix_index_error": 2.0,
+      "fix_unexpected_input_error": 2.0,
+      "fix_type_error": 1.0
+    },
+    "algorithms-data_structures-error_handling-functions": {
+      "root_index_error": 2.0,
+      "fix_case_sensitivity_error": 1.0,
+      "root_output_format_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "root_value_error": 1.0,
+      "root_algorithm_error": 1.0,
+      "index_error": 1.0,
+      "fix_index_error": 1.0,
+      "root_case_sensitivity_error": 2.0
+    },
+    "algorithms-conditionals-data_structures": {
+      "root_index_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_value_error": 1.0,
+      "logic_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "setup_error": 1.0,
+      "algorithm_error": 1.0,
+      "fix_logic_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "root_value_error": 1.0,
+      "performance_error": 1.0,
+      "index_error": 2.0,
+      "root_edge_case_error": 1.0,
+      "assertion_error": 1.0,
+      "fix_unexpected_input_error": 1.0,
+      "root_case_sensitivity_error": 1.0
+    },
+    "dynamic_programming-error_handling": {
+      "unexpected_input_error": 2.0,
+      "assertion_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_value_error": 6.0,
+      "fix_performance_error": 3.0,
+      "fix_case_sensitivity_error": 9.0,
+      "logic_error": 1.0,
+      "value_error": 1.0,
+      "fix_edge_case_error": 5.0,
+      "fix_output_format_error": 1.0,
+      "fix_logic_error": 2.0,
+      "case_sensitivity_error": 3.0,
+      "type_error": 1.0,
+      "index_error": 3.0,
+      "fix_index_error": 4.0,
+      "fix_unexpected_input_error": 4.0,
+      "fix_type_error": 1.0
+    },
+    "loops-searching-sorting": {
+      "fix_algorithm_error": 2.0,
+      "edge_case_error": 1.0,
+      "fix_performance_error": 6.0,
+      "fix_case_sensitivity_error": 10.0,
+      "fix_edge_case_error": 9.0,
+      "setup_error": 1.0,
+      "fix_output_format_error": 1.0,
+      "case_sensitivity_error": 9.0,
+      "performance_error": 1.0,
+      "fix_order_error": 2.0,
+      "fix_index_error": 3.0,
+      "fix_unexpected_input_error": 3.0
+    },
+    "algorithms-loops-recursion-sorting": {
+      "root_index_error": 1.0,
+      "fix_value_error": 4.0,
+      "fix_edge_case_error": 10.0,
+      "fix_order_error": 4.0,
+      "fix_unexpected_input_error": 3.0,
+      "fix_setup_error": 1.0,
+      "root_value_error": 1.0,
+      "index_error": 4.0,
+      "root_case_sensitivity_error": 1.0,
+      "fix_algorithm_error": 5.0,
+      "output_format_error": 3.0,
+      "edge_case_error": 1.0,
+      "fix_assertion_error": 1.0,
+      "fix_performance_error": 8.0,
+      "value_error": 1.0,
+      "setup_error": 3.0,
+      "fix_output_format_error": 2.0,
+      "fix_logic_error": 2.0,
+      "root_output_format_error": 1.0,
+      "case_sensitivity_error": 13.0,
+      "performance_error": 3.0,
+      "type_error": 1.0,
+      "order_error": 1.0,
+      "fix_index_error": 4.0,
+      "unexpected_input_error": 2.0,
+      "fix_case_sensitivity_error": 14.0,
+      "algorithm_error": 1.0,
+      "root_algorithm_error": 1.0
+    },
+    "algorithms-conditionals-dynamic_programming-loops": {
+      "unexpected_input_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "value_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "type_error": 1.0,
+      "index_error": 1.0,
+      "fix_index_error": 1.0
+    },
+    "error_handling-loops": {
+      "fix_value_error": 1.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 2.0,
+      "fix_edge_case_error": 2.0,
+      "fix_setup_error": 1.0,
+      "case_sensitivity_error": 3.0,
+      "fix_unexpected_input_error": 1.0,
+      "fix_type_error": 1.0
+    },
+    "conditionals-loops": {
+      "output_format_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "setup_error": 1.0,
+      "performance_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 1.0,
+      "fix_type_error": 1.0
+    },
+    "dynamic_programming-error_handling-searching-sorting": {
+      "fix_value_error": 3.0,
+      "fix_performance_error": 3.0,
+      "fix_case_sensitivity_error": 4.0,
+      "fix_edge_case_error": 3.0,
+      "fix_index_error": 4.0,
+      "fix_type_error": 1.0
+    },
+    "data_structures-sorting": {
+      "order_error": 0.5,
+      "output_format_error": 0.5,
+      "edge_case_error": 0.5,
+      "fix_performance_error": 2.5,
+      "fix_case_sensitivity_error": 3.0,
+      "fix_edge_case_error": 2.5,
+      "setup_error": 0.5,
+      "fix_output_format_error": 0.5,
+      "case_sensitivity_error": 3.0,
+      "performance_error": 0.5,
+      "index_error": 0.5,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "conditionals-error_handling-loops-sorting": {
+      "edge_case_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "setup_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "performance_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "error_handling-loops-recursion-sorting": {
+      "unexpected_input_error": 1.0,
+      "order_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "fix_order_error": 1.0,
+      "index_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 1.0,
+      "fix_type_error": 1.0
+    },
+    "algorithms-dynamic_programming-loops": {
+      "fix_performance_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_case_sensitivity_error": 3.0,
+      "fix_edge_case_error": 3.0,
+      "fix_setup_error": 1.0,
+      "fix_output_format_error": 1.0,
+      "case_sensitivity_error": 4.0,
+      "fix_index_error": 2.0
+    },
+    "algorithms-error_handling": {
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "fix_index_error": 1.0
+    },
+    "conditionals-data_structures-error_handling-functions": {
+      "unexpected_input_error": 2.0,
+      "fix_case_sensitivity_error": 2.0,
+      "value_error": 2.0,
+      "root_output_format_error": 1.0,
+      "fix_index_error": 1.0,
+      "fix_logic_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "type_error": 2.0,
+      "root_type_error": 1.0,
+      "index_error": 2.0,
+      "assertion_error": 1.0,
+      "root_case_sensitivity_error": 1.0
+    },
+    "data_structures-error_handling-functions-sorting": {
+      "fix_value_error": 1.5,
+      "fix_edge_case_error": 3.0,
+      "fix_order_error": 0.5,
+      "fix_unexpected_input_error": 2.0,
+      "logic_error": 1.0,
+      "fix_setup_error": 0.5,
+      "index_error": 0.5,
+      "root_case_sensitivity_error": 1.0,
+      "fix_algorithm_error": 0.5,
+      "output_format_error": 0.5,
+      "edge_case_error": 1.5,
+      "fix_performance_error": 2.5,
+      "value_error": 0.5,
+      "setup_error": 1.0,
+      "fix_output_format_error": 0.5,
+      "case_sensitivity_error": 3.0,
+      "performance_error": 1.0,
+      "fix_index_error": 1.5,
+      "unexpected_input_error": 1.0,
+      "fix_case_sensitivity_error": 4.5,
+      "fix_type_error": 1.0
+    },
+    "algorithms-searching": {
+      "fix_performance_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_case_sensitivity_error": 3.0,
+      "fix_edge_case_error": 1.0,
+      "fix_setup_error": 1.0,
+      "fix_output_format_error": 1.0,
+      "case_sensitivity_error": 3.0
+    },
+    "conditionals-data_structures-recursion": {
+      "edge_case_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_performance_error": 2.0,
+      "fix_case_sensitivity_error": 2.0,
+      "fix_edge_case_error": 2.0,
+      "fix_output_format_error": 1.0,
+      "case_sensitivity_error": 4.0,
+      "fix_index_error": 3.0,
+      "fix_type_error": 1.0
+    },
+    "dynamic_programming-recursion-sorting": {
+      "fix_value_error": 2.0,
+      "fix_edge_case_error": 3.0,
+      "root_type_error": 1.0,
+      "fix_unexpected_input_error": 1.0,
+      "root_value_error": 1.0,
+      "index_error": 2.0,
+      "root_case_sensitivity_error": 2.0,
+      "output_format_error": 1.0,
+      "fix_performance_error": 2.0,
+      "value_error": 2.0,
+      "root_output_format_error": 2.0,
+      "fix_output_format_error": 1.0,
+      "root_performance_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "performance_error": 1.0,
+      "type_error": 1.0,
+      "fix_index_error": 3.0,
+      "unexpected_input_error": 1.0,
+      "root_unexpected_input_error": 1.0,
+      "fix_case_sensitivity_error": 4.0,
+      "algorithm_error": 1.0,
+      "root_algorithm_error": 1.0,
+      "fix_type_error": 1.0
+    },
+    "loops-sorting": {
+      "unexpected_input_error": 0.5,
+      "fix_performance_error": 0.5,
+      "fix_case_sensitivity_error": 2.0,
+      "value_error": 0.5,
+      "fix_edge_case_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "type_error": 0.5,
+      "index_error": 1.5,
+      "fix_index_error": 0.5,
+      "fix_unexpected_input_error": 0.5
+    },
+    "algorithms-error_handling-searching-sorting": {
+      "unexpected_input_error": 1.0,
+      "output_format_error": 1.0,
+      "fix_performance_error": 3.0,
+      "fix_value_error": 2.0,
+      "fix_case_sensitivity_error": 4.0,
+      "logic_error": 1.0,
+      "value_error": 1.0,
+      "fix_edge_case_error": 3.0,
+      "fix_setup_error": 2.0,
+      "fix_output_format_error": 1.0,
+      "case_sensitivity_error": 8.0,
+      "type_error": 1.0,
+      "fix_order_error": 1.0,
+      "index_error": 1.0,
+      "fix_index_error": 5.0,
+      "fix_unexpected_input_error": 3.0,
+      "fix_type_error": 2.0
+    },
+    "functions-loops-recursion": {
+      "unexpected_input_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "case_sensitivity_error": 1.0,
+      "index_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "error_handling-searching": {
+      "unexpected_input_error": 1.0,
+      "edge_case_error": 1.0,
+      "fix_value_error": 1.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 2.0,
+      "fix_edge_case_error": 2.0,
+      "fix_index_error": 2.0
+    },
+    "functions-recursion": {
+      "fix_value_error": 1.0,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 1.0,
+      "fix_edge_case_error": 1.0,
+      "setup_error": 1.0,
+      "case_sensitivity_error": 3.0,
+      "performance_error": 1.0,
+      "fix_unexpected_input_error": 1.0
+    },
+    "algorithms-data_structures-functions-sorting": {
+      "root_index_error": 1.0,
+      "fix_value_error": 2.0,
+      "fix_edge_case_error": 4.0,
+      "root_order_error": 1.0,
+      "fix_order_error": 3.0,
+      "fix_unexpected_input_error": 3.0,
+      "logic_error": 2.0,
+      "index_error": 3.0,
+      "root_case_sensitivity_error": 2.0,
+      "fix_algorithm_error": 1.0,
+      "output_format_error": 3.0,
+      "edge_case_error": 1.0,
+      "fix_performance_error": 2.0,
+      "value_error": 3.0,
+      "fix_logic_error": 2.0,
+      "case_sensitivity_error": 9.0,
+      "order_error": 2.0,
+      "root_edge_case_error": 1.0,
+      "fix_index_error": 5.0,
+      "root_unexpected_input_error": 1.0,
+      "root_logic_error": 1.0,
+      "fix_case_sensitivity_error": 9.0,
+      "algorithm_error": 3.0,
+      "root_algorithm_error": 1.0,
+      "assertion_error": 2.0,
+      "fix_type_error": 3.0
+    },
+    "algorithms-error_handling-recursion-searching": {
+      "unexpected_input_error": 3.0,
+      "order_error": 1.0,
+      "edge_case_error": 3.0,
+      "fix_value_error": 3.0,
+      "fix_performance_error": 6.0,
+      "fix_case_sensitivity_error": 7.0,
+      "fix_edge_case_error": 5.0,
+      "algorithm_error": 1.0,
+      "fix_setup_error": 2.0,
+      "fix_logic_error": 1.0,
+      "case_sensitivity_error": 4.0,
+      "type_error": 1.0,
+      "index_error": 4.0,
+      "fix_index_error": 6.0,
+      "fix_unexpected_input_error": 4.0,
+      "fix_type_error": 1.0
+    },
+    "dynamic_programming-searching": {
+      "output_format_error": 1.0,
+      "fix_value_error": 0.5,
+      "fix_performance_error": 1.0,
+      "fix_case_sensitivity_error": 3.0,
+      "value_error": 0.5,
+      "fix_edge_case_error": 2.0,
+      "algorithm_error": 0.5,
+      "root_case_sensitivity_error": 0.5,
+      "case_sensitivity_error": 2.5,
+      "fix_order_error": 0.5,
+      "index_error": 0.5,
+      "fix_index_error": 1.0,
+      "fix_unexpected_input_error": 0.5,
+      "fix_type_error": 0.5
+    }
+  }
+}
