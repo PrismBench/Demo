@@ -10,6 +10,11 @@
     "description": "OpenAI's GPT-4o-Mini model."
   },
   {
+    "id": "gpt-oss-20b",
+    "name": "GPT-OSS-20B",
+    "description": "OpenAI's GPT-OSS-20B model."
+  },
+  {
     "id": "l405b",
     "name": "LlaMa3.1 405B",
     "description": "Meta's LlaMa3.1 405B model."
