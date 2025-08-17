@@ -147,6 +147,150 @@
       }
     }
   },
+  "gpt-oss-20b": {
+  "concept_mastery_distribution": {
+    "conditionals": {
+      "easy": {
+        "success_rate": 0.8213173169610721,
+        "visits": 157.33333333333334
+      },
+      "medium": {
+        "success_rate": 0.6695812830539986,
+        "visits": 157.0
+      },
+      "hard": {
+        "success_rate": 0.560864194065125,
+        "visits": 226.33333333333334
+      }
+    },
+    "searching": {
+      "easy": {
+        "success_rate": 0.9930555555555555,
+        "visits": 107.33333333333333
+      },
+      "medium": {
+        "success_rate": 0.8234456663065864,
+        "visits": 103.0
+      },
+      "hard": {
+        "success_rate": 0.7241149190502923,
+        "visits": 322.6666666666667
+      }
+    },
+    "data_structures": {
+      "easy": {
+        "success_rate": 0.8431297889251274,
+        "visits": 128.66666666666666
+      },
+      "medium": {
+        "success_rate": 0.7076282367421608,
+        "visits": 104.33333333333333
+      },
+      "hard": {
+        "success_rate": 0.6029052617477794,
+        "visits": 233.66666666666666
+      }
+    },
+    "functions": {
+      "easy": {
+        "success_rate": 0.8679659360178307,
+        "visits": 149.66666666666666
+      },
+      "medium": {
+        "success_rate": 0.8187486145939048,
+        "visits": 118.33333333333333
+      },
+      "hard": {
+        "success_rate": 0.5597567054397523,
+        "visits": 348.0
+      }
+    },
+    "error_handling": {
+      "easy": {
+        "success_rate": 0.7393023062883689,
+        "visits": 143.0
+      },
+      "medium": {
+        "success_rate": 0.8103101680822625,
+        "visits": 116.66666666666667
+      },
+      "hard": {
+        "success_rate": 0.6190884839491263,
+        "visits": 331.6666666666667
+      }
+    },
+    "sorting": {
+      "easy": {
+        "success_rate": 0.7776899158966549,
+        "visits": 199.0
+      },
+      "medium": {
+        "success_rate": 0.8308890460730831,
+        "visits": 156.66666666666666
+      },
+      "hard": {
+        "success_rate": 0.6969394437485361,
+        "visits": 507.0
+      }
+    },
+    "algorithms": {
+      "easy": {
+        "success_rate": 0.9257739556763371,
+        "visits": 150.33333333333334
+      },
+      "medium": {
+        "success_rate": 0.6133439420461175,
+        "visits": 117.0
+      },
+      "hard": {
+        "success_rate": 0.6041413595915381,
+        "visits": 290.6666666666667
+      }
+    },
+    "recursion": {
+      "easy": {
+        "success_rate": 0.8983901140085262,
+        "visits": 185.0
+      },
+      "medium": {
+        "success_rate": 0.8430517227467119,
+        "visits": 139.0
+      },
+      "hard": {
+        "success_rate": 0.6470048870878062,
+        "visits": 332.0
+      }
+    },
+    "dynamic_programming": {
+      "easy": {
+        "success_rate": 0.7089617101245008,
+        "visits": 169.66666666666666
+      },
+      "medium": {
+        "success_rate": 0.6838913031954125,
+        "visits": 124.66666666666667
+      },
+      "hard": {
+        "success_rate": 0.4154412305484883,
+        "visits": 249.66666666666666
+      }
+    },
+    "loops": {
+      "easy": {
+        "success_rate": 0.936195627676358,
+        "visits": 136.66666666666666
+      },
+      "medium": {
+        "success_rate": 0.8550042327741593,
+        "visits": 134.0
+      },
+      "hard": {
+        "success_rate": 0.7100489798175502,
+        "visits": 313.0
+      }
+    }
+  }
+  },
   "l405b": {
     "concept_mastery_distribution": {
       "algorithms": {
